@@ -80,7 +80,7 @@ endif()
 
 if(ENABLE_DOXYGEN)
     #
-    # clamav.h and libfreshclam.h doxygen docs
+    # ClamAV.h and libfreshclam.h doxygen docs
     #
     find_package(Doxygen REQUIRED)
 
@@ -106,7 +106,7 @@ if(ENABLE_DOXYGEN)
 endif()
 
 # When built from the release tarball, this includes the user manual
-# which is exported from the clamav-faq repo.
+# which is exported from the ClamAV-faq repo.
 if(EXISTS ${CMAKE_CURRENT_SOURCE_DIR}/html/index.html)
     if(WIN32)
         install(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/html/

@@ -298,7 +298,7 @@ int messageSetMimeType(message *mess, const char *type)
                                highestSimil);
                     mess->mimeType = (mime_type)t;
                 } else {
-                    cli_dbgmsg("Unknown MIME type: `%s', set to Application - if you believe this file contains a virus, submit it to www.clamav.net\n", type);
+                    cli_dbgmsg("Unknown MIME type: `%s', set to Application - if you believe this file contains a virus, submit it to www.ClamAV.net\n", type);
                     mess->mimeType = APPLICATION;
                 }
             }
@@ -586,7 +586,7 @@ void messageAddArguments(message *m, const char *s)
             data = cli_safer_strdup(cptr);
 
             if (!data) {
-                cli_dbgmsg("Can't parse header \"%s\" - if you believe this file contains a missed virus, report it to bugs@clamav.net\n", s);
+                cli_dbgmsg("Can't parse header \"%s\" - if you believe this file contains a missed virus, report it to bugs@ClamAV.net\n", s);
                 free(kcopy);
                 return;
             }
@@ -880,7 +880,7 @@ void messageSetEncoding(message *m, const char *enctype)
                            type, closest, highestSimil);
                 messageSetEncoding(m, closest);
             } else {
-                cli_dbgmsg("Unknown encoding type \"%s\" - if you believe this file contains a virus, submit it to www.clamav.net\n", type);
+                cli_dbgmsg("Unknown encoding type \"%s\" - if you believe this file contains a virus, submit it to www.ClamAV.net\n", type);
                 /*
                  * Err on the side of safety, enable all
                  * decoding modules
@@ -1455,7 +1455,7 @@ int messageSavePartial(message *m, const char *dir, const char *md5id, unsigned 
 
     cli_dbgmsg("messageSavePartial\n");
     time_val = time(NULL);
-    snprintf(fullname, 1024, "%s" PATHSEP "clamav-partial-%lu_%s-%u", dir, time_val, md5id, part);
+    snprintf(fullname, 1024, "%s" PATHSEP "ClamAV-partial-%lu_%s-%u", dir, time_val, md5id, part);
 
     fb = messageExport(m, fullname,
                        (void *(*)(void))fileblobCreate,

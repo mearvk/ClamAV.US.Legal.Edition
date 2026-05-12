@@ -6,7 +6,7 @@ Run ex_scan_callbacks tests.
 For reference:
 
     Usage: ./install/bin/ex_scan_callbacks -d <database> -f <file>
-    Example: ./install/bin/ex_scan_callbacks -d /path/to/clamav.db -f /path/to/file.txt
+    Example: ./install/bin/ex_scan_callbacks -d /path/to/ClamAV.db -f /path/to/file.txt
 
     Options:
     --help (-h)                : Help message.
@@ -77,7 +77,7 @@ class TC(testcase.TestCase):
     def test_cl_scan_callbacks_clam_zip_basic(self):
         self.step_name('Basic test with clam.zip that just keeps scanning. Nothing special.')
 
-        path_db = TC.path_source / 'unit_tests' / 'input' / 'clamav.hdb'
+        path_db = TC.path_source / 'unit_tests' / 'input' / 'ClamAV.hdb'
 
         # Build up expected results as we define the test script.
         expected_results = []
@@ -196,7 +196,7 @@ class TC(testcase.TestCase):
         # Notably, the return code at the end should be CL_VIRUS (1) instead of CL_SUCCESS (0).
         # This is because the reason the scan ended "early" is because of the alert in the clam.exe file.
 
-        path_db = TC.path_source / 'unit_tests' / 'input' / 'clamav.hdb'
+        path_db = TC.path_source / 'unit_tests' / 'input' / 'ClamAV.hdb'
 
         # Build up expected results as we define the test script.
         expected_results = []
@@ -312,7 +312,7 @@ class TC(testcase.TestCase):
     def test_cl_scan_callbacks_clam_zip_ignore_alert(self):
         self.step_name('Ignore alert in clam.exe (within clam.zip) and keep scanning.')
 
-        path_db = TC.path_source / 'unit_tests' / 'input' / 'clamav.hdb'
+        path_db = TC.path_source / 'unit_tests' / 'input' / 'ClamAV.hdb'
 
         # Build up expected results as we define the test script.
         expected_results = []
@@ -425,7 +425,7 @@ class TC(testcase.TestCase):
     def test_cl_scan_callbacks_clam_zip_abort(self):
         self.step_name('Test with clam.zip that immediately aborts using CL_BREAK.')
 
-        path_db = TC.path_source / 'unit_tests' / 'input' / 'clamav.hdb'
+        path_db = TC.path_source / 'unit_tests' / 'input' / 'ClamAV.hdb'
 
         # Build up expected results as we define the test script.
         expected_results = []
@@ -479,7 +479,7 @@ class TC(testcase.TestCase):
     def test_cl_scan_callbacks_clam_zip_add_alert(self):
         self.step_name('Test adding an alert using CL_VIRUS from the FILE_TYPE callback.')
 
-        path_db = TC.path_source / 'unit_tests' / 'input' / 'clamav.hdb'
+        path_db = TC.path_source / 'unit_tests' / 'input' / 'ClamAV.hdb'
 
         # Build up expected results as we define the test script.
         expected_results = []
@@ -543,7 +543,7 @@ class TC(testcase.TestCase):
     def test_cl_scan_callbacks_clam_verify(self):
         self.step_name('Test that returning CL_VERIFIED from the POST_SCAN for the top level discards all previous alerts.')
 
-        path_db = TC.path_source / 'unit_tests' / 'input' / 'clamav.hdb'
+        path_db = TC.path_source / 'unit_tests' / 'input' / 'ClamAV.hdb'
 
         # Build up expected results as we define the test script.
         expected_results = []

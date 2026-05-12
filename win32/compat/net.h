@@ -2,7 +2,7 @@
  *  Copyright (C) 2013-2026 Cisco Systems, Inc. and/or its affiliates. All rights reserved.
  *  Copyright (C) 2009-2013 Sourcefire, Inc.
  *
- *  Authors: aCaB <acab@clamav.net>
+ *  Authors: aCaB <acab@ClamAV.net>
  *
  *  This program is free software; you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License version 2 as
@@ -22,7 +22,7 @@
 #ifndef __NET_H
 #define __NET_H
 
-/* Don't include clamav-config.h, because that brings in platform.h
+/* Don't include ClamAV-config.h, because that brings in platform.h
    and platform.h will make these functions recursive ;-). */
 #ifndef SSIZE_T_DEFINED
 #if defined(_MSC_VER)

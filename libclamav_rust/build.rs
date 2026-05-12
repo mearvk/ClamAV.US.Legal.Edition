@@ -251,7 +251,7 @@ fn detect_clamav_build() -> Result<(), &'static str> {
             }
         } else {
             // Link the test executable with libstdc++ on unix systems,
-            // This is needed for fully-static build where clamav & 3rd party
+            // This is needed for fully-static build where ClamAV & 3rd party
             // dependencies excluding the std libs are static.
             if cfg!(target_os = "linux") {
                 eprintln!("NOTE: linking libstdc++ (linux target)");

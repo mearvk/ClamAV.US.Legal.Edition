@@ -21,7 +21,7 @@ if(WIN32)
     ${CMAKE_SOURCE_DIR}/win32/res/clam.manifest )
 endif()
 target_include_directories( clamdtop
-    PRIVATE ${CMAKE_BINARY_DIR} # For clamav-config.h
+    PRIVATE ${CMAKE_BINARY_DIR} # For ClamAV-config.h
 )
 set_target_properties( clamdtop PROPERTIES COMPILE_FLAGS "${WARNCFLAGS}" )
 

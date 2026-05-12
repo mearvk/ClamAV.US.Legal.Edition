@@ -36,13 +36,13 @@
  * \group_pe
  *
  *  NOTE: This structure must stay in-sync with the ones defined within the
- *  clamav-bytecode-compiler source at:
+ *  ClamAV-bytecode-compiler source at:
  *  - clang/lib/Headers/bytecode_pe.h
  *  - llvm/tools/clang/lib/Headers/bytecode_pe.h
  *  We allocate space for this, populate the values via cli_peheader, and pass
  *  it to the bytecode sig runtime for use.
  *
- *  TODO Next time we are making changes to the clamav-bytecode-compiler
+ *  TODO Next time we are making changes to the ClamAV-bytecode-compiler
  *  source, update pe_image_optional_hdr32 and pe_image_optional_hdr64 to
  *  remove DataDirectory from both (like with the definitions here).  Then,
  *  remove opt32_dirs and opt64_dirs below.  There's no need to have these

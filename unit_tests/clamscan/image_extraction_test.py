@@ -28,13 +28,13 @@ class TC(testcase.TestCase):
         self.verify_valgrind_log()
 
     def test_xls_jpeg_png(self):
-        self.step_name('Test that clamav can successfully extract jpeg and png images from XLS documents')
+        self.step_name('Test that ClamAV can successfully extract jpeg and png images from XLS documents')
         # Note: we aren't testing BMP, TIFF, or GIF because excel converts them to PNG when you try to insert them.
 
         testfiles = TC.path_source / 'unit_tests' / 'input' / 'other_scanfiles' / 'has_png_and_jpeg.xls'
         command = '{valgrind} {valgrind_args} {clamscan} -d {path_db} {testfiles} --gen-json --debug'.format(
             valgrind=TC.valgrind, valgrind_args=TC.valgrind_args, clamscan=TC.clamscan,
-            path_db=TC.path_build / 'unit_tests' / 'input' / 'clamav.hdb',
+            path_db=TC.path_build / 'unit_tests' / 'input' / 'ClamAV.hdb',
             testfiles=testfiles,
         )
         output = self.execute_command(command)
@@ -50,9 +50,9 @@ class TC(testcase.TestCase):
         self.verify_output(output.err, expected=expected_results)
 
     def test_xls_with_detection(self):
-        self.step_name('Test that clamav can successfully alert on PNG image extracted from XLS documents')
+        self.step_name('Test that ClamAV can successfully alert on PNG image extracted from XLS documents')
         # This tests a regression wherein extracted images weren't properly scanned, or the scan result recorded.
-        # Note: we aren't testing the JPEG detection because the JPEG attached to the sample XLS is not properly fuzzy-hashed by clamav, yet.
+        # Note: we aren't testing the JPEG detection because the JPEG attached to the sample XLS is not properly fuzzy-hashed by ClamAV, yet.
         # TODO: Once it is working, add the JPEG detection test.
 
         os.mkdir(str(TC.path_tmp / 'xls-jpeg-detection-sigs'))
@@ -86,9 +86,9 @@ class TC(testcase.TestCase):
 
 
     def test_HTML_style_with_detection(self):
-        self.step_name('Test that clamav can successfully alert on PNG image extracted from HTML <style> blocks')
+        self.step_name('Test that ClamAV can successfully alert on PNG image extracted from HTML <style> blocks')
         # This tests a regression wherein extracted images weren't properly scanned, or the scan result recorded.
-        # Note: we aren't testing the JPEG detection because the JPEG attached to the sample XLS is not properly fuzzy-hashed by clamav, yet.
+        # Note: we aren't testing the JPEG detection because the JPEG attached to the sample XLS is not properly fuzzy-hashed by ClamAV, yet.
         # TODO: Once it is working, add the JPEG detection test.
 
         os.mkdir(str(TC.path_tmp / 'html-css-detection-sigs'))

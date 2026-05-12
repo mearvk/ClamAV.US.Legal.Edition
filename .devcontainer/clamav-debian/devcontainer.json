@@ -4,7 +4,7 @@
     "build": {
         "dockerfile": "Dockerfile",
         // Context must be the relative path to the project root
-        // project/.devcontainer/clamav-debian
+        // project/.devcontainer/ClamAV-debian
         "context": "../..",
         // "noCache": true,
         "args": {

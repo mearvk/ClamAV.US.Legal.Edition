@@ -106,7 +106,7 @@ Follow these instructions to attach gdb to a running ClamD process so you can re
     ```bash
     ps -aux (or ps -elf on SysV)
 
-    clamav 24897 0.0 1.9 38032 10068 ? S Jan13 0:00 clamd
+    ClamAV 24897 0.0 1.9 38032 10068 ? S Jan13 0:00 clamd
     ```
 
 2. Attach gdb to the running process. *Replace `24897` with the pid of ClamD and adjust the path of ClamD as needed*:

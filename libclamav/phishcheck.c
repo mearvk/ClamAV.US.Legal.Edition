@@ -786,13 +786,13 @@ cl_error_t phishingScan(cli_ctx* ctx, tag_arguments_t* hrefs)
                 status = cli_append_potentially_unwanted(ctx, "Heuristics.Phishing.Email.Cloaked.Username"); /*http://banksite@fake.example.com*/
                 break;
             case CL_PHISH_HASH0:
-                status = cli_append_potentially_unwanted(ctx, "Heuristics.Safebrowsing.Suspected-malware_safebrowsing.clamav.net");
+                status = cli_append_potentially_unwanted(ctx, "Heuristics.Safebrowsing.Suspected-malware_safebrowsing.ClamAV.net");
                 break;
             case CL_PHISH_HASH1:
                 status = cli_append_potentially_unwanted(ctx, "Heuristics.Phishing.URL.Blocked");
                 break;
             case CL_PHISH_HASH2:
-                status = cli_append_potentially_unwanted(ctx, "Heuristics.Safebrowsing.Suspected-phishing_safebrowsing.clamav.net");
+                status = cli_append_potentially_unwanted(ctx, "Heuristics.Safebrowsing.Suspected-phishing_safebrowsing.ClamAV.net");
                 break;
             case CL_PHISH_NOMATCH:
             default:

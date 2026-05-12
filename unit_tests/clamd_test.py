@@ -52,7 +52,7 @@ class TC(testcase.TestCase):
         TC.path_db = TC.path_tmp / 'database'
         TC.path_db.mkdir(parents=True)
         shutil.copy(
-            str(TC.path_build / 'unit_tests' / 'input' / 'clamav.hdb'),
+            str(TC.path_build / 'unit_tests' / 'input' / 'ClamAV.hdb'),
             str(TC.path_db),
         )
         shutil.copy(
@@ -103,7 +103,7 @@ class TC(testcase.TestCase):
 
         # Check if fdpassing is supported.
         TC.has_fdpass_support = False
-        with (TC.path_build / 'clamav-config.h').open('r') as clamav_config:
+        with (TC.path_build / 'ClamAV-config.h').open('r') as clamav_config:
             if "#define HAVE_FD_PASSING 1" in clamav_config.read():
                 TC.has_fdpass_support = True
 
@@ -621,7 +621,7 @@ class TC(testcase.TestCase):
 
         # Copy database to database path
         shutil.copy(
-            str(TC.path_build / 'unit_tests' / 'input' / 'clamav.hdb'),
+            str(TC.path_build / 'unit_tests' / 'input' / 'ClamAV.hdb'),
             str(TC.path_db),
         )
 
@@ -695,7 +695,7 @@ class TC(testcase.TestCase):
 
         # Copy database to database path
         shutil.copy(
-            str(TC.path_build / 'unit_tests' / 'input' / 'clamav.hdb'),
+            str(TC.path_build / 'unit_tests' / 'input' / 'ClamAV.hdb'),
             str(TC.path_db),
         )
 

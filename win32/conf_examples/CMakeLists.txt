@@ -1,5 +1,5 @@
 #
-# clamav config files
+# ClamAV config files
 #
 
 install(

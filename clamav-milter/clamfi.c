@@ -2,7 +2,7 @@
  *  Copyright (C) 2013-2026 Cisco Systems, Inc. and/or its affiliates. All rights reserved.
  *  Copyright (C) 2008-2013 Sourcefire, Inc.
  *
- *  Author: aCaB <acab@clamav.net>
+ *  Author: aCaB <acab@ClamAV.net>
  *
  *  This program is free software; you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License version 2 as
@@ -169,7 +169,7 @@ static sfsistat sendchunk(struct CLAMFI *cf, unsigned char *bodyp, size_t len, S
             return FailAction;
         }
         cf->totsz = 1; /* do not infloop */
-        if ((ret = sendchunk(cf, (unsigned char *)"From clamav-milter\n", 19, ctx)) != SMFIS_CONTINUE)
+        if ((ret = sendchunk(cf, (unsigned char *)"From ClamAV-milter\n", 19, ctx)) != SMFIS_CONTINUE)
             return ret;
         cf->totsz -= 1;
     }
@@ -549,7 +549,7 @@ static sfsistat action_blackhole(_UNUSED_ SMFICTX *ctx)
 }
 static sfsistat action_quarantine(SMFICTX *ctx)
 {
-    if (smfi_quarantine(ctx, "quarantined by clamav-milter") != MI_SUCCESS) {
+    if (smfi_quarantine(ctx, "quarantined by ClamAV-milter") != MI_SUCCESS) {
         logg(LOGG_WARNING, "Failed to quarantine message\n");
         return SMFIS_TEMPFAIL;
     }

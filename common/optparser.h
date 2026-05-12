@@ -2,7 +2,7 @@
  *  Copyright (C) 2013-2026 Cisco Systems, Inc. and/or its affiliates. All rights reserved.
  *  Copyright (C) 2008-2013 Sourcefire, Inc.
  *
- *  Author: Tomasz Kojm <tkojm@clamav.net>
+ *  Author: Tomasz Kojm <tkojm@ClamAV.net>
  *
  *  This program is free software; you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License version 2 as
@@ -65,7 +65,7 @@
     #define OPT_CERTSDIR          CERTSDIR
     #define OPT_CONFDIR_CLAMD     CONFDIR PATHSEP "clamd.conf"
     #define OPT_CONFDIR_FRESHCLAM CONFDIR PATHSEP "freshclam.conf"
-    #define OPT_CONFDIR_MILTER    CONFDIR PATHSEP "clamav-milter.conf"
+    #define OPT_CONFDIR_MILTER    CONFDIR PATHSEP "ClamAV-milter.conf"
 
 #endif
 // clang-format on

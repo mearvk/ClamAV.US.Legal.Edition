@@ -376,7 +376,7 @@ elseif(APPLE)
     set(CPACK_PACKAGE_NAME      ClamAV)
     set(CPACK_GENERATOR         productbuild)
     set(CPACK_PACKAGE_FILE_NAME ${CPACK_PACKAGE_FILE_NAME}.macos.universal)
-    set(CPACK_PACKAGE_VENDOR    "cisco")  # For Apple, creates short name com.cisco.clamav.xxx in pkgutil
+    set(CPACK_PACKAGE_VENDOR    "cisco")  # For Apple, creates short name com.cisco.ClamAV.xxx in pkgutil
 
     # productbuild requires components or it won't add anything to the PKG
     set(CPACK_COMPONENT_LIBRARIES_DISPLAY_NAME "Libraries")
@@ -734,7 +734,7 @@ check_type_size("long" SIZEOF_LONG)
 check_type_size("long long" SIZEOF_LONG_LONG)
 
 #
-# Variables for clamav-types.h.in
+# Variables for ClamAV-types.h.in
 #
 #TODO: Move this to a .cmake file
 if(HAVE_SYS_INT_TYPES_H)
@@ -1042,7 +1042,7 @@ else()
     # POSIX-specific config stuff
     #
 
-    # Don't confuse clamav-config.in with clamav-config.h.in or clamav-config.h.cmake.in
+    # Don't confuse ClamAV-config.in with ClamAV-config.h.in or ClamAV-config.h.cmake.in
     configure_file(clamav-config.in
         ${CMAKE_CURRENT_BINARY_DIR}/clamav-config
         @ONLY)

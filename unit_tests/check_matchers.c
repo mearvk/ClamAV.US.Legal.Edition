@@ -133,7 +133,7 @@ static const struct pcre_testdata_s {
     const char *virname;
     const uint8_t expected_result;
 } pcre_testdata[] = {
-    {"clamav", "/clamav/", "*", ACPATT_OPTION_NOOPTS, "Test_1: simple string", CL_VIRUS},
+    {"ClamAV", "/ClamAV/", "*", ACPATT_OPTION_NOOPTS, "Test_1: simple string", CL_VIRUS},
     {"cla:mav", "/cla:mav/", "*", ACPATT_OPTION_NOOPTS, "Test_2: embedded colon", CL_VIRUS},
 
     {"notbasic", "/basic/r", "0", ACPATT_OPTION_NOOPTS, "Test_3: rolling option", CL_VIRUS},

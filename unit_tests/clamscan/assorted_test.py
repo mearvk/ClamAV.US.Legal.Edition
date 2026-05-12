@@ -199,7 +199,7 @@ class TC(testcase.TestCase):
             weak_dbs=test_path / 'weak-sigs',
             broken_dbs=test_path / 'broken-sigs',
             trust_dbs=test_path / 'trust-sigs',
-            clamav_hdb=TC.path_source / 'unit_tests' / 'input' / 'clamav.hdb',
+            clamav_hdb=TC.path_source / 'unit_tests' / 'input' / 'ClamAV.hdb',
             testfile1=trusted_plus_mal_zip,
             testfile2=trusted_plus_mal_zip_2,
         )
@@ -255,7 +255,7 @@ class TC(testcase.TestCase):
         command = '{valgrind} {valgrind_args} {clamscan} -d {path_db} {testfiles}'.format(
             valgrind=TC.valgrind, valgrind_args=TC.valgrind_args,
             clamscan=TC.clamscan,
-            path_db=TC.path_build / 'unit_tests' / 'input' / 'clamav.hdb',
+            path_db=TC.path_build / 'unit_tests' / 'input' / 'ClamAV.hdb',
             testfiles=testfiles,
         )
         output = self.execute_command(command)
@@ -272,7 +272,7 @@ class TC(testcase.TestCase):
         command = '{valgrind} {valgrind_args} {clamscan} -d {path_db} --scan-onenote=no {testfiles}'.format(
             valgrind=TC.valgrind, valgrind_args=TC.valgrind_args,
             clamscan=TC.clamscan,
-            path_db=TC.path_build / 'unit_tests' / 'input' / 'clamav.hdb',
+            path_db=TC.path_build / 'unit_tests' / 'input' / 'ClamAV.hdb',
             testfiles=testfiles,
         )
         output = self.execute_command(command)

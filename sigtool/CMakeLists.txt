@@ -24,7 +24,7 @@ if(WIN32)
 endif()
 target_include_directories( sigtool
     PRIVATE
-        ${CMAKE_BINARY_DIR} # For clamav-config.h
+        ${CMAKE_BINARY_DIR} # For ClamAV-config.h
 )
 
 set_target_properties( sigtool PROPERTIES COMPILE_FLAGS "${WARNCFLAGS}" )

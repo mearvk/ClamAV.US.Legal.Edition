@@ -1281,7 +1281,7 @@ int main(int argc, char **argv)
 
     const char *help_string =
         "Usage: %s -d <database> -f <file>\n"
-        "Example: %s -d /path/to/clamav.db -f /path/to/file.txt\n"
+        "Example: %s -d /path/to/ClamAV.db -f /path/to/file.txt\n"
         "\n"
         "Options:\n"
         "--help (-h)                : Help message.\n"

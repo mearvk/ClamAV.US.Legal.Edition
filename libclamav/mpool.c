@@ -2,7 +2,7 @@
  *  Copyright (C) 2013-2026 Cisco Systems, Inc. and/or its affiliates. All rights reserved.
  *  Copyright (C) 2008-2013 Sourcefire, Inc.
  *
- *  Authors: aCaB <acab@clamav.net>
+ *  Authors: aCaB <acab@ClamAV.net>
  *
  *  This program is free software; you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License version 2 as
@@ -626,7 +626,7 @@ void *mpool_malloc(struct MP *mp, size_t size)
 
     /*  check_all(mp); */
     if (!size || sbits == FRAGSBITS) {
-        cli_errmsg("mpool_malloc(): Attempt to allocate %lu bytes. Please report to https://github.com/Cisco-Talos/clamav/issues\n", (unsigned long)size);
+        cli_errmsg("mpool_malloc(): Attempt to allocate %lu bytes. Please report to https://github.com/Cisco-Talos/ClamAV/issues\n", (unsigned long)size);
         return NULL;
     }
 
@@ -651,7 +651,7 @@ void *mpool_malloc(struct MP *mp, size_t size)
     }
 
     if (!(needed = from_bits(sbits))) {
-        cli_errmsg("mpool_malloc(): Attempt to allocate %lu bytes. Please report to https://github.com/Cisco-Talos/clamav/issues\n", (unsigned long)size);
+        cli_errmsg("mpool_malloc(): Attempt to allocate %lu bytes. Please report to https://github.com/Cisco-Talos/ClamAV/issues\n", (unsigned long)size);
         return NULL;
     }
 
@@ -737,7 +737,7 @@ void *mpool_realloc(struct MP *mp, void *ptr, size_t size)
     f = (struct FRAG *)((char *)ptr - FRAG_OVERHEAD);
 
     if (!size || !(csize = from_bits(f->u.a.sbits))) {
-        cli_errmsg("mpool_realloc(): Attempt to allocate %lu bytes. Please report to https://github.com/Cisco-Talos/clamav/issues\n", (unsigned long)size);
+        cli_errmsg("mpool_realloc(): Attempt to allocate %lu bytes. Please report to https://github.com/Cisco-Talos/ClamAV/issues\n", (unsigned long)size);
         return NULL;
     }
     csize -= FRAG_OVERHEAD + f->u.a.padding;
@@ -791,7 +791,7 @@ char *cli_mpool_strdup(mpool_t *mp, const char *s)
     size_t strsz;
 
     if (s == NULL) {
-        cli_errmsg("cli_mpool_strdup(): s == NULL. Please report to https://github.com/Cisco-Talos/clamav/issues\n");
+        cli_errmsg("cli_mpool_strdup(): s == NULL. Please report to https://github.com/Cisco-Talos/ClamAV/issues\n");
         return NULL;
     }
 
@@ -810,7 +810,7 @@ char *cli_mpool_strndup(mpool_t *mp, const char *s, size_t n)
     size_t strsz;
 
     if (s == NULL) {
-        cli_errmsg("cli_mpool_strndup(): s == NULL. Please report to https://github.com/Cisco-Talos/clamav/issues\n");
+        cli_errmsg("cli_mpool_strndup(): s == NULL. Please report to https://github.com/Cisco-Talos/ClamAV/issues\n");
         return NULL;
     }
 
@@ -846,7 +846,7 @@ char *cli_mpool_virname(mpool_t *mp, const char *virname, unsigned int official)
 
 #ifdef EXPAND_PUA
     if (!strncmp(virname, "PUA.", 4)) {
-        snprintf(buf, sizeof(buf), "Possibly-Unwanted-Application(www.clamav.net/support/pua).%s", virname + 4);
+        snprintf(buf, sizeof(buf), "Possibly-Unwanted-Application(www.ClamAV.net/support/pua).%s", virname + 4);
         buf[sizeof(buf) - 1] = '\0';
         virname              = buf;
     }

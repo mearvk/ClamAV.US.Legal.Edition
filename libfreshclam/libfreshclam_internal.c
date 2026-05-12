@@ -1,7 +1,7 @@
 /*
  *  Copyright (C) 2013-2026 Cisco Systems, Inc. and/or its affiliates. All rights reserved.
  *  Copyright (C) 2007-2013 Sourcefire, Inc.
- *  Copyright (C) 2002-2007 Tomasz Kojm <tkojm@clamav.net>
+ *  Copyright (C) 2002-2007 Tomasz Kojm <tkojm@ClamAV.net>
  *
  *  HTTP/1.1 compliance by Arkadiusz Miskiewicz <misiek@pld.org.pl>
  *  Proxy support by Nigel Horne <njh@bandsman.co.uk>
@@ -2102,12 +2102,12 @@ static fc_error_t query_remote_database_version(
         if (newVersion == 0) {
             /*
              * Primary DNS Update Info record didn't have the version # for this database.
-             * Try to use a <database>.cvd.clamav.net DNS query to find the version #.
+             * Try to use a <database>.cvd.ClamAV.net DNS query to find the version #.
              */
-            size_t dnqueryDomainLen = strlen(database) + strlen(".cvd.clamav.net");
+            size_t dnqueryDomainLen = strlen(database) + strlen(".cvd.ClamAV.net");
 
             dnqueryDomain = malloc(dnqueryDomainLen + 1);
-            snprintf(dnqueryDomain, dnqueryDomainLen + 1, "%s.cvd.clamav.net", database);
+            snprintf(dnqueryDomain, dnqueryDomainLen + 1, "%s.cvd.ClamAV.net", database);
             if (NULL == (extradnsreply = dnsquery(dnqueryDomain, T_TXT, NULL))) {
                 logg(LOGG_WARNING, "No timestamp in TXT record for %s\n", cvdfile);
             } else {
@@ -2731,7 +2731,7 @@ fc_error_t updatedb(
     if (flevel < cvd->fl) {
         logg(LOGG_WARNING, "Your ClamAV installation is OUTDATED!\n");
         logg(LOGG_WARNING, "Current functionality level = %d, recommended = %d\n", flevel, cvd->fl);
-        logg(LOGG_INFO, "DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html\n");
+        logg(LOGG_INFO, "DON'T PANIC! Read https://docs.ClamAV.net/manual/Installing.html\n");
     }
 
     *signo      = cvd->sigs;
@@ -2944,7 +2944,7 @@ fc_error_t updatecustomdb(
         if (flevel < cvd->fl) {
             logg(LOGG_WARNING, "Your ClamAV installation is OUTDATED!\n");
             logg(LOGG_WARNING, "Current functionality level = %d, recommended = %d\n", flevel, cvd->fl);
-            logg(LOGG_INFO, "DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html\n");
+            logg(LOGG_INFO, "DON'T PANIC! Read https://docs.ClamAV.net/manual/Installing.html\n");
         }
 
         cl_cvdfree(cvd);

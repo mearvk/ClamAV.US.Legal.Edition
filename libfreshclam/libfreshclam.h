@@ -1,7 +1,7 @@
 /*
  *  Copyright (C) 2013-2026 Cisco Systems, Inc. and/or its affiliates. All rights reserved.
  *  Copyright (C) 2007-2013 Sourcefire, Inc.
- *  Copyright (C) 2002-2007 Tomasz Kojm <tkojm@clamav.net>
+ *  Copyright (C) 2002-2007 Tomasz Kojm <tkojm@ClamAV.net>
  *
  *  This program is free software; you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License version 2 as
@@ -60,7 +60,7 @@ typedef struct fc_config_ {
     const char *proxyPassword;       /**< (optional) Password for proxy server authentication. */
     const char *databaseDirectory;   /**< Filepath of database directory. */
     const char *tempDirectory;       /**< Filepath to store temp files. */
-    const char *certsDirectory;      /**< Filepath of clamav ca certificates directory to verify database external
+    const char *certsDirectory;      /**< Filepath of ClamAV ca certificates directory to verify database external
                                       *   digital signatures. */
     bool bFipsLimits;                /**< If true, enable FIPS cryptographic hashing limitations that will require CVDs
                                       *   to be signed with FIPS-compliant external '.sign' file. */

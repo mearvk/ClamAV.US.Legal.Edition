@@ -48,7 +48,7 @@ if(ENABLE_UNRAR)
 
         target_include_directories( clamunrar_iface
             PRIVATE
-                ${CMAKE_BINARY_DIR} # For clamav-config.h
+                ${CMAKE_BINARY_DIR} # For ClamAV-config.h
                 $<TARGET_PROPERTY:ClamAV::libunrar,INTERFACE_INCLUDE_DIRECTORIES>
                 $<TARGET_PROPERTY:ClamAV::libclamav,INTERFACE_INCLUDE_DIRECTORIES> )
 
@@ -102,7 +102,7 @@ if(ENABLE_UNRAR)
 
         target_include_directories( clamunrar_iface_static
             PRIVATE
-                ${CMAKE_BINARY_DIR} # For clamav-config.h
+                ${CMAKE_BINARY_DIR} # For ClamAV-config.h
                 $<TARGET_PROPERTY:ClamAV::libunrar,INTERFACE_INCLUDE_DIRECTORIES>
                 $<TARGET_PROPERTY:ClamAV::libclamav,INTERFACE_INCLUDE_DIRECTORIES> )
 

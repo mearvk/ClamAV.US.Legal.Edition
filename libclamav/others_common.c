@@ -263,7 +263,7 @@ void *cli_safer_realloc(void *ptr, size_t size)
     void *alloc = NULL;
 
     if (0 == size) {
-        cli_errmsg("cli_max_realloc(): Attempt to allocate 0 bytes. Please report to https://github.com/Cisco-Talos/clamav/issues\n");
+        cli_errmsg("cli_max_realloc(): Attempt to allocate 0 bytes. Please report to https://github.com/Cisco-Talos/ClamAV/issues\n");
         return NULL;
     }
 
@@ -283,7 +283,7 @@ void *cli_safer_realloc_or_free(void *ptr, size_t size)
     void *alloc = NULL;
 
     if (0 == size) {
-        cli_errmsg("cli_max_realloc_or_free(): Attempt to allocate 0 bytes. Please report to https://github.com/Cisco-Talos/clamav/issues\n");
+        cli_errmsg("cli_max_realloc_or_free(): Attempt to allocate 0 bytes. Please report to https://github.com/Cisco-Talos/ClamAV/issues\n");
         return NULL;
     }
 
@@ -1194,7 +1194,7 @@ char *cli_genfname(const char *prefix)
     if (NULL != sanitized_prefix_base) {
         len = strlen(sanitized_prefix_base) + strlen(".") + SHORT_HASH_LENGTH + 1; /* {prefix}.{SHORT_HASH_LENGTH}\0 */
     } else {
-        len = strlen("clamav-") + 48 + strlen(".tmp") + 1; /* clamav-{48}.tmp\0 */
+        len = strlen("ClamAV-") + 48 + strlen(".tmp") + 1; /* ClamAV-{48}.tmp\0 */
     }
 
     fname = (char *)cli_max_calloc(len, sizeof(char));
@@ -1233,7 +1233,7 @@ char *cli_genfname(const char *prefix)
     if (NULL != sanitized_prefix_base) {
         snprintf(fname, len, "%s.%.*s", sanitized_prefix_base, SHORT_HASH_LENGTH, tmp);
     } else {
-        snprintf(fname, len, "clamav-%s.tmp", tmp);
+        snprintf(fname, len, "ClamAV-%s.tmp", tmp);
     }
 
     if (NULL != sanitized_prefix) {

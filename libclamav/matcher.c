@@ -1413,7 +1413,7 @@ cl_error_t cli_scan_fmap(cli_ctx *ctx, cli_file_t ftype, bool filetype_only, str
     }
 
     /*
-     * Evaluate the logical expressions for clamav logical signatures and YARA rules.
+     * Evaluate the logical expressions for ClamAV logical signatures and YARA rules.
      */
     // Evaluate for the target-specific signature AC matches.
     if (NULL != target_ac_root) {

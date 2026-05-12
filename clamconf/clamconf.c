@@ -2,7 +2,7 @@
  *  Copyright (C) 2013-2026 Cisco Systems, Inc. and/or its affiliates. All rights reserved.
  *  Copyright (C) 2009-2013 Sourcefire, Inc.
  *
- *  Author: Tomasz Kojm <tkojm@clamav.net>
+ *  Author: Tomasz Kojm <tkojm@ClamAV.net>
  *
  *  This program is free software; you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License version 2 as
@@ -65,7 +65,7 @@ static struct _cfgfile {
 } cfgfile[] = {
     {"clamd.conf", OPT_CLAMD},
     {"freshclam.conf", OPT_FRESHCLAM},
-    {"clamav-milter.conf", OPT_MILTER},
+    {"ClamAV-milter.conf", OPT_MILTER},
     {NULL, 0}};
 
 static void printopts(struct optstruct *opts, int nondef)
@@ -208,7 +208,7 @@ static void help(void)
 {
     printf("\n");
     printf("                       Clam AntiVirus: Configuration Tool %s\n", get_version());
-    printf("           By The ClamAV Team: https://www.clamav.net/about.html#credits\n");
+    printf("           By The ClamAV Team: https://www.ClamAV.net/about.html#credits\n");
     printf("           (C) 2026 Cisco Systems, Inc.\n");
     printf("\n");
     printf("    --help                 -h         Show this help\n");

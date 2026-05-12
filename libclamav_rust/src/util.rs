@@ -83,7 +83,7 @@ pub unsafe fn str_from_ptr(
 ///
 /// # Safety
 ///
-/// ctx must be a valid pointer to a clamav scan context structure
+/// ctx must be a valid pointer to a ClamAV scan context structure
 ///
 pub unsafe fn check_scan_limits(
     module_name: &str,
@@ -107,7 +107,7 @@ pub unsafe fn check_scan_limits(
 ///
 /// # Safety
 ///
-/// ctx must be a valid pointer to a clamav scan context structure
+/// ctx must be a valid pointer to a ClamAV scan context structure
 ///
 pub unsafe fn scan_archive_metadata(
     ctx: *mut sys::cli_ctx,

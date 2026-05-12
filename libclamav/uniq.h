@@ -4,7 +4,7 @@
  *  Copyright (C) 2013-2026 Cisco Systems, Inc. and/or its affiliates. All rights reserved.
  *  Copyright (C) 2008-2013 Sourcefire, Inc.
  *
- *  Authors: aCaB <acab@clamav.net>
+ *  Authors: aCaB <acab@ClamAV.net>
  *
  *  Uniq implements a structure that stores the count of duplicate items.
  *  The count can be retrieved by item name (if you know it).

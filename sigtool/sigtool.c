@@ -1,11 +1,11 @@
 /*
  *  Copyright (C) 2013-2026 Cisco Systems, Inc. and/or its affiliates. All rights reserved.
  *  Copyright (C) 2007-2013 Sourcefire, Inc.
- *  Copyright (C) 2002-2007 Tomasz Kojm <tkojm@clamav.net>
+ *  Copyright (C) 2002-2007 Tomasz Kojm <tkojm@ClamAV.net>
  *
  *  CDIFF code (C) 2006 Sensory Networks, Inc.
  *
- *  Author: Tomasz Kojm <tkojm@clamav.net>
+ *  Author: Tomasz Kojm <tkojm@ClamAV.net>
  *
  *  This program is free software; you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License version 2 as
@@ -4037,7 +4037,7 @@ static void help(void)
 {
     mprintf(LOGG_INFO, "\n");
     mprintf(LOGG_INFO, "                      Clam AntiVirus: Signature Tool %s\n", get_version());
-    mprintf(LOGG_INFO, "           By The ClamAV Team: https://www.clamav.net/about.html#credits\n");
+    mprintf(LOGG_INFO, "           By The ClamAV Team: https://www.ClamAV.net/about.html#credits\n");
     mprintf(LOGG_INFO, "           (C) 2026 Cisco Systems, Inc.\n");
     mprintf(LOGG_INFO, "\n");
     mprintf(LOGG_INFO, "    sigtool [options]\n");
@@ -4197,7 +4197,7 @@ int main(int argc, char **argv)
     /* Rust logging initialization */
     if (!clrs_log_init()) {
         cli_dbgmsg("Unexpected problem occurred while setting up rust logging... continuing without rust logging. \
-                    Please submit an issue to https://github.com/Cisco-Talos/clamav");
+                    Please submit an issue to https://github.com/Cisco-Talos/ClamAV");
     }
 
     opts = optparse(NULL, argc, argv, 1, OPT_SIGTOOL, 0, NULL);

@@ -1,7 +1,7 @@
 /*
  *  Copyright (C) 2013-2026 Cisco Systems, Inc. and/or its affiliates. All rights reserved.
  *  Copyright (C) 2007-2013 Sourcefire, Inc.
- *  Copyright (C) 2002-2007 Tomasz Kojm <tkojm@clamav.net>
+ *  Copyright (C) 2002-2007 Tomasz Kojm <tkojm@ClamAV.net>
  *
  *  This program is free software; you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License version 2 as
@@ -138,7 +138,7 @@ fc_error_t fc_initialize(fc_config *fcConfig)
     /* Rust logging initialization */
     if (!clrs_log_init()) {
         cli_dbgmsg("Unexpected problem occurred while setting up rust logging... continuing without rust logging. \
-                    Please submit an issue to https://github.com/Cisco-Talos/clamav");
+                    Please submit an issue to https://github.com/Cisco-Talos/ClamAV");
     }
 
     /* Initialize libcurl */
@@ -636,7 +636,7 @@ fc_error_t fc_dns_query_update_info(
 
                 logg(LOGG_WARNING, "Your ClamAV installation is OUTDATED!\n");
                 logg(LOGG_WARNING, "Local version: %s Recommended version: %s\n", version_string, reply_token);
-                logg(LOGG_INFO, "DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html\n");
+                logg(LOGG_INFO, "DON'T PANIC! Read https://docs.ClamAV.net/manual/Installing.html\n");
                 *newVersion = cli_safer_strdup(reply_token);
             }
         }
@@ -752,7 +752,7 @@ fc_error_t fc_update_database(
                     logg(LOGG_WARNING, "FreshClam received error code 403 from the ClamAV Content Delivery Network (CDN).\n");
                     logg(LOGG_INFO, "This could mean several things:\n");
                     logg(LOGG_INFO, " 1. You are running an out-of-date version of ClamAV / FreshClam.\n");
-                    logg(LOGG_INFO, "    Ensure you are the most updated version by visiting https://www.clamav.net/downloads\n");
+                    logg(LOGG_INFO, "    Ensure you are the most updated version by visiting https://www.ClamAV.net/downloads\n");
                     logg(LOGG_INFO, " 2. Your network is explicitly denied by the FreshClam CDN.\n");
                     logg(LOGG_INFO, "    In order to rectify this please check that you are:\n");
                     logg(LOGG_INFO, "   a. Running an up-to-date version of FreshClam\n");
@@ -760,7 +760,7 @@ fc_error_t fc_update_database(
                     logg(LOGG_INFO, "   c. Connecting from an IP in a blocked region\n");
                     logg(LOGG_INFO, "      Please see https://www.cisco.com/c/m/en_us/crisissupport.html\n");
                     logg(LOGG_INFO, "   d. If you have checked (a), (b) and (c), please open a ticket at\n");
-                    logg(LOGG_INFO, "      https://github.com/Cisco-Talos/clamav/issues\n");
+                    logg(LOGG_INFO, "      https://github.com/Cisco-Talos/ClamAV/issues\n");
                     logg(LOGG_INFO, "      and we will investigate why your network is blocked.\n");
                     if (0 != g_lastRay[0]) {
                         logg(LOGG_INFO, "      Please provide the following cf-ray id with your ticket: %s\n", g_lastRay);
@@ -856,7 +856,7 @@ fc_error_t fc_update_databases(
             logg(LOGG_WARNING, "FreshClam previously received error code 429 or 403 from the ClamAV Content Delivery Network (CDN).\n");
             logg(LOGG_INFO, "This means that you have been rate limited or blocked by the CDN.\n");
             logg(LOGG_INFO, " 1. Verify that you're running a supported ClamAV version.\n");
-            logg(LOGG_INFO, "    See https://docs.clamav.net/faq/faq-eol.html for details.\n");
+            logg(LOGG_INFO, "    See https://docs.ClamAV.net/faq/faq-eol.html for details.\n");
             logg(LOGG_INFO, " 2. Run FreshClam no more than once an hour to check for updates.\n");
             logg(LOGG_INFO, "    FreshClam should check DNS first to see if an update is needed.\n");
             logg(LOGG_INFO, " 3. If you have more than 10 hosts on your network attempting to download,\n");
@@ -987,13 +987,13 @@ fc_error_t fc_download_url_database(
                 logg(LOGG_WARNING, "FreshClam received error code 403 from the ClamAV Content Delivery Network (CDN).\n");
                 logg(LOGG_INFO, "This could mean several things:\n");
                 logg(LOGG_INFO, " 1. You are running an out-of-date version of ClamAV / FreshClam.\n");
-                logg(LOGG_INFO, "    Ensure you are the most updated version by visiting https://www.clamav.net/downloads\n");
+                logg(LOGG_INFO, "    Ensure you are the most updated version by visiting https://www.ClamAV.net/downloads\n");
                 logg(LOGG_INFO, " 2. Your network is explicitly denied by the FreshClam CDN.\n");
                 logg(LOGG_INFO, "    In order to rectify this please check that you are:\n");
                 logg(LOGG_INFO, "   a. Running an up-to-date version of FreshClam\n");
                 logg(LOGG_INFO, "   b. Running FreshClam no more than once an hour\n");
                 logg(LOGG_INFO, "   c. If you have checked (a) and (b), please open a ticket at\n");
-                logg(LOGG_INFO, "      https://github.com/Cisco-Talos/clamav/issues\n");
+                logg(LOGG_INFO, "      https://github.com/Cisco-Talos/ClamAV/issues\n");
                 logg(LOGG_INFO, "      and we will investigate why your network is blocked.\n");
                 if (0 != g_lastRay[0]) {
                     logg(LOGG_INFO, "      Please provide the following cf-ray id with your ticket: %s\n", g_lastRay);

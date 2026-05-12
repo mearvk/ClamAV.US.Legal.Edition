@@ -33,7 +33,7 @@ if(ENABLE_SHARED_LIB)
     endif()
     target_include_directories( freshclam
         PRIVATE
-            ${CMAKE_BINARY_DIR} # For clamav-config.h
+            ${CMAKE_BINARY_DIR} # For ClamAV-config.h
         PUBLIC  ${CMAKE_CURRENT_SOURCE_DIR} )
 
     target_link_libraries( freshclam
@@ -124,7 +124,7 @@ if(ENABLE_STATIC_LIB)
     endif()
     target_include_directories( freshclam_static
         PRIVATE
-            ${CMAKE_BINARY_DIR} # For clamav-config.h
+            ${CMAKE_BINARY_DIR} # For ClamAV-config.h
         PUBLIC  ${CMAKE_CURRENT_SOURCE_DIR} )
 
     target_link_libraries( freshclam_static

@@ -812,7 +812,7 @@ int unmew11(char *src, uint32_t off, uint32_t ssize, uint32_t dsize, uint32_t ba
     while (1) {
         cli_dbgmsg("MEW unpacking section %d (%p->%p)\n", i, lesi, ledi);
         if (!CLI_ISCONTAINED(src, size_sum, lesi, loc_ss) || !CLI_ISCONTAINED(src, size_sum, ledi, loc_ds)) {
-            cli_dbgmsg("Possibly programmer error or hand-crafted PE file, report to clamav team\n");
+            cli_dbgmsg("Possibly programmer error or hand-crafted PE file, report to ClamAV team\n");
             if (section != NULL)
                 free(section);
             return -1;

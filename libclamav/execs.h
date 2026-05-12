@@ -33,9 +33,9 @@
  *  NOTE: This is used to store PE, MachO, and ELF section information. Not
  *  all members are populated by the respective parsing functions.
  *
- *  NOTE: This header file originates in the clamav-devel source and gets
- *  copied into the clamav-bytecode-compiler source through a script
- *  (sync-clamav.sh). This is done because an array of this structure is
+ *  NOTE: This header file originates in the ClamAV-devel source and gets
+ *  copied into the ClamAV-bytecode-compiler source through a script
+ *  (sync-ClamAV.sh). This is done because an array of this structure is
  *  allocated by libclamav and passed to the bytecode sig runtime.
  *
  *  If you need to make changes to this structure, you will need to update
@@ -64,15 +64,15 @@ struct cli_exe_section {
  *  but it predominantly has fields for PE info.  Not all members are
  *  populated by the respective parsing functions.
  *
- *  NOTE: This header file originates in the clamav-devel source and gets
- *  copied into the clamav-bytecode-compiler source through a script
- *  (sync-clamav.sh). This is done because an array of cli_exe_section
+ *  NOTE: This header file originates in the ClamAV-devel source and gets
+ *  copied into the ClamAV-bytecode-compiler source through a script
+ *  (sync-ClamAV.sh). This is done because an array of cli_exe_section
  *  structs is allocated by libclamav and passed to the bytecode sig
  *  runtime.
  *
  *  This structure is not used by the bytecode sig runtime, so it can be
- *  modified in the clamav-devel repo without requiring the changes to
- *  be propagated to the clamav-bytecode-compile repo and that code rebuilt.
+ *  modified in the ClamAV-devel repo without requiring the changes to
+ *  be propagated to the ClamAV-bytecode-compile repo and that code rebuilt.
  *  It'd be nice to keep them in sync if possible, though.
  */
 struct cli_exe_info {

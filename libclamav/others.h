@@ -173,7 +173,7 @@ typedef struct bitset_tag {
     unsigned long length;
 } bitset_t;
 
-/* internal clamav context */
+/* internal ClamAV context */
 typedef struct cli_ctx_tag {
     char *target_filepath;   /* (optional) The filepath of the original scan target. */
     char *this_layer_tmpdir; /* Pointer to current temporary directory, MAY vary with recursion depth. For convenience. */
@@ -1308,7 +1308,7 @@ cl_error_t cli_realpath(const char *file_name, char **real_filename);
 /**
  * @brief   Get the libclamav debug flag (e.g. if debug logging is enabled)
  *
- * This is required for unit tests to be able to link with clamav.dll and not
+ * This is required for unit tests to be able to link with ClamAV.dll and not
  * directly manipulate libclamav global variables.
  */
 uint8_t cli_get_debug_flag(void);
@@ -1318,7 +1318,7 @@ uint8_t cli_get_debug_flag(void);
  *
  * The public cl_debug() API will only ever enable debug mode, it won't disable debug mode.
  *
- * This is required for unit tests to be able to link with clamav.dll and not
+ * This is required for unit tests to be able to link with ClamAV.dll and not
  * directly manipulate libclamav global variables.
  */
 uint8_t cli_set_debug_flag(uint8_t debug_flag);

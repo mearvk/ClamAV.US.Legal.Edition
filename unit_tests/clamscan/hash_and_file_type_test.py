@@ -185,7 +185,7 @@ class TC(testcase.TestCase):
         )
 
         #
-        # Don't provide a hint. Just use --log-file-type and verify that clamav gives the correct file type.
+        # Don't provide a hint. Just use --log-file-type and verify that ClamAV gives the correct file type.
         #
         command = '{valgrind} {valgrind_args} {clamscan} -d {path_db} {testfiles} --log-file-type'.format(
             valgrind=TC.valgrind, valgrind_args=TC.valgrind_args, clamscan=TC.clamscan,

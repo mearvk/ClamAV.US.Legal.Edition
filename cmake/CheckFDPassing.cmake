@@ -1,6 +1,6 @@
 #
 # Check if file descriptor passing is supported
-# Derived from work submitted by Richard Lyons <frob-clamav@webcentral.com.au>
+# Derived from work submitted by Richard Lyons <frob-ClamAV@webcentral.com.au>
 #
 
 GET_FILENAME_COMPONENT(_selfdir_CheckFDPassing

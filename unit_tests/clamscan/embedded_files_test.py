@@ -28,7 +28,7 @@ class TC(testcase.TestCase):
         self.verify_valgrind_log()
 
     def test_embedded_zips(self):
-        self.step_name('Test that clamav can successfully extract and alert on multiple embedded ZIP files')
+        self.step_name('Test that ClamAV can successfully extract and alert on multiple embedded ZIP files')
 
         path_db = TC.path_source / 'unit_tests' / 'input' / 'embedded_testfiles' / 'signatures'
         testfiles = TC.path_source / 'unit_tests' / 'input' / 'embedded_testfiles' / 'test.png.emb-zips'
@@ -54,7 +54,7 @@ class TC(testcase.TestCase):
         self.verify_output(output.out, expected=expected_stdout, unexpected=unexpected_stdout)
 
     def test_embedded_arjs(self):
-        self.step_name('Test that clamav can successfully extract and alert on multiple embedded ARJ files')
+        self.step_name('Test that ClamAV can successfully extract and alert on multiple embedded ARJ files')
 
         path_db = TC.path_source / 'unit_tests' / 'input' / 'embedded_testfiles' / 'signatures'
         testfiles = TC.path_source / 'unit_tests' / 'input' / 'embedded_testfiles' / 'test.png.emb-arjs'
@@ -80,7 +80,7 @@ class TC(testcase.TestCase):
         self.verify_output(output.out, expected=expected_stdout, unexpected=unexpected_stdout)
 
     def test_embedded_cabs(self):
-        self.step_name('Test that clamav can successfully extract and alert on multiple embedded CAB files')
+        self.step_name('Test that ClamAV can successfully extract and alert on multiple embedded CAB files')
 
         path_db = TC.path_source / 'unit_tests' / 'input' / 'embedded_testfiles' / 'signatures'
         testfiles = TC.path_source / 'unit_tests' / 'input' / 'embedded_testfiles' / 'test.png.emb-cabs'
@@ -106,7 +106,7 @@ class TC(testcase.TestCase):
         self.verify_output(output.out, expected=expected_stdout, unexpected=unexpected_stdout)
 
     def test_embedded_exes(self):
-        self.step_name('Test that clamav can successfully extract and alert on multiple embedded EXE files')
+        self.step_name('Test that ClamAV can successfully extract and alert on multiple embedded EXE files')
 
         path_db = TC.path_source / 'unit_tests' / 'input' / 'embedded_testfiles' / 'signatures'
         testfiles = TC.path_source / 'unit_tests' / 'input' / 'embedded_testfiles' / 'clam.exe.emb-exes'

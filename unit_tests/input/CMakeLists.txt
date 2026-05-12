@@ -2,7 +2,7 @@
 
 #
 # Assemble xor'ed test files that might otherwise be detected by:
-# - clamav.hdb
+# - ClamAV.hdb
 # - daily.cvd
 # - another antivirus (E.g. heuristic detection of broken or packed PE files)
 #

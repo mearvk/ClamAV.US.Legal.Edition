@@ -578,7 +578,7 @@ cl_error_t cli_cvdload(
     if (cvd_get_min_flevel(cvd) > cl_retflevel()) {
         cli_warnmsg("*******************************************************************\n");
         cli_warnmsg("***  This version of the ClamAV engine is outdated.             ***\n");
-        cli_warnmsg("***   Read https://docs.clamav.net/manual/Installing.html       ***\n");
+        cli_warnmsg("***   Read https://docs.ClamAV.net/manual/Installing.html       ***\n");
         cli_warnmsg("*******************************************************************\n");
     }
 

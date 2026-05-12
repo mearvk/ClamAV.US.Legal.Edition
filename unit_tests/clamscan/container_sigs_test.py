@@ -28,8 +28,8 @@ class TC(testcase.TestCase):
         self.verify_valgrind_log()
 
     def test_container(self):
-        self.step_name('Test that clamav can successfully alert on jpeg image extracted from XLS documents')
-        # Note: we aren't testing PNG because the attached PNG is not properly fuzzy-hashed by clamav, yet.
+        self.step_name('Test that ClamAV can successfully alert on jpeg image extracted from XLS documents')
+        # Note: we aren't testing PNG because the attached PNG is not properly fuzzy-hashed by ClamAV, yet.
 
         (TC.path_tmp / '7z_zip_container.ldb').write_text(
             "7z_zip_container_good;Engine:81-255,Container:CL_TYPE_7Z,Target:0;0;0:7631727573\n"
@@ -55,8 +55,8 @@ class TC(testcase.TestCase):
         self.verify_output(output.out, expected=expected_stdout, unexpected=unexpected_stdout)
 
     def test_intermediates(self):
-        self.step_name('Test that clamav can successfully alert on jpeg image extracted from XLS documents')
-        # Note: we aren't testing PNG because the attached PNG is not properly fuzzy-hashed by clamav, yet.
+        self.step_name('Test that ClamAV can successfully alert on jpeg image extracted from XLS documents')
+        # Note: we aren't testing PNG because the attached PNG is not properly fuzzy-hashed by ClamAV, yet.
 
         (TC.path_tmp / '7z_zip_intermediates.ldb').write_text(
             "7z_zip_intermediates_good;Engine:81-255,Intermediates:CL_TYPE_ZIP>CL_TYPE_7Z,Target:0;0;0:7631727573\n"

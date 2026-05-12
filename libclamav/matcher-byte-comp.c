@@ -446,7 +446,7 @@ cl_error_t cli_bcomp_addpatt(struct cli_matcher *root, const char *virname, cons
  * @param res the result structure, primarily used by sigtool
  * @param root the root structure in which all byte compare lsig and subsig information is stored
  * @param mdata the ac data struct which contains offset information from recent subsig matches
- * @param ctx the clamav context struct
+ * @param ctx the ClamAV context struct
  *
  */
 cl_error_t cli_bcomp_scanbuf(const unsigned char *buffer, size_t buffer_length, struct cli_ac_result **res, const struct cli_matcher *root, struct cli_ac_data *mdata, cli_ctx *ctx)

@@ -29,7 +29,7 @@ class TC(testcase.TestCase):
         TC.path_www = TC.path_tmp / 'www'
         TC.path_www.mkdir()
         shutil.copy(
-            str(TC.path_build / 'unit_tests' / 'input' / 'clamav.hdb'),
+            str(TC.path_build / 'unit_tests' / 'input' / 'ClamAV.hdb'),
             str(TC.path_www),
         )
 
@@ -43,7 +43,7 @@ class TC(testcase.TestCase):
             LogFileMaxSize 0
             LogTime yes
             DatabaseDirectory {path_db}
-            DatabaseCustomURL file://{path_www}/clamav.hdb
+            DatabaseCustomURL file://{path_www}/ClamAV.hdb
             ExcludeDatabase daily
             ExcludeDatabase main
             ExcludeDatabase bytecode

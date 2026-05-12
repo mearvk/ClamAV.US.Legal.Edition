@@ -250,7 +250,7 @@ void help(void)
 
     mprintf(LOGG_INFO, "\n");
     mprintf(LOGG_INFO, "                       Clam AntiVirus: Scanner %s\n", get_version());
-    mprintf(LOGG_INFO, "           By The ClamAV Team: https://www.clamav.net/about.html#credits\n");
+    mprintf(LOGG_INFO, "           By The ClamAV Team: https://www.ClamAV.net/about.html#credits\n");
     mprintf(LOGG_INFO, "           (C) 2026 Cisco Systems, Inc.\n");
     mprintf(LOGG_INFO, "\n");
     mprintf(LOGG_INFO, "    clamscan [options] [file/directory/-]\n");
@@ -375,7 +375,7 @@ void help(void)
     mprintf(LOGG_INFO, "                                         E.g. 'pe', 'elf', 'zip', etc.\n");
     mprintf(LOGG_INFO, "                                         You may also use ClamAV type names such as 'CL_TYPE_PE'.\n");
     mprintf(LOGG_INFO, "                                         ClamAV will ignore the hint if it is not familiar with the specified type.\n");
-    mprintf(LOGG_INFO, "                                         See also: https://docs.clamav.net/appendix/FileTypes.html#file-types\n");
+    mprintf(LOGG_INFO, "                                         See also: https://docs.ClamAV.net/appendix/FileTypes.html#file-types\n");
     mprintf(LOGG_INFO, "    --log-file-type                      Print the file type after each file scanned.\n");
     mprintf(LOGG_INFO, "    --cvdcertsdir=DIRECTORY              Specify a directory containing the root\n");
     mprintf(LOGG_INFO, "                                         CA cert needed to verify detached CVD digital signatures.\n");

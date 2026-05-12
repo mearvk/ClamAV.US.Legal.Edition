@@ -226,7 +226,7 @@ void help(void)
 
     mprintf(LOGG_INFO, "\n");
     mprintf(LOGG_INFO, "                      Clam AntiVirus: Daemon Client %s\n", get_version());
-    mprintf(LOGG_INFO, "           By The ClamAV Team: https://www.clamav.net/about.html#credits\n");
+    mprintf(LOGG_INFO, "           By The ClamAV Team: https://www.ClamAV.net/about.html#credits\n");
     mprintf(LOGG_INFO, "           (C) 2026 Cisco Systems, Inc.\n");
     mprintf(LOGG_INFO, "\n");
     mprintf(LOGG_INFO, "    clamdscan [options] [file/directory/-]\n");

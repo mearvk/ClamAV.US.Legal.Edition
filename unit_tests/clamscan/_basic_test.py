@@ -23,7 +23,7 @@ class TC(testcase.TestCase):
         TC.path_db.mkdir(parents=True)
 
         shutil.copy(
-            str(TC.path_build / 'unit_tests' / 'input' / 'clamav.hdb'),
+            str(TC.path_build / 'unit_tests' / 'input' / 'ClamAV.hdb'),
             str(TC.path_db),
         )
 
@@ -60,7 +60,7 @@ class TC(testcase.TestCase):
         command = '{valgrind} {valgrind_args} {clamscan} -d {path_db} {testfiles}'.format(
             valgrind=TC.valgrind, valgrind_args=TC.valgrind_args,
             clamscan=TC.clamscan,
-            path_db=TC.path_db / 'clamav.hdb',
+            path_db=TC.path_db / 'ClamAV.hdb',
             testfiles=testfiles,
         )
         output = self.execute_command(command)
@@ -77,7 +77,7 @@ class TC(testcase.TestCase):
 
         # Drop an ignore db into the test database directory
         # in our scan, we'll just use the whole directory, which should load the ignore db *first*.
-        (TC.path_db / 'clamav.ign2').write_text('ClamAV-Test-File\n')
+        (TC.path_db / 'ClamAV.ign2').write_text('ClamAV-Test-File\n')
 
         testfiles = ' '.join([str(testpath) for testpath in TC.testpaths])
         command = '{valgrind} {valgrind_args} {clamscan} -d {path_db} {testfiles}'.format(

@@ -196,7 +196,7 @@ class TC(testcase.TestCase):
 
         command = '{valgrind} {valgrind_args} {clamscan} -d {clam_exe_db} -d {not_eicar_db} --allmatch {testfiles}'.format(
             valgrind=TC.valgrind, valgrind_args=TC.valgrind_args, clamscan=TC.clamscan,
-            clam_exe_db=TC.path_source / 'unit_tests' / 'input' / 'clamav.hdb',
+            clam_exe_db=TC.path_source / 'unit_tests' / 'input' / 'ClamAV.hdb',
             not_eicar_db=TC.path_source / 'unit_tests' / 'input' / 'other_sigs' / 'Clamav-Unit-Test-Signature.ndb',
             testfiles=testfile,
         )

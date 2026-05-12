@@ -65,7 +65,7 @@ or pulled from a Docker registry.
 To pull the ClamAV "unstable" image from Docker Hub, run:
 
 ```bash
-docker pull clamav/clamav:unstable
+docker pull ClamAV/ClamAV:unstable
 ```
 
 > _Tip_: Substitute `unstable` with a different version as needed.
@@ -79,7 +79,7 @@ docker run \
     --tty \
     --rm \
     --name "clam_container_01" \
-    clamav/clamav:unstable
+    ClamAV/ClamAV:unstable
 ```
 
 The above creates an interactive container with the current TTY connected to
@@ -108,7 +108,7 @@ You can run a container using an image built locally
 ```bash
 docker run -it --rm \
     --name "clam_container_01" \
-    clamav:TICKET-123
+    ClamAV:TICKET-123
 ```
 
 ### Persisting the virus database (volume)
@@ -137,8 +137,8 @@ To do so, you have two options:
    ```bash
    docker run -it --rm \
        --name "clam_container_01" \
-       --mount source=clam_db,target=/var/lib/clamav \
-       clamav/clamav:unstable_base
+       --mount source=clam_db,target=/var/lib/ClamAV \
+       ClamAV/ClamAV:unstable_base
    ```
 
 2. Create a [Bind Mount](https://docs.docker.com/storage/bind-mounts/) that
@@ -149,7 +149,7 @@ To do so, you have two options:
    Run the container with these arguments to mount the a directory from your host
    environment as a volume in the container.
    ```bash
-       --mount type=bind,source=/path/to/databases,target=/var/lib/clamav
+       --mount type=bind,source=/path/to/databases,target=/var/lib/ClamAV
    ```
 
    When doing this, it's best to use the `<version>_base` image tags so as to
@@ -157,8 +157,8 @@ To do so, you have two options:
    ```bash
    docker run -it --rm \
        --name "clam_container_01" \
-       --mount type=bind,source=/path/to/databases,target=/var/lib/clamav \
-       clamav/clamav:unstable_base
+       --mount type=bind,source=/path/to/databases,target=/var/lib/ClamAV \
+       ClamAV/ClamAV:unstable_base
    ```
 
    > _Disclaimer_: When using a Bind Mount, the container's entrypoint script
@@ -214,7 +214,7 @@ as:
 ```bash
 docker run -it --rm \
     --mount type=bind,source=/path/to/scan,target=/scandir \
-    clamav/clamav:unstable \
+    ClamAV/ClamAV:unstable \
     clamscan /scandir
 ```
 
@@ -225,8 +225,8 @@ up-to-date so that you scan with the latest signatures. E.g.:
 ```bash
 docker run -it --rm \
     --mount type=bind,source=/path/to/scan,target=/scandir \
-    --mount type=bind,source=/path/to/databases,target=/var/lib/clamav \
-    clamav/clamav:unstable_base \
+    --mount type=bind,source=/path/to/databases,target=/var/lib/ClamAV \
+    ClamAV/ClamAV:unstable_base \
     clamscan /scandir
 ```
 
@@ -250,15 +250,15 @@ For example:
 ```bash
 docker run -it --rm \
     --mount type=bind,source=/path/to/scan,target=/scandir \
-    --mount type=bind,source=/var/lib/docker/data/clamav/sockets/,target=/run/clamav/
-    clamav/clamav:unstable
+    --mount type=bind,source=/var/lib/docker/data/ClamAV/sockets/,target=/run/ClamAV/
+    ClamAV/ClamAV:unstable
 ```
 
 ```bash
 docker run -it --rm \
     --mount type=bind,source=/path/to/scan,target=/scandir \
-    --mount type=bind,source=/var/lib/docker/data/clamav/sockets/,target=/run/clamav/
-    clamav/clamav:unstable_base \
+    --mount type=bind,source=/var/lib/docker/data/ClamAV/sockets/,target=/run/ClamAV/
+    ClamAV/ClamAV:unstable_base \
     clamdscan /scandir
 ```
 
@@ -293,7 +293,7 @@ can be added for this purpose. The example uses the entire configuration
 directory, but this can be supplied multiple times if individual files deem to
 be replaced.
 ```bash
-    --mount type=bind,source=/full/path/to/clamav/,target/etc/clamav
+    --mount type=bind,source=/full/path/to/ClamAV/,target/etc/ClamAV
 ```
 
 > _Note_: Even when disabling the `freshclam` daemon, `freshclam` will always
@@ -331,7 +331,7 @@ clamav inside the container has permission to access it.
 Caution is required when managing permissions, as incorrect permission could
 open clamd for anyone on the host system.
 ```bash
-    --mount type=bind,source=/var/lib/docker/data/clamav/sockets/,target=/run/clamav/
+    --mount type=bind,source=/var/lib/docker/data/ClamAV/sockets/,target=/run/ClamAV/
 ```
 
 With the socket exposed to the host, any other service can now talk to `clamd`
@@ -443,18 +443,18 @@ You might do something along these lines:
    ```bash
    docker run -it --rm \
        --name "clam_container_01" \
-       --mount source=clam_db,target=/var/lib/clamav \
+       --mount source=clam_db,target=/var/lib/ClamAV \
        --env 'CLAMAV_NO_FRESHCLAMD=true' \
-       clamav/clamav:unstable_base
+       ClamAV/ClamAV:unstable_base
    ```
    Wait for the first one to download the databases (if it's a new database
    volume). Then start more:
    ```bash
    docker run -it --rm \
        --name "clam_container_02" \
-       --mount source=clam_db,target=/var/lib/clamav \
+       --mount source=clam_db,target=/var/lib/ClamAV \
        --env 'CLAMAV_NO_FRESHCLAMD=true' \
-       clamav/clamav:unstable_base
+       ClamAV/ClamAV:unstable_base
    ```
 3. Check for updates, as needed:
    ```bash

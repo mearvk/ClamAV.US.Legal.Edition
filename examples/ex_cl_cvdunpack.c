@@ -3,7 +3,7 @@
  *
  *  Copyright (C) 2013-2026 Cisco Systems, Inc. and/or its affiliates. All rights reserved.
  *  Copyright (C) 2007-2013 Sourcefire, Inc.
- *  Author: Tomasz Kojm <tkojm@clamav.net>
+ *  Author: Tomasz Kojm <tkojm@ClamAV.net>
  *
  *  This program is free software; you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License as published by
@@ -37,7 +37,7 @@
 #endif
 
 /*
- * Exit codes: 0 is success. See `cl_error_t` enum from clamav.h.
+ * Exit codes: 0 is success. See `cl_error_t` enum from ClamAV.h.
  */
 int main(int argc, char **argv)
 {

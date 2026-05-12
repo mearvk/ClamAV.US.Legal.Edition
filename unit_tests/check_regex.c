@@ -450,10 +450,10 @@ static void do_phishing_test(const struct rtest *rtest)
                     char *phishingFound = NULL;
                     char *detectionName = NULL;
                     if (strstr(rtest->realurl, "malware-test")) {
-                        detectionName = "Heuristics.Safebrowsing.Suspected-malware_safebrowsing.clamav.net";
+                        detectionName = "Heuristics.Safebrowsing.Suspected-malware_safebrowsing.ClamAV.net";
 
                     } else if (strstr(rtest->realurl, "phishing-test")) {
-                        detectionName = "Heuristics.Safebrowsing.Suspected-phishing_safebrowsing.clamav.net";
+                        detectionName = "Heuristics.Safebrowsing.Suspected-phishing_safebrowsing.ClamAV.net";
                     }
                     ck_assert_msg(detectionName != NULL, "\n\t Block list test case error - malware-test or phishing-test not found in: %s\n", rtest->realurl);
                     phishingFound = strstr((const char *)virname, detectionName);
@@ -565,10 +565,10 @@ static void do_phishing_test_allscan(const struct rtest *rtest)
                     char *phishingFound = NULL;
                     char *detectionName = NULL;
                     if (strstr(rtest->realurl, "malware-test")) {
-                        detectionName = "Heuristics.Safebrowsing.Suspected-malware_safebrowsing.clamav.net";
+                        detectionName = "Heuristics.Safebrowsing.Suspected-malware_safebrowsing.ClamAV.net";
 
                     } else if (strstr(rtest->realurl, "phishing-test")) {
-                        detectionName = "Heuristics.Safebrowsing.Suspected-phishing_safebrowsing.clamav.net";
+                        detectionName = "Heuristics.Safebrowsing.Suspected-phishing_safebrowsing.ClamAV.net";
                     }
                     ck_assert_msg(detectionName != NULL, "\n\t Block list test case error - malware-test or phishing-test not found in: %s\n", rtest->realurl);
                     phishingFound = strstr(virname, detectionName);

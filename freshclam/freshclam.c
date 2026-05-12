@@ -1,7 +1,7 @@
 /*
  *  Copyright (C) 2013-2026 Cisco Systems, Inc. and/or its affiliates. All rights reserved.
  *  Copyright (C) 2007-2013 Sourcefire, Inc.
- *  Copyright (C) 2002-2007 Tomasz Kojm <tkojm@clamav.net>
+ *  Copyright (C) 2002-2007 Tomasz Kojm <tkojm@ClamAV.net>
  *
  *  This program is free software; you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License version 2 as
@@ -162,7 +162,7 @@ static void help(void)
 {
     printf("\n");
     printf("                      Clam AntiVirus: Database Updater %s\n", get_version());
-    printf("           By The ClamAV Team: https://www.clamav.net/about.html#credits\n");
+    printf("           By The ClamAV Team: https://www.ClamAV.net/about.html#credits\n");
     printf("           (C) 2026 Cisco Systems, Inc.\n");
     printf("\n");
     printf("    freshclam [options]\n");
@@ -452,7 +452,7 @@ done:
  * If port number is omitted, 443 will be assumed.
  *
  * Example server strings:
- *  - database.clamav.net
+ *  - database.ClamAV.net
  *  - http://db.sample.net:5678
  *  - [2001::100a]
  *  - https://[2001:db8:1f70::999:de8:7648:6e8]:7890
@@ -486,10 +486,10 @@ static fc_error_t get_server_node(
     /*
      * Ensure that URL contains protocol.
      */
-    if (!strncmp(server, "db.", 3) && strstr(server, ".clamav.net")) {
+    if (!strncmp(server, "db.", 3) && strstr(server, ".ClamAV.net")) {
         url = cli_safer_strdup("https://database.clamav.net");
         if (NULL == url) {
-            logg(LOGG_ERROR, "get_server_node: Failed to duplicate string for database.clamav.net url.\n");
+            logg(LOGG_ERROR, "get_server_node: Failed to duplicate string for database.ClamAV.net url.\n");
             status = FC_EMEM;
             goto done;
         }
@@ -628,8 +628,8 @@ static fc_error_t get_database_server_list(
         do {
             char *serverUrl = NULL;
 
-            if (cli_strbcasestr(opt->strarg, ".clamav.net")) {
-                logg(LOGG_ERROR, "The PrivateMirror config option may not include servers under *.clamav.net.\n");
+            if (cli_strbcasestr(opt->strarg, ".ClamAV.net")) {
+                logg(LOGG_ERROR, "The PrivateMirror config option may not include servers under *.ClamAV.net.\n");
                 status = FC_ECONFIG;
                 goto done;
             }
@@ -798,7 +798,7 @@ static fc_error_t initialize(struct optstruct *opts, fc_ctx *fc_context)
                 if (errno == 0) {
                     logg(LOGG_INFO, "Create the \"%s\" user account for freshclam to use, or set the DatabaseOwner config option in freshclam.conf to a different user.\n",
                          optget(opts, "DatabaseOwner")->strarg);
-                    logg(LOGG_INFO, "For more information, see https://docs.clamav.net/manual/Installing/Installing-from-source-Unix.html\n");
+                    logg(LOGG_INFO, "For more information, see https://docs.ClamAV.net/manual/Installing/Installing-from-source-Unix.html\n");
                 } else {
                     logg(LOGG_INFO, "An unexpected error occurred when attempting to query the \"%s\" user account.\n",
                          optget(opts, "DatabaseOwner")->strarg);
@@ -819,7 +819,7 @@ static fc_error_t initialize(struct optstruct *opts, fc_ctx *fc_context)
     }
 
     /*
-     * Verify that the clamav ca certificates directory exists.
+     * Verify that the ClamAV ca certificates directory exists.
      * Create certs directory if missing.
      */
     fcConfig.certsDirectory = optget(opts, "cvdcertsdir")->strarg;
@@ -987,11 +987,11 @@ static fc_error_t initialize(struct optstruct *opts, fc_ctx *fc_context)
 
         if (!(optget(opts, "PrivateMirror")->enabled) &&
             (optget(opts, "DatabaseMirror")->enabled) &&
-            (strstr(optget(opts, "DatabaseMirror")->strarg, "clamav.net"))) {
+            (strstr(optget(opts, "DatabaseMirror")->strarg, "ClamAV.net"))) {
             /*
              * Using the official project CDN.
              */
-            logg(LOGG_INFO, "In an effort to reduce CDN data costs, HTTPUserAgent may not be used when updating from clamav.net.\n");
+            logg(LOGG_INFO, "In an effort to reduce CDN data costs, HTTPUserAgent may not be used when updating from ClamAV.net.\n");
             logg(LOGG_INFO, "The HTTPUserAgent specified in your config will be ignored so that FreshClam is not blocked by the CDN.\n");
             logg(LOGG_INFO, "If ClamAV's user agent is not allowed through your firewall/proxy, please contact your network administrator.\n\n");
         } else {

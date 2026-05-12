@@ -2,7 +2,7 @@
  *  Copyright (C) 2013-2026 Cisco Systems, Inc. and/or its affiliates. All rights reserved.
  *  Copyright (C) 2008-2013 Sourcefire, Inc.
  *
- *  Author: aCaB <acab@clamav.net>
+ *  Author: aCaB <acab@ClamAV.net>
  *
  *  This program is free software; you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License version 2 as
@@ -62,7 +62,7 @@ static void milter_exit(int sig)
 {
     const struct optstruct *opt;
 
-    logg(LOGG_DEBUG, "clamav-milter: milter_exit, signal %d\n", sig);
+    logg(LOGG_DEBUG, "ClamAV-milter: milter_exit, signal %d\n", sig);
 
 #ifndef _WIN32
     if ((opt = optget(opts, "MilterSocket"))) {
@@ -73,7 +73,7 @@ static void milter_exit(int sig)
     }
 #endif
 
-    logg(LOGG_INFO, "clamav-milter: stopped\n");
+    logg(LOGG_INFO, "ClamAV-milter: stopped\n");
 
     optfree(opts);
 
@@ -121,7 +121,7 @@ int main(int argc, char **argv)
     if (optget(opts, "help")->enabled) {
         printf("\n");
         printf("                       Clam AntiVirus: Milter Mail Scanner %s\n", get_version());
-        printf("           By The ClamAV Team: https://www.clamav.net/about.html#credits\n");
+        printf("           By The ClamAV Team: https://www.ClamAV.net/about.html#credits\n");
         printf("           (C) 2026 Cisco Systems, Inc.\n");
         printf("\n");
         printf("    %s [-c <config-file>]\n\n", argv[0]);
@@ -142,7 +142,7 @@ int main(int argc, char **argv)
     }
 
     if (optget(opts, "version")->enabled) {
-        printf("clamav-milter %s\n", get_version());
+        printf("ClamAV-milter %s\n", get_version());
         optfree(opts);
         return 0;
     }
@@ -183,10 +183,10 @@ int main(int argc, char **argv)
             !gethostname(myname, sizeof(myname) - 1)) {
 
             myname[sizeof(myname) - 1] = '\0';
-            snprintf(xvirushdr, sizeof(xvirushdr), "clamav-milter %s at %s",
+            snprintf(xvirushdr, sizeof(xvirushdr), "ClamAV-milter %s at %s",
                      get_version(), myname);
         } else {
-            snprintf(xvirushdr, sizeof(xvirushdr), "clamav-milter %s",
+            snprintf(xvirushdr, sizeof(xvirushdr), "ClamAV-milter %s",
                      get_version());
         }
         xvirushdr[sizeof(xvirushdr) - 1] = '\0';
@@ -329,7 +329,7 @@ int main(int argc, char **argv)
             return 1;
         }
 
-        openlog("clamav-milter", LOG_PID, fac);
+        openlog("ClamAV-milter", LOG_PID, fac);
         logg_syslog = 1;
     }
 #endif

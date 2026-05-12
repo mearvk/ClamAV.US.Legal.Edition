@@ -361,7 +361,7 @@ int blobcmp(const blob *b1, const blob *b2)
 }
 
 /*
- * Return clamav return code
+ * Return ClamAV return code
  */
 int blobGrow(blob *b, size_t len)
 {
@@ -480,11 +480,11 @@ void fileblobDestroy(fileblob *fb)
     } else if (fb->b.data) {
         free(fb->b.data);
         if (fb->b.name) {
-            cli_errmsg("fileblobDestroy: %s not saved: report to https://github.com/Cisco-Talos/clamav/issues\n",
+            cli_errmsg("fileblobDestroy: %s not saved: report to https://github.com/Cisco-Talos/ClamAV/issues\n",
                        (fb->fullname) ? fb->fullname : fb->b.name);
             free(fb->b.name);
         } else
-            cli_errmsg("fileblobDestroy: file not saved (%lu bytes): report to https://github.com/Cisco-Talos/clamav/issues\n",
+            cli_errmsg("fileblobDestroy: file not saved (%lu bytes): report to https://github.com/Cisco-Talos/ClamAV/issues\n",
                        (unsigned long)fb->b.len);
     }
     if (fb->fullname)

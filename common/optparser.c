@@ -2,7 +2,7 @@
  *  Copyright (C) 2013-2026 Cisco Systems, Inc. and/or its affiliates. All rights reserved.
  *  Copyright (C) 2008-2013 Sourcefire, Inc.
  *
- *  Author: Tomasz Kojm <tkojm@clamav.net>
+ *  Author: Tomasz Kojm <tkojm@ClamAV.net>
  *
  *  This program is free software; you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License version 2 as
@@ -91,7 +91,7 @@
     char _CERTSDIR[MAX_PATH]          = BACKUP_CERTSDIR;
     char _CONFDIR_CLAMD[MAX_PATH]     = BACKUP_CONFDIR "\\clamd.conf";
     char _CONFDIR_FRESHCLAM[MAX_PATH] = BACKUP_CONFDIR "\\freshclam.conf";
-    char _CONFDIR_MILTER[MAX_PATH]    = BACKUP_CONFDIR "\\clamav-milter.conf";
+    char _CONFDIR_MILTER[MAX_PATH]    = BACKUP_CONFDIR "\\ClamAV-milter.conf";
 
     #define CONST_DATADIR           _DATADIR
     #define CONST_CONFDIR           _CONFDIR
@@ -274,7 +274,7 @@ const struct clam_option __clam_options[] = {
 
     {"PreludeAnalyzerName", "prelude-analyzer-name", 0, CLOPT_TYPE_STRING, NULL, -1, NULL, 0, OPT_CLAMD, "Name of the analyzer as seen in prewikka", ""},
 
-    {"LogFile", "log", 'l', CLOPT_TYPE_STRING, NULL, -1, NULL, 0, OPT_CLAMD | OPT_MILTER | OPT_CLAMSCAN | OPT_CLAMDSCAN | OPT_CLAMONACC, "Save all reports to a log file.", "/tmp/clamav.log"},
+    {"LogFile", "log", 'l', CLOPT_TYPE_STRING, NULL, -1, NULL, 0, OPT_CLAMD | OPT_MILTER | OPT_CLAMSCAN | OPT_CLAMDSCAN | OPT_CLAMONACC, "Save all reports to a log file.", "/tmp/ClamAV.log"},
 
     {"LogFileUnlock", NULL, 0, CLOPT_TYPE_BOOL, MATCH_BOOL, 0, NULL, 0, OPT_CLAMD | OPT_MILTER, "By default the log file is locked for writing and only a single\ndaemon process can write to it. This option disables the lock.", "yes"},
 
@@ -294,13 +294,13 @@ const struct clam_option __clam_options[] = {
 
     {"ExtendedDetectionInfo", NULL, 0, CLOPT_TYPE_BOOL, MATCH_BOOL, 0, NULL, 0, OPT_CLAMD, "Log additional information about the infected file, such as its\nsize and hash, together with the virus name.", "yes"},
 
-    {"PidFile", "pid", 'p', CLOPT_TYPE_STRING, NULL, -1, NULL, 0, OPT_CLAMD | OPT_FRESHCLAM | OPT_MILTER, "Save the process ID to a file.", "/run/clamav/clam.pid"},
+    {"PidFile", "pid", 'p', CLOPT_TYPE_STRING, NULL, -1, NULL, 0, OPT_CLAMD | OPT_FRESHCLAM | OPT_MILTER, "Save the process ID to a file.", "/run/ClamAV/clam.pid"},
 
     {"TemporaryDirectory", "tempdir", 0, CLOPT_TYPE_STRING, NULL, -1, NULL, 0, OPT_CLAMD | OPT_MILTER | OPT_CLAMSCAN | OPT_SIGTOOL, "This option allows you to change the default temporary directory.", "/tmp"},
 
-    {"DatabaseDirectory", "datadir", 0, CLOPT_TYPE_STRING, NULL, -1, CONST_DATADIR, 0, OPT_CLAMD | OPT_FRESHCLAM | OPT_SIGTOOL, "This option allows you to change the default database directory.\nIf you enable it, please make sure it points to the same directory in\nboth clamd and freshclam.", "/var/lib/clamav"},
+    {"DatabaseDirectory", "datadir", 0, CLOPT_TYPE_STRING, NULL, -1, CONST_DATADIR, 0, OPT_CLAMD | OPT_FRESHCLAM | OPT_SIGTOOL, "This option allows you to change the default database directory.\nIf you enable it, please make sure it points to the same directory in\nboth clamd and freshclam.", "/var/lib/ClamAV"},
 
-    {"CVDCertsDirectory", "cvdcertsdir", 0, CLOPT_TYPE_STRING, NULL, -1, NULL, 0, OPT_CLAMD | OPT_CLAMSCAN | OPT_FRESHCLAM | OPT_SIGTOOL, "This option allows you to change the default ClamAV CA certificates directory used to verify database external digital signatures.\nIf you enable it, please make sure it points to the same directory in\nboth clamd and freshclam.", "/etc/clamav/certs"},
+    {"CVDCertsDirectory", "cvdcertsdir", 0, CLOPT_TYPE_STRING, NULL, -1, NULL, 0, OPT_CLAMD | OPT_CLAMSCAN | OPT_FRESHCLAM | OPT_SIGTOOL, "This option allows you to change the default ClamAV CA certificates directory used to verify database external digital signatures.\nIf you enable it, please make sure it points to the same directory in\nboth clamd and freshclam.", "/etc/ClamAV/certs"},
 
     {"OfficialDatabaseOnly", "official-db-only", 0, CLOPT_TYPE_BOOL, MATCH_BOOL, 0, NULL, 0, OPT_CLAMD | OPT_CLAMSCAN, "Only load the official signatures published by the ClamAV project.", "no"},
 
@@ -308,7 +308,7 @@ const struct clam_option __clam_options[] = {
 
     {"YaraRules", "yara-rules", 0, CLOPT_TYPE_STRING, NULL, 0, NULL, 0, OPT_CLAMSCAN, "By default, yara rules will be loaded. This option allows you to exclude yara rules when scanning and also to scan only using yara rules. Valid options are yes|no|only", "yes"},
 
-    {"LocalSocket", NULL, 0, CLOPT_TYPE_STRING, NULL, -1, NULL, 0, OPT_CLAMD, "Path to a local socket file the daemon will listen on.", "/run/clamav/clamd.sock"},
+    {"LocalSocket", NULL, 0, CLOPT_TYPE_STRING, NULL, -1, NULL, 0, OPT_CLAMD, "Path to a local socket file the daemon will listen on.", "/run/ClamAV/clamd.sock"},
 
     {"LocalSocketGroup", NULL, 0, CLOPT_TYPE_STRING, NULL, -1, NULL, 0, OPT_CLAMD, "Sets the group ownership on the unix socket.", "virusgroup"},
 
@@ -389,7 +389,7 @@ const struct clam_option __clam_options[] = {
 
     {"JsonStoreExtraHashes", "json-store-extra-hashes", 0, CLOPT_TYPE_BOOL, MATCH_BOOL, 0, NULL, 0, OPT_CLAMD | OPT_CLAMSCAN, "When GenerateMetadataJson enabled: calculate and store each type of supported file hash.", "yes"},
 
-    {"User", NULL, 0, CLOPT_TYPE_STRING, NULL, -1, NULL, 0, OPT_CLAMD | OPT_MILTER, "Run the daemon as a specified user (the process must be started by root).", "clamav"},
+    {"User", NULL, 0, CLOPT_TYPE_STRING, NULL, -1, NULL, 0, OPT_CLAMD | OPT_MILTER, "Run the daemon as a specified user (the process must be started by root).", "ClamAV"},
 
     {"FIPSCryptoHashLimits", "fips-limits", 0, CLOPT_TYPE_BOOL, MATCH_BOOL, 0, NULL, 0, OPT_FRESHCLAM | OPT_CLAMSCAN | OPT_CLAMD | OPT_SIGTOOL | OPT_CLAMONACC, "Apply FIPS-like limitations on which hash algorithms may be used for cryptographic purposes. This essentially disables the legacy CVD digital signature verfication method, and also disables support for MD5 and SHA1 false positive signatures ('.fp' and '.sfp' signatures using MD5 or SHA1).", "yes"},
 
@@ -412,7 +412,7 @@ const struct clam_option __clam_options[] = {
 
     {"DetectPUA", "detect-pua", 0, CLOPT_TYPE_BOOL, MATCH_BOOL, 0, NULL, 0, OPT_CLAMD | OPT_CLAMSCAN, "Detect Potentially Unwanted Applications.", "yes"},
 
-    {"ExcludePUA", "exclude-pua", 0, CLOPT_TYPE_STRING, NULL, -1, NULL, FLAG_MULTIPLE, OPT_CLAMD | OPT_CLAMSCAN, "Exclude a specific PUA category. This directive can be used multiple times.\nSee https://docs.clamav.net/faq/faq-pua.html for the complete list of PUA\ncategories.", "NetTool\nPWTool"},
+    {"ExcludePUA", "exclude-pua", 0, CLOPT_TYPE_STRING, NULL, -1, NULL, FLAG_MULTIPLE, OPT_CLAMD | OPT_CLAMSCAN, "Exclude a specific PUA category. This directive can be used multiple times.\nSee https://docs.ClamAV.net/faq/faq-pua.html for the complete list of PUA\ncategories.", "NetTool\nPWTool"},
 
     {"IncludePUA", "include-pua", 0, CLOPT_TYPE_STRING, NULL, -1, NULL, FLAG_MULTIPLE, OPT_CLAMD | OPT_CLAMSCAN, "Only include a specific PUA category. This directive can be used multiple\ntimes.", "Spy\nScanner\nRAT"},
 
@@ -422,7 +422,7 @@ const struct clam_option __clam_options[] = {
 
     {"ScanMail", "scan-mail", 0, CLOPT_TYPE_BOOL, MATCH_BOOL, 1, NULL, 0, OPT_CLAMD | OPT_CLAMSCAN, "Enable the built in email scanner.\nIf you turn off this option, the original files will still be scanned, but\nwithout parsing individual messages/attachments.", "yes"},
 
-    {"ScanPartialMessages", NULL, 0, CLOPT_TYPE_BOOL, MATCH_BOOL, 0, NULL, 0, OPT_CLAMD, "Scan RFC1341 messages split over many emails. You will need to\nperiodically clean up $TemporaryDirectory/clamav-partial directory.\nWARNING: This option may open your system to a DoS attack. Please don't use\nthis feature on highly loaded servers.", "no"},
+    {"ScanPartialMessages", NULL, 0, CLOPT_TYPE_BOOL, MATCH_BOOL, 0, NULL, 0, OPT_CLAMD, "Scan RFC1341 messages split over many emails. You will need to\nperiodically clean up $TemporaryDirectory/ClamAV-partial directory.\nWARNING: This option may open your system to a DoS attack. Please don't use\nthis feature on highly loaded servers.", "no"},
 
     {"PhishingSignatures", "phishing-sigs", 0, CLOPT_TYPE_BOOL, MATCH_BOOL, 1, NULL, 0, OPT_CLAMD | OPT_CLAMSCAN, "With this option enabled ClamAV will try to detect phishing attempts by using\nsignatures.", "yes"},
 
@@ -446,9 +446,9 @@ const struct clam_option __clam_options[] = {
 
     {"ScanOLE2", "scan-ole2", 0, CLOPT_TYPE_BOOL, MATCH_BOOL, 1, NULL, 0, OPT_CLAMD | OPT_CLAMSCAN, "This option enables scanning of OLE2 files, such as Microsoft Office\ndocuments and .msi files.\nIf you turn off this option, the original files will still be scanned, but\nwithout additional processing.", "yes"},
 
-    {"AlertBrokenExecutables", "alert-broken", 0, CLOPT_TYPE_BOOL, MATCH_BOOL, 0, NULL, 0, OPT_CLAMD | OPT_CLAMSCAN, "With this option enabled clamav will try to detect broken executables\n(PE, ELF, & Mach-O) and alert on them with a Broken.Executable heuristic signature.", "yes"},
+    {"AlertBrokenExecutables", "alert-broken", 0, CLOPT_TYPE_BOOL, MATCH_BOOL, 0, NULL, 0, OPT_CLAMD | OPT_CLAMSCAN, "With this option enabled ClamAV will try to detect broken executables\n(PE, ELF, & Mach-O) and alert on them with a Broken.Executable heuristic signature.", "yes"},
 
-    {"AlertBrokenMedia", "alert-broken-media", 0, CLOPT_TYPE_BOOL, MATCH_BOOL, 0, NULL, 0, OPT_CLAMD | OPT_CLAMSCAN, "With this option enabled clamav will try to detect broken media files\n(JPEG, TIFF, PNG, GIF) and alert on them with a Broken.Media heuristic signature.", "yes"},
+    {"AlertBrokenMedia", "alert-broken-media", 0, CLOPT_TYPE_BOOL, MATCH_BOOL, 0, NULL, 0, OPT_CLAMD | OPT_CLAMSCAN, "With this option enabled ClamAV will try to detect broken media files\n(JPEG, TIFF, PNG, GIF) and alert on them with a Broken.Media heuristic signature.", "yes"},
 
     {"AlertEncrypted", "alert-encrypted", 0, CLOPT_TYPE_BOOL, MATCH_BOOL, 0, NULL, 0, OPT_CLAMD | OPT_CLAMSCAN, "Alert on encrypted archives and documents (encrypted .zip, .7zip, .rar, .pdf).", "no"},
 
@@ -568,9 +568,9 @@ const struct clam_option __clam_options[] = {
 
     {"Checks", "checks", 'c', CLOPT_TYPE_NUMBER, MATCH_NUMBER, 12, NULL, 0, OPT_FRESHCLAM, "This option defined how many times daily freshclam should check for\na database update.", "24"},
 
-    {"DNSDatabaseInfo", NULL, 0, CLOPT_TYPE_STRING, NULL, -1, "current.cvd.clamav.net", FLAG_REQUIRED, OPT_FRESHCLAM, "Use DNS to verify the virus database version. FreshClam uses DNS TXT records\nto verify the versions of the database and software itself. With this\ndirective you can change the database verification domain.\nWARNING: Please don't change it unless you're configuring freshclam to use\nyour own database verification domain.", "current.cvd.clamav.net"},
+    {"DNSDatabaseInfo", NULL, 0, CLOPT_TYPE_STRING, NULL, -1, "current.cvd.ClamAV.net", FLAG_REQUIRED, OPT_FRESHCLAM, "Use DNS to verify the virus database version. FreshClam uses DNS TXT records\nto verify the versions of the database and software itself. With this\ndirective you can change the database verification domain.\nWARNING: Please don't change it unless you're configuring freshclam to use\nyour own database verification domain.", "current.cvd.ClamAV.net"},
 
-    {"DatabaseMirror", NULL, 0, CLOPT_TYPE_STRING, NULL, -1, NULL, FLAG_MULTIPLE, OPT_FRESHCLAM, "DatabaseMirror specifies to which mirror(s) freshclam should connect.\nYou should have at least one entry: database.clamav.net.", "database.clamav.net"},
+    {"DatabaseMirror", NULL, 0, CLOPT_TYPE_STRING, NULL, -1, NULL, FLAG_MULTIPLE, OPT_FRESHCLAM, "DatabaseMirror specifies to which mirror(s) freshclam should connect.\nYou should have at least one entry: database.ClamAV.net.", "database.ClamAV.net"},
 
     {"PrivateMirror", NULL, 0, CLOPT_TYPE_STRING, NULL, -1, NULL, FLAG_MULTIPLE, OPT_FRESHCLAM, "This option allows you to easily point freshclam to private mirrors.\nIf PrivateMirror is set, freshclam does not attempt to use DNS\nto determine whether its databases are out-of-date, instead it will\nuse the If-Modified-Since request or directly check the headers of the\nremote database files. For each database, freshclam first attempts\nto download the CLD file. If that fails, it tries to download the\nCVD file. This option overrides DatabaseMirror, DNSDatabaseInfo\nand Scripted Updates. It can be used multiple times to provide\nfall-back mirrors.", "mirror1.mynetwork.com\nmirror2.mynetwork.com"},
 
@@ -619,7 +619,7 @@ const struct clam_option __clam_options[] = {
 
     /* Deprecated options */
 
-    {"SafeBrowsing", NULL, 0, CLOPT_TYPE_BOOL, MATCH_BOOL, 0, NULL, 0, OPT_FRESHCLAM | OPT_DEPRECATED, "Deprecated option to download signatures derived from the Google Safe Browsing API. See https://blog.clamav.net/2020/06/the-future-of-clamav-safebrowsing.html for more details.", "no"},
+    {"SafeBrowsing", NULL, 0, CLOPT_TYPE_BOOL, MATCH_BOOL, 0, NULL, 0, OPT_FRESHCLAM | OPT_DEPRECATED, "Deprecated option to download signatures derived from the Google Safe Browsing API. See https://blog.ClamAV.net/2020/06/the-future-of-ClamAV-safebrowsing.html for more details.", "no"},
     {"TimeLimit", "timelimit", 0, CLOPT_TYPE_NUMBER, MATCH_NUMBER, 0, NULL, 0, OPT_CLAMSCAN | OPT_DEPRECATED, "Deprecated option to set the max-scantime.\nThe value is in milliseconds.", "120000"},
     {"DetectBrokenExecutables", "detect-broken", 0, CLOPT_TYPE_BOOL, MATCH_BOOL, 0, NULL, 0, OPT_CLAMD | OPT_CLAMSCAN | OPT_DEPRECATED, "Deprecated option to alert on broken PE and ELF executable files.", "no"},
     {"AlgorithmicDetection", "algorithmic-detection", 0, CLOPT_TYPE_BOOL, MATCH_BOOL, 1, NULL, 0, OPT_CLAMD | OPT_CLAMSCAN, "Deprecated option to enable heuristic alerts (e.g. \"Heuristics.<sig name>\")", "no"},
@@ -642,9 +642,9 @@ const struct clam_option __clam_options[] = {
 
     /* Milter specific options */
 
-    {"ClamdSocket", NULL, 0, CLOPT_TYPE_STRING, NULL, -1, NULL, FLAG_MULTIPLE, OPT_MILTER, "Define the clamd socket to connect to for scanning.\nThis option is mandatory! Syntax:\n  ClamdSocket unix:path\n  ClamdSocket tcp:host:port\nThe first syntax specifies a local unix socket (needs an absolute path) e.g.:\n  ClamdSocket unix:/run/clamav/clamd.sock\nThe second syntax specifies a tcp local or remote tcp socket: the\nhost can be a hostname or an ip address; the \":port\" field is only required\nfor IPv6 addresses, otherwise it defaults to 3310\n  ClamdSocket tcp:192.168.0.1\nThis option can be repeated several times with different sockets or even\nwith the same socket: clamd servers will be selected in a round-robin fashion.", "tcp:scanner.mydomain:7357"},
+    {"ClamdSocket", NULL, 0, CLOPT_TYPE_STRING, NULL, -1, NULL, FLAG_MULTIPLE, OPT_MILTER, "Define the clamd socket to connect to for scanning.\nThis option is mandatory! Syntax:\n  ClamdSocket unix:path\n  ClamdSocket tcp:host:port\nThe first syntax specifies a local unix socket (needs an absolute path) e.g.:\n  ClamdSocket unix:/run/ClamAV/clamd.sock\nThe second syntax specifies a tcp local or remote tcp socket: the\nhost can be a hostname or an ip address; the \":port\" field is only required\nfor IPv6 addresses, otherwise it defaults to 3310\n  ClamdSocket tcp:192.168.0.1\nThis option can be repeated several times with different sockets or even\nwith the same socket: clamd servers will be selected in a round-robin fashion.", "tcp:scanner.mydomain:7357"},
 
-    {"MilterSocket", NULL, 0, CLOPT_TYPE_STRING, NULL, -1, NULL, 0, OPT_MILTER, "Define the interface through which we communicate with sendmail.\nThis option is mandatory! Possible formats are:\n[[unix|local]:]/path/to/file - to specify a unix domain socket;\ninet:port@[hostname|ip-address] - to specify an ipv4 socket;\ninet6:port@[hostname|ip-address] - to specify an ipv6 socket.", "/tmp/clamav-milter.sock\ninet:7357"},
+    {"MilterSocket", NULL, 0, CLOPT_TYPE_STRING, NULL, -1, NULL, 0, OPT_MILTER, "Define the interface through which we communicate with sendmail.\nThis option is mandatory! Possible formats are:\n[[unix|local]:]/path/to/file - to specify a unix domain socket;\ninet:port@[hostname|ip-address] - to specify an ipv4 socket;\ninet6:port@[hostname|ip-address] - to specify an ipv6 socket.", "/tmp/ClamAV-milter.sock\ninet:7357"},
 
     {"MilterSocketGroup", NULL, 0, CLOPT_TYPE_STRING, NULL, -1, NULL, 0, OPT_MILTER, "Define the group ownership for the (unix) milter socket.", "virusgroup"},
 
@@ -664,7 +664,7 @@ const struct clam_option __clam_options[] = {
 
     {"ReportHostname", NULL, 0, CLOPT_TYPE_STRING, NULL, -1, NULL, 0, OPT_MILTER, "When AddHeader is in use, this option allows you to set the reported\nhostname. This may be desirable in order to avoid leaking internal names.\nIf unset the real machine name is used.", "my.mail.server.name"},
 
-    {"VirusAction", NULL, 0, CLOPT_TYPE_STRING, NULL, -1, NULL, 0, OPT_MILTER, "Execute a command when an infected message is processed.\nThe following parameters are passed to the invoked program in this order:\nvirus name, queue id, sender, destination, subject, message id, message date.\nNote #1: this requires MTA macroes to be available (see LogInfected below)\nNote #2: the process is invoked in the context of clamav-milter\nNote #3: clamav-milter will wait for the process to exit. Be quick or fork to\navoid unnecessary delays in email delivery", "/usr/local/bin/my_infected_message_handler"},
+    {"VirusAction", NULL, 0, CLOPT_TYPE_STRING, NULL, -1, NULL, 0, OPT_MILTER, "Execute a command when an infected message is processed.\nThe following parameters are passed to the invoked program in this order:\nvirus name, queue id, sender, destination, subject, message id, message date.\nNote #1: this requires MTA macroes to be available (see LogInfected below)\nNote #2: the process is invoked in the context of ClamAV-milter\nNote #3: ClamAV-milter will wait for the process to exit. Be quick or fork to\navoid unnecessary delays in email delivery", "/usr/local/bin/my_infected_message_handler"},
 
     {"Chroot", NULL, 0, CLOPT_TYPE_STRING, NULL, -1, NULL, 0, OPT_MILTER, "Chroot to the specified directory.\nChrooting is performed just after reading the config file and before\ndropping privileges.", "/newroot"},
 
@@ -769,7 +769,7 @@ static void fix_paths(void)
     if (have_conf_dir) {
         snprintf(_CONFDIR_CLAMD, sizeof(_CONFDIR_CLAMD), "%s\\%s", _CONFDIR, "clamd.conf");
         snprintf(_CONFDIR_FRESHCLAM, sizeof(_CONFDIR_FRESHCLAM), "%s\\%s", _CONFDIR, "freshclam.conf");
-        snprintf(_CONFDIR_MILTER, sizeof(_CONFDIR_MILTER), "%s\\%s", _CONFDIR, "clamav-milter.conf");
+        snprintf(_CONFDIR_MILTER, sizeof(_CONFDIR_MILTER), "%s\\%s", _CONFDIR, "ClamAV-milter.conf");
     }
 }
 #endif

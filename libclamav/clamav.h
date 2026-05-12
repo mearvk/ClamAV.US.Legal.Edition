@@ -807,7 +807,7 @@ extern cl_error_t cl_scan_layer_get_parent_layer(
 /**
  * @brief Get the file type of a scan layer.
  *
- * The file type as clamav currently believes it to be.
+ * The file type as ClamAV currently believes it to be.
  * It may change later in the scan, so consider using `clcb_file_type_correction`
  * callback to access the file again if it is re-typed.
  *
@@ -2085,7 +2085,7 @@ extern unsigned int cl_retflevel(void);
 /**
  * @brief Get the ClamAV version string.
  *
- * E.g. clamav-0.100.0-beta
+ * E.g. ClamAV-0.100.0-beta
  *
  * @return const char* The version string.
  */

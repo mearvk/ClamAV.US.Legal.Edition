@@ -10,7 +10,7 @@
 
    bzip2/libbzip2 version 1.0.4 of 20 December 2006
    Copyright (C) 1996-2006 Julian Seward <jseward@bzip.org>
-   This file was modified for ClamAV by aCaB <acab@clamav.net>
+   This file was modified for ClamAV by aCaB <acab@ClamAV.net>
 
    This program is released under the terms of the license contained
    in the file COPYING.bzip2.

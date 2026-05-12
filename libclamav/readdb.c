@@ -1,7 +1,7 @@
 /*
  *  Copyright (C) 2013-2026 Cisco Systems, Inc. and/or its affiliates. All rights reserved.
  *  Copyright (C) 2007-2013 Sourcefire, Inc.
- *  Copyright (C) 2002-2007 Tomasz Kojm <tkojm@clamav.net>
+ *  Copyright (C) 2002-2007 Tomasz Kojm <tkojm@ClamAV.net>
  *
  *  Authors: Tomasz Kojm
  *
@@ -251,7 +251,7 @@ cl_error_t cli_sigopts_handler(struct cli_matcher *root, const char *virname, co
             return CL_EMEM;
         }
 
-        /* clamav-specific wildcards need to be handled here! */
+        /* ClamAV-specific wildcards need to be handled here! */
         for (i = 0; i < hexcpylen; ++i) {
             size_t len = strlen(hexovr);
 
@@ -327,7 +327,7 @@ cl_error_t cli_sigopts_handler(struct cli_matcher *root, const char *virname, co
  * @param hexsig    The string containing the regex
  * @param offset    The string offset where the pattern starts
  * @param lsigid    An array of 2 uint32_t numbers: lsig_id and subsig_id. May be NULL for testing.
- * @param options   Database options.  See CL_DB_* macros in clamav.h.
+ * @param options   Database options.  See CL_DB_* macros in ClamAV.h.
  * @return cl_error_t
  */
 static cl_error_t readdb_load_regex_subsignature(struct cli_matcher *root, const char *virname, char *hexsig,
@@ -648,7 +648,7 @@ done:
  * @param subsig_opts Content match pattern options. See ACPATT_* macros in matcher-ac.h.
  * @param offset    The string offset where the pattern starts
  * @param lsigid    An array of 2 uint32_t numbers: lsig_id and subsig_id. May be NULL for testing.
- * @param options   Database options.  See CL_DB_* macros in clamav.h.
+ * @param options   Database options.  See CL_DB_* macros in ClamAV.h.
  * @return cl_error_t
  */
 static cl_error_t readdb_parse_yara_string(struct cli_matcher *root, const char *virname, char *hexsig, uint8_t subsig_opts,
@@ -700,7 +700,7 @@ done:
  * @param type
  * @param offset    The string offset where the pattern starts
  * @param lsigid    An array of 2 uint32_t numbers: lsig_id and subsig_id. May be NULL for testing.
- * @param options   Database options.  See CL_DB_* macros in clamav.h.
+ * @param options   Database options.  See CL_DB_* macros in ClamAV.h.
  * @return cl_error_t
  */
 cl_error_t cli_add_content_match_pattern(struct cli_matcher *root, const char *virname, const char *hexsig,
@@ -3921,7 +3921,7 @@ static int load_oneyara(YR_RULE *rule, int chkpua, struct cl_engine *engine, uns
     */
 #endif
 
-    /*** verification step - can clamav load it?       ***/
+    /*** verification step - can ClamAV load it?       ***/
     /*** initial population pass for the strings table ***/
     STAILQ_FOREACH(string, &rule->strings, link)
     {
@@ -4160,7 +4160,7 @@ static int load_oneyara(YR_RULE *rule, int chkpua, struct cl_engine *engine, uns
     }
 
     if (str_error > 0) {
-        cli_warnmsg("load_oneyara: clamav cannot support %d input strings, skipping %s\n", str_error, newident);
+        cli_warnmsg("load_oneyara: ClamAV cannot support %d input strings, skipping %s\n", str_error, newident);
         yara_malform++;
         ytable_delete(&ytable);
         free(newident);
@@ -5149,7 +5149,7 @@ static cl_error_t cli_loaddbdir(const char *dirname, struct cl_engine *engine, u
             engine->num_total_signatures += count_line_based_signatures(dbfile);
 
         } else if ((options & CL_DB_OFFICIAL_ONLY) &&
-                   !strstr(dirname, "clamav-") &&            // Official databases that are temp-files (in the process of updating).
+                   !strstr(dirname, "ClamAV-") &&            // Official databases that are temp-files (in the process of updating).
                    !cli_strbcasestr(dent->d_name, ".cld") && // Official databases that have been updated using incremental updates.
                    !cli_strbcasestr(dent->d_name, ".cvd")) { // Official databases.
             // TODO Should this be higher up in the list? Should we

@@ -4,7 +4,7 @@
     "build": {
         "dockerfile": "Dockerfile",
         // Context must be the relative path to the project root
-        // project/.devcontainer/clamav-almalinux
+        // project/.devcontainer/ClamAV-almalinux
         "context": "../..",
         "args": {
             "CLAMAV_TAG_OR_BRANCH": "clamav-1.4.1",

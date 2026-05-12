@@ -39,7 +39,7 @@ rename()
         TC.original_hash_wild_fp = TC.path_tmp / "original_hash.wild.fp"
         TC.original_hash_wild_fp.write_text(r"845c4893a8a4c666251300718eec7bdbd1b10011b12a08a90a4ab54879f3b9f9:*:original_hash.wild:73")
 
-        # The normalized hash is this for now. Changes to clamav normalization logic may require
+        # The normalized hash is this for now. Changes to ClamAV normalization logic may require
         # changes to this hash.
         TC.normalized_hash_fp = TC.path_tmp / "normalized_hash.fp"
         TC.normalized_hash_fp.write_text(r"93506a60db8ba890558033e77d2e90274013c6c387e1ae11c542bcd65a8b260e:188:normalized_hash")

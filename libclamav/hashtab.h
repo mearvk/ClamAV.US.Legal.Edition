@@ -436,7 +436,7 @@ struct cli_hashset {
 cl_error_t cli_hashset_init(struct cli_hashset *hs, size_t initial_capacity, uint8_t load_factor);
 
 /**
- * @brief Initialize hashset using the clamav MEMPOOL instead of just malloc/realloc.
+ * @brief Initialize hashset using the ClamAV MEMPOOL instead of just malloc/realloc.
  *
  * Comment: not presently used in any parsers or signature loaders or anything.
  *

@@ -1,5 +1,5 @@
 #
-# clamav certs directory and root CA cert
+# ClamAV certs directory and root CA cert
 #
 
 # Create the certs directory. This is where the root CA cert will be installed.

@@ -74,7 +74,7 @@ void usage(char *name)
 {
     printf("\n");
     printf("                       Clam AntiVirus: Malware and False Positive Reporting Tool %s\n", get_version());
-    printf("           By The ClamAV Team: https://www.clamav.net/about.html#credits\n");
+    printf("           By The ClamAV Team: https://www.ClamAV.net/about.html#credits\n");
     printf("           (C) 2026 Cisco Systems, Inc.\n");
     printf("\n");
     printf("    %s -hHinpVvd?\n", name);
@@ -350,7 +350,7 @@ int main(int argc, char *argv[])
 
     /* record the session cookie for later use, if exists */
     if (NULL == hd_malware.session) {
-        logg(LOGG_ERROR, "clamav.net/presigned response missing session ID cookie.\nWill try without the cookie.\n");
+        logg(LOGG_ERROR, "ClamAV.net/presigned response missing session ID cookie.\nWill try without the cookie.\n");
         // goto done; // Note: unclear if the session cookie is required. Can't hurt to try w/out it?
     } else {
         len            = strlen(hd_malware.session) + 3;
@@ -553,7 +553,7 @@ int main(int argc, char *argv[])
     }
     wd.len = 0;
 
-    /*** The POST submit to clamav.net ***/
+    /*** The POST submit to ClamAV.net ***/
     slist = curl_slist_append(slist, "Expect:");
 
     if (NULL != session_cookie) {

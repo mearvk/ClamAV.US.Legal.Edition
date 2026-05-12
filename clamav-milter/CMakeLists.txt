@@ -1,6 +1,6 @@
 # Copyright (C) 2020-2026 Cisco Systems, Inc. and/or its affiliates. All rights reserved.
 
-# The clamav-milter executable.
+# The ClamAV-milter executable.
 add_executable( clamav-milter )
 target_sources( clamav-milter
     PRIVATE
@@ -14,7 +14,7 @@ target_sources( clamav-milter
         allow_list.c
         allow_list.h )
 target_include_directories( clamav-milter
-    PRIVATE ${CMAKE_BINARY_DIR} # For clamav-config.h
+    PRIVATE ${CMAKE_BINARY_DIR} # For ClamAV-config.h
 )
 set_target_properties( clamav-milter PROPERTIES COMPILE_FLAGS "${WARNCFLAGS}" )
 

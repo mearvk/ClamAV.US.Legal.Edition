@@ -879,7 +879,7 @@ extern "C" {
     ) -> cl_error_t;
 }
 extern "C" {
-    #[doc = " @brief   Get the libclamav debug flag (e.g. if debug logging is enabled)\n\n This is required for unit tests to be able to link with clamav.dll and not\n directly manipulate libclamav global variables."]
+    #[doc = " @brief   Get the libclamav debug flag (e.g. if debug logging is enabled)\n\n This is required for unit tests to be able to link with ClamAV.dll and not\n directly manipulate libclamav global variables."]
     pub fn cli_get_debug_flag() -> u8;
 }
 #[repr(C)]

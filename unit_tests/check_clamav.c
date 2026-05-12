@@ -464,7 +464,7 @@ START_TEST(test_cl_cvdverify)
     ck_assert_msg(CL_ECVD == ret, "cl_cvdverify_ex should have failed for: %s -- %s", testfile, cl_strerror(ret));
 
     // Can't verify an hdb file
-    testfile = SRCDIR "/input/clamav.hdb";
+    testfile = SRCDIR "/input/ClamAV.hdb";
     ret      = cl_cvdverify_ex(testfile, cvdcertsdir, 0);
     ck_assert_msg(CL_ECVD == ret, "cl_cvdverify_ex should have failed for: %s -- %s", testfile, cl_strerror(ret));
 
@@ -596,7 +596,7 @@ static int inited = 0;
 static void engine_setup(void)
 {
     unsigned int sigs = 0;
-    const char *hdb   = OBJDIR PATHSEP "input" PATHSEP "clamav.hdb";
+    const char *hdb   = OBJDIR PATHSEP "input" PATHSEP "ClamAV.hdb";
 
     init_testfiles();
     if (!inited)

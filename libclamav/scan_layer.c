@@ -79,7 +79,7 @@ done:
 /**
  * @brief Get the file type of a scan layer.
  *
- * The file type as clamav currently believes it to be.
+ * The file type as ClamAV currently believes it to be.
  * It may change later in the scan, so consider using `clcb_file_type_correction`
  * callback to access the file again if it is re-typed.
  *

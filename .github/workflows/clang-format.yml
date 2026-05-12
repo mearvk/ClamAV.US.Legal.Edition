@@ -25,7 +25,7 @@ jobs:
             exclude: "(iana_cctld|bytecode_api_|bytecode_hooks|rijndael|yara|inffixed|inflate|queue|nsis|7z|regex|c++|generated)"
           - check: "libfreshclam"
             exclude: ""
-          - check: "clamav-milter"
+          - check: "ClamAV-milter"
             exclude: ""
           - check: "clambc"
             exclude: ""

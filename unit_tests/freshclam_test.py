@@ -99,14 +99,14 @@ class TC(testcase.TestCase):
         self.verify_output(output.out, expected=expected_stdout)
 
     def test_freshclam_01_file_copy(self):
-        self.step_name('Basic freshclam test using file:// to "download" clamav.hdb')
+        self.step_name('Basic freshclam test using file:// to "download" ClamAV.hdb')
 
         if TC.freshclam_config.exists():
             os.remove(str(TC.freshclam_config))
 
         # Select database files for test
         shutil.copy(
-            str(TC.path_build / 'unit_tests' / 'input' / 'clamav.hdb'),
+            str(TC.path_build / 'unit_tests' / 'input' / 'ClamAV.hdb'),
             str(TC.path_www),
         )
 
@@ -125,7 +125,7 @@ class TC(testcase.TestCase):
         '''.format(
             freshclam_pid=TC.freshclam_pid,
             path_db=TC.path_db,
-            file_db=TC.path_www / "clamav.hdb",
+            file_db=TC.path_www / "ClamAV.hdb",
             port=TC.mock_mirror_port,
             user=getpass.getuser(),
         ))
@@ -138,9 +138,9 @@ class TC(testcase.TestCase):
         assert output.ec == 0  # success
 
         expected_stdout = [
-            'Downloading clamav.hdb',
+            'Downloading ClamAV.hdb',
             'Database test passed.',
-            'clamav.hdb updated',
+            'ClamAV.hdb updated',
         ]
 
         # verify stdout

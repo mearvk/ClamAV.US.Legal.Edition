@@ -283,9 +283,9 @@ cmake .. \
     -D CMAKE_BUILD_TYPE=RelWithDebInfo \
     -D CMAKE_INSTALL_PREFIX=/usr \
     -D CMAKE_INSTALL_LIBDIR=/usr/lib \
-    -D APP_CONFIG_DIRECTORY=/etc/clamav \
-    -D CVD_CERTS_DIRECTORY=/etc/clamav/certs \
-    -D DATABASE_DIRECTORY=/var/lib/clamav \
+    -D APP_CONFIG_DIRECTORY=/etc/ClamAV \
+    -D CVD_CERTS_DIRECTORY=/etc/ClamAV/certs \
+    -D DATABASE_DIRECTORY=/var/lib/ClamAV \
     -D ENABLE_JSON_SHARED=OFF # require libjson-c to be static
 # Build
 cmake --build .

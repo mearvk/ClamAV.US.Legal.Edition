@@ -450,7 +450,7 @@ cl_error_t cl_init(unsigned int initoptions)
     /* Rust logging initialization */
     if (!clrs_log_init()) {
         cli_dbgmsg("Unexpected problem occurred while setting up rust logging... continuing without rust logging. \
-                    Please submit an issue to https://github.com/Cisco-Talos/clamav");
+                    Please submit an issue to https://github.com/Cisco-Talos/ClamAV");
     }
 
     cl_initialize_crypto();
@@ -598,7 +598,7 @@ struct cl_engine *cl_engine_new(void)
     cvdcertsdir = getenv("CVD_CERTS_DIR");
     if (NULL == cvdcertsdir) {
 #ifdef _WIN32
-        // On Windows, CERTSDIR is NOT defined in clamav-config.h.
+        // On Windows, CERTSDIR is NOT defined in ClamAV-config.h.
         // So instead we'll use the certs directory next to the module file.
         char module_path[MAX_PATH]     = "";
         char certs_directory[MAX_PATH] = "";
@@ -2519,7 +2519,7 @@ int cli_rmdirs(const char *dirname)
 }
 #endif
 
-/* Implement a generic bitset, trog@clamav.net */
+/* Implement a generic bitset, trog@ClamAV.net */
 
 #define BITS_PER_CHAR (8)
 #define BITSET_DEFAULT_SIZE (1024)

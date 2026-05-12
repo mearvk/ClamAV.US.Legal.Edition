@@ -151,7 +151,7 @@ typedef enum {
  *    This is experimental code so it is up to YOU to (1) ensure it's secure
  * (2) periodically trim the directory of old files
  *
- * If you use the load balancing feature of clamav-milter to run clamd on
+ * If you use the load balancing feature of ClamAV-milter to run clamd on
  * more than one machine you must make sure that .../partial is on a shared
  * network filesystem
  */
@@ -2455,7 +2455,7 @@ parseEmailBody(message *messageIn, text *textIn, mbox_ctx *mctx, unsigned int re
                     /* TODO */
                     cli_warnmsg("Attempt to send Content-type message/external-body trapped\n");
                 else
-                    cli_warnmsg("Unsupported message format `%s' - if you believe this file contains a virus, submit it to www.clamav.net\n", mimeSubtype);
+                    cli_warnmsg("Unsupported message format `%s' - if you believe this file contains a virus, submit it to www.ClamAV.net\n", mimeSubtype);
 
                 if (mainMessage && (mainMessage != messageIn))
                     messageDestroy(mainMessage);
@@ -3450,7 +3450,7 @@ rfc2047(const char *in)
         encoding = (char)tolower(encoding);
 
         if ((encoding != 'q') && (encoding != 'b')) {
-            cli_warnmsg("Unsupported RFC2047 encoding type '%c' - if you believe this file contains a virus, submit it to www.clamav.net\n", encoding);
+            cli_warnmsg("Unsupported RFC2047 encoding type '%c' - if you believe this file contains a virus, submit it to www.ClamAV.net\n", encoding);
             free(out);
             out = NULL;
             break;
@@ -3554,7 +3554,7 @@ rfc1341(mbox_ctx *mctx, message *m)
         tmpdir = cli_gettmpdir();
     }
 
-    snprintf(pdir, sizeof(pdir) - 1, "%s" PATHSEP "clamav-partial", tmpdir);
+    snprintf(pdir, sizeof(pdir) - 1, "%s" PATHSEP "ClamAV-partial", tmpdir);
 
     if ((mkdir(pdir, S_IRUSR | S_IWUSR) < 0) && (errno != EEXIST)) {
         cli_errmsg("Can't create the directory '%s'\n", pdir);
@@ -3943,7 +3943,7 @@ print_trace(int use_syslog)
 }
 #endif
 
-/* See also clamav-milter */
+/* See also ClamAV-milter */
 static bool
 usefulHeader(int commandNumber, const char *cmd)
 {
@@ -3984,7 +3984,7 @@ getline_from_mbox(char *buffer, size_t buffer_len, fmap_t *map, size_t *at)
         return NULL;
     }
     if ((buffer_len == 0) || (buffer == NULL)) {
-        cli_errmsg("Invalid call to getline_from_mbox(). Refer to https://docs.clamav.net/manual/Installing.html\n");
+        cli_errmsg("Invalid call to getline_from_mbox(). Refer to https://docs.ClamAV.net/manual/Installing.html\n");
         return NULL;
     }
 

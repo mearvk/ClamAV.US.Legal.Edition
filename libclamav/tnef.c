@@ -168,7 +168,7 @@ int cli_tnef(const char *dir, cli_ctx *ctx)
                     if (fout >= 0) {
                         size_t count;
 
-                        cli_warnmsg("Saving dump to %s:  refer to https://docs.clamav.net/manual/Installing.html\n", filename);
+                        cli_warnmsg("Saving dump to %s:  refer to https://docs.ClamAV.net/manual/Installing.html\n", filename);
 
                         pos = 0;
                         while ((count = fmap_readn(ctx->fmap, buffer, pos, sizeof(buffer))) != (size_t)-1 && count != 0) {
@@ -220,7 +220,7 @@ tnef_message(fmap_t *map, off_t *pos, uint16_t type, uint16_t tag, int32_t lengt
      */
     switch (tag) {
         case attBODY:
-            cli_warnmsg("TNEF body not being scanned - if you believe this file contains a virus, submit it to www.clamav.net\n");
+            cli_warnmsg("TNEF body not being scanned - if you believe this file contains a virus, submit it to www.ClamAV.net\n");
             break;
 #ifdef CL_DEBUG
         case attTNEFVERSION:

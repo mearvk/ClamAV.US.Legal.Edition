@@ -21,7 +21,7 @@
 #if !defined(_LIBCLAMAV_STATS_H)
 #define _LIBCLAMAV_STATS_H
 
-#define STATS_HOST "intel.clamav.net"
+#define STATS_HOST "intel.ClamAV.net"
 #define STATS_PORT "80"
 
 void clamav_stats_add_sample(const char *virname, const unsigned char *md5, size_t size, stats_section_t *sections, void *cbdata);

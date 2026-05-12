@@ -88,7 +88,7 @@ if(ENABLE_SHARED_LIB)
 endif()
 
 if(ENABLE_STATIC_LIB)
-    # The clamav static library.
+    # The ClamAV static library.
     add_library( clammspack_static STATIC)
     target_sources( clammspack_static
         PRIVATE

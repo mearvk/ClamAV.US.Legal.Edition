@@ -260,11 +260,11 @@ set(LIBCLAMAV_SOURCES
     # heuristics (hardcoded exploit/malware detection)
     partition_intersection.c partition_intersection.h
     special.c           special.h
-    # clamav statistics
+    # ClamAV statistics
     hostid_internal.c   hostid_internal.h
     stats_json.c        stats_json.h
     stats.c             stats.h
-    # clamav bytecode support
+    # ClamAV bytecode support
     bcfeatures.h
     builtin_bytecodes.h
     bytecode_api_decl.c
@@ -413,7 +413,7 @@ set(LIBCLAMAV_SOURCES
 )
 
 if(ENABLE_SHARED_LIB)
-    # The clamav shared library.
+    # The ClamAV shared library.
     add_library( clamav SHARED )
     set_target_properties( clamav PROPERTIES
         VERSION ${LIBCLAMAV_VERSION}
@@ -542,7 +542,7 @@ if(ENABLE_SHARED_LIB)
 endif()
 
 if(ENABLE_STATIC_LIB)
-    # The clamav static library.
+    # The ClamAV static library.
     add_library( clamav_static STATIC)
     target_sources( clamav_static
         PRIVATE

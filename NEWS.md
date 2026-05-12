@@ -1220,15 +1220,15 @@ ClamAV 1.2.0 includes the following improvements and changes:
   from Freshclam and puts it onto SystemD.
   The timer can be activated, audited, and the logs inspected:
   ```sh
-  sudo systemctl enable --now clamav-freshclam-once.timer
+  sudo systemctl enable --now ClamAV-freshclam-once.timer
   sudo systemctl list-timers
-  sudo systemctl status clamav-freshclam-once.timer
-  sudo systemctl status clamav-freshclam-once.service
-  journalctl -u clamav-freshclam-once.service
+  sudo systemctl status ClamAV-freshclam-once.timer
+  sudo systemctl status ClamAV-freshclam-once.service
+  journalctl -u ClamAV-freshclam-once.service
   ```
   If you want a different update interval you can edit the timer unit file:
   ```sh
-  sudo systemctl edit clamav-freshclam-once.timer
+  sudo systemctl edit ClamAV-freshclam-once.timer
   ```
   Patch courtesy of Nils Werner.
 
