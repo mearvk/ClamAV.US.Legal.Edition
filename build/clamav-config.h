@@ -427,7 +427,7 @@
 #define PACKAGE_NAME "ClamAV"
 
 /* Define to the full name and version of this package. */
-#define PACKAGE_STRING "ClamAV 1.6.0-devel-20260519"
+#define PACKAGE_STRING "ClamAV 1.6.0-devel-20260520"
 
 /* Define to the one symbol short name of this package. */
 /* #undef PACKAGE_TARNAME */
@@ -499,7 +499,7 @@
 #define VERSION "1.6.0"
 
 /* Version suffix for package */
-#define VERSION_SUFFIX "-devel-20260519"
+#define VERSION_SUFFIX "-devel-20260520"
 
 /* Define WORDS_BIGENDIAN to 1 if your processor stores words with the most
    significant byte first (like Motorola and SPARC, unlike Intel). */

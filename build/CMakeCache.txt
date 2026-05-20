@@ -350,6 +350,9 @@ CURL_LIBRARY_DEBUG:FILEPATH=CURL_LIBRARY_DEBUG-NOTFOUND
 //Path to a library.
 CURL_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libcurl.so
 
+//Path to a library.
+CURSES_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libncurses.so
+
 //ClamAV CA certificates directory.
 CVD_CERTS_DIRECTORY:STRING=etc/certs
 
@@ -554,6 +557,9 @@ SYSTEMD_INCLUDE_DIR:PATH=/usr/include
 
 //Path to a library.
 SYSTEMD_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libsystemd.so
+
+//No help, variable specified on the command line.
+TINFO_LIBRARY:UNINITIALIZED=/usr/lib/x86_64-linux-gnu/libtinfo.so
 
 //Path to a program.
 Valgrind_EXECUTABLE:FILEPATH=/usr/bin/valgrind
@@ -867,6 +873,8 @@ CURL_INCLUDE_DIR-ADVANCED:INTERNAL=1
 CURL_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CURL_LIBRARY_RELEASE
 CURL_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CURSES_LIBRARY
+CURSES_LIBRARY-ADVANCED:INTERNAL=1
 //Test CXX_FLAG__Wall
 CXX_FLAG__Wall:INTERNAL=1
 //Test CXX_FLAG__Wformat_security
@@ -890,7 +898,7 @@ FIND_PACKAGE_MESSAGE_DETAILS_BZip2:INTERNAL=[/usr/lib/x86_64-linux-gnu/libbz2.so
 //Details about finding CURL
 FIND_PACKAGE_MESSAGE_DETAILS_CURL:INTERNAL=[/usr/lib/x86_64-linux-gnu/libcurl.so][/usr/include/x86_64-linux-gnu][c ][v7.81.0()]
 //Details about finding CURSES
-FIND_PACKAGE_MESSAGE_DETAILS_CURSES:INTERNAL=[/usr/lib/x86_64-linux-gnu/libncurses.so;/usr/lib/x86_64-linux-gnu/libtinfo.so][/usr/include][v()]
+FIND_PACKAGE_MESSAGE_DETAILS_CURSES:INTERNAL=[/usr/lib/x86_64-linux-gnu/libncurses.so][/usr/include][v()]
 //Details about finding Git
 FIND_PACKAGE_MESSAGE_DETAILS_Git:INTERNAL=[/usr/bin/git][v2.34.1()]
 //Details about finding Iconv
@@ -913,6 +921,8 @@ FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/usr/bin/python3.10][cfound compo
 FIND_PACKAGE_MESSAGE_DETAILS_Rust:INTERNAL=[/home/mearvk/.cargo/bin/cargo][v1.95.0()]
 //Details about finding SYSTEMD
 FIND_PACKAGE_MESSAGE_DETAILS_SYSTEMD:INTERNAL=[/usr/lib/x86_64-linux-gnu/libsystemd.so][/usr/include][v249()]
+//Details about finding TINFO
+FIND_PACKAGE_MESSAGE_DETAILS_TINFO:INTERNAL=[/usr/lib/x86_64-linux-gnu/libtinfo.so][/usr/include][v()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //Details about finding ZLIB
@@ -1464,6 +1474,8 @@ SYSTEMD_PROGRAM_systemd_INCLUDEDIR:INTERNAL=
 SYSTEMD_PROGRAM_systemd_LIBDIR:INTERNAL=
 SYSTEMD_PROGRAM_systemd_PREFIX:INTERNAL=
 SYSTEMD_PROGRAM_systemd_VERSION:INTERNAL=
+//ADVANCED property for variable: TINFO_LIBRARY
+TINFO_LIBRARY-ADVANCED:INTERNAL=1
 //Have include syslog.h
 USE_SYSLOG:INTERNAL=1
 //ADVANCED property for variable: Valgrind_EXECUTABLE
@@ -1564,7 +1576,7 @@ pkgcfg_lib_PC_SYSTEMD_systemd-ADVANCED:INTERNAL=1
 pkgcfg_lib__OPENSSL_crypto-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: pkgcfg_lib__OPENSSL_ssl
 pkgcfg_lib__OPENSSL_ssl-ADVANCED:INTERNAL=1
-prefix_result:INTERNAL=
+prefix_result:INTERNAL=AsynchDNS;GSS-API;HSTS;HTTP2;HTTPS-proxy;IDN;IPv6;Kerberos;Largefile;NTLM;NTLM_WB;PSL;SPNEGO;SSL;TLS-SRP;UnixSockets;alt-svc;brotli;libz;zstd
 //ADVANCED property for variable: rust-gdb_EXECUTABLE
 rust-gdb_EXECUTABLE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: rust-lldb_EXECUTABLE
