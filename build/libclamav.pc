@@ -1,0 +1,12 @@
+prefix=/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/binaries
+exec_prefix=/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/binaries
+libdir=/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/binaries/lib
+includedir=/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/binaries/include
+
+Name: libclamav
+Description: A GPL virus scanner
+Version: 1.6.0
+Libs: -L${libdir} -lclamav
+Libs.private: 
+Cflags: -I${includedir}
+

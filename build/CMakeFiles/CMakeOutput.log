@@ -1,0 +1,1934 @@
+The system is: Linux - 6.8.0-111-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/3.22.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/3.22.1/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2de44/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2de44.dir/build.make CMakeFiles/cmTC_2de44.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2de44.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -std=gnu90 -o CMakeFiles/cmTC_2de44.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04.3' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-0odw26/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-0odw26/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.3) 
+COLLECT_GCC_OPTIONS='-v' '-std=gnu90' '-o' 'CMakeFiles/cmTC_2de44.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2de44.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_2de44.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -std=gnu90 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cccI55q0.s
+GNU C89 (Ubuntu 11.4.0-1ubuntu1~22.04.3) version 11.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/11/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C89 (Ubuntu 11.4.0-1ubuntu1~22.04.3) version 11.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 46ebede1f5b795a957a1e85cb61af9d8
+COLLECT_GCC_OPTIONS='-v' '-std=gnu90' '-o' 'CMakeFiles/cmTC_2de44.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2de44.dir/'
+ as -v --64 -o CMakeFiles/cmTC_2de44.dir/CMakeCCompilerABI.c.o /tmp/cccI55q0.s
+GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-std=gnu90' '-o' 'CMakeFiles/cmTC_2de44.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2de44.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_2de44
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2de44.dir/link.txt --verbose=1
+/usr/bin/cc  -v CMakeFiles/cmTC_2de44.dir/CMakeCCompilerABI.c.o -o cmTC_2de44 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04.3' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-0odw26/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-0odw26/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.3) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2de44' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_2de44.'
+ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4aQsk4.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2de44 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_2de44.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2de44' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_2de44.'
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2de44/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2de44.dir/build.make CMakeFiles/cmTC_2de44.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_2de44.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -std=gnu90 -o CMakeFiles/cmTC_2de44.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04.3' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-0odw26/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-0odw26/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.3) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-std=gnu90' '-o' 'CMakeFiles/cmTC_2de44.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2de44.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_2de44.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -std=gnu90 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cccI55q0.s]
+  ignore line: [GNU C89 (Ubuntu 11.4.0-1ubuntu1~22.04.3) version 11.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C89 (Ubuntu 11.4.0-1ubuntu1~22.04.3) version 11.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 46ebede1f5b795a957a1e85cb61af9d8]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-std=gnu90' '-o' 'CMakeFiles/cmTC_2de44.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2de44.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_2de44.dir/CMakeCCompilerABI.c.o /tmp/cccI55q0.s]
+  ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-std=gnu90' '-o' 'CMakeFiles/cmTC_2de44.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2de44.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_2de44]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2de44.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_2de44.dir/CMakeCCompilerABI.c.o -o cmTC_2de44 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04.3' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-0odw26/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-0odw26/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.3) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2de44' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_2de44.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4aQsk4.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2de44 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_2de44.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc4aQsk4.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_2de44] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+    arg [CMakeFiles/cmTC_2de44.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f6623/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f6623.dir/build.make CMakeFiles/cmTC_f6623.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f6623.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++   -v -o CMakeFiles/cmTC_f6623.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04.3' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-0odw26/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-0odw26/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.3) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f6623.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f6623.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_f6623.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccloWKtS.s
+GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04.3) version 11.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/11"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/11
+ /usr/include/x86_64-linux-gnu/c++/11
+ /usr/include/c++/11/backward
+ /usr/lib/gcc/x86_64-linux-gnu/11/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04.3) version 11.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: ac7fa628ee459f217e6fdb88b3db0bde
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f6623.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f6623.dir/'
+ as -v --64 -o CMakeFiles/cmTC_f6623.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccloWKtS.s
+GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f6623.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f6623.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_f6623
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6623.dir/link.txt --verbose=1
+/usr/bin/c++  -v CMakeFiles/cmTC_f6623.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_f6623 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04.3' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-0odw26/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-0odw26/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.3) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f6623' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_f6623.'
+ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJM6C6c.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_f6623 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_f6623.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f6623' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_f6623.'
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/include/c++/11]
+    add: [/usr/include/x86_64-linux-gnu/c++/11]
+    add: [/usr/include/c++/11/backward]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/include/c++/11] ==> [/usr/include/c++/11]
+  collapse include dir [/usr/include/x86_64-linux-gnu/c++/11] ==> [/usr/include/x86_64-linux-gnu/c++/11]
+  collapse include dir [/usr/include/c++/11/backward] ==> [/usr/include/c++/11/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/11;/usr/include/x86_64-linux-gnu/c++/11;/usr/include/c++/11/backward;/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f6623/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f6623.dir/build.make CMakeFiles/cmTC_f6623.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_f6623.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_f6623.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04.3' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-0odw26/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-0odw26/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.3) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f6623.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f6623.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_f6623.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccloWKtS.s]
+  ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04.3) version 11.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/11"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/11]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/11]
+  ignore line: [ /usr/include/c++/11/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04.3) version 11.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: ac7fa628ee459f217e6fdb88b3db0bde]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f6623.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f6623.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_f6623.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccloWKtS.s]
+  ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f6623.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f6623.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_f6623]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6623.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_f6623.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_f6623 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04.3' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-0odw26/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-0odw26/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.3) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f6623' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_f6623.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJM6C6c.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_f6623 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_f6623.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccJM6C6c.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_f6623] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+    arg [CMakeFiles/cmTC_f6623.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7cf90/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7cf90.dir/build.make CMakeFiles/cmTC_7cf90.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7cf90.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu90 -o CMakeFiles/cmTC_7cf90.dir/CheckIncludeFile.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7cf90
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7cf90.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_7cf90.dir/CheckIncludeFile.c.o -o cmTC_7cf90 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e3ded/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e3ded.dir/build.make CMakeFiles/cmTC_e3ded.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e3ded.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu90 -o CMakeFiles/cmTC_e3ded.dir/src.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e3ded
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3ded.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_e3ded.dir/src.c.o -o cmTC_e3ded 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the BZ2_bzCompressInit exist passed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c41eb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c41eb.dir/build.make CMakeFiles/cmTC_c41eb.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c41eb.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -std=gnu90 -o CMakeFiles/cmTC_c41eb.dir/CheckSymbolExists.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_c41eb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c41eb.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_c41eb.dir/CheckSymbolExists.c.o -o cmTC_c41eb  /usr/lib/x86_64-linux-gnu/libbz2.so 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+File /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <bzlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef BZ2_bzCompressInit
+  return ((int*)(&BZ2_bzCompressInit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test Iconv_IS_BUILT_IN succeeded with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2ba0f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2ba0f.dir/build.make CMakeFiles/cmTC_2ba0f.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2ba0f.dir/src.c.o
+/usr/bin/cc -DIconv_IS_BUILT_IN  -std=gnu90 -o CMakeFiles/cmTC_2ba0f.dir/src.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_2ba0f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ba0f.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_2ba0f.dir/src.c.o -o cmTC_2ba0f 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+      #include <stddef.h>
+      #include <iconv.h>
+      int main() {
+        char *a, *b;
+        size_t i, j;
+        iconv_t ic;
+        ic = iconv_open("to", "from");
+        iconv(ic, &a, &i, &b, &j);
+        iconv_close(ic);
+        return 0;
+      }
+      
+Performing C++ SOURCE FILE Test CXX_FLAG__std_c_14 succeeded with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9bde2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9bde2.dir/build.make CMakeFiles/cmTC_9bde2.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9bde2.dir/src.cxx.o
+/usr/bin/c++ -DCXX_FLAG__std_c_14  -std=c++14 -o CMakeFiles/cmTC_9bde2.dir/src.cxx.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9bde2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9bde2.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_9bde2.dir/src.cxx.o -o cmTC_9bde2 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Determining if the include file arpa/inet.h exists passed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e25da/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e25da.dir/build.make CMakeFiles/cmTC_e25da.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e25da.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -std=gnu90 -o CMakeFiles/cmTC_e25da.dir/CheckIncludeFile.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e25da
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e25da.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_e25da.dir/CheckIncludeFile.c.o -o cmTC_e25da 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_03053/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_03053.dir/build.make CMakeFiles/cmTC_03053.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_03053.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -std=gnu90 -o CMakeFiles/cmTC_03053.dir/CheckIncludeFile.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_03053
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03053.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_03053.dir/CheckIncludeFile.c.o -o cmTC_03053 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file grp.h exists passed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_05710/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_05710.dir/build.make CMakeFiles/cmTC_05710.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_05710.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -std=gnu90 -o CMakeFiles/cmTC_05710.dir/CheckIncludeFile.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_05710
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05710.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_05710.dir/CheckIncludeFile.c.o -o cmTC_05710 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file limits.h exists passed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2c951/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2c951.dir/build.make CMakeFiles/cmTC_2c951.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2c951.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -std=gnu90 -o CMakeFiles/cmTC_2c951.dir/CheckIncludeFile.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_2c951
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c951.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_2c951.dir/CheckIncludeFile.c.o -o cmTC_2c951 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file malloc.h exists passed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_64d02/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_64d02.dir/build.make CMakeFiles/cmTC_64d02.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_64d02.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -std=gnu90 -o CMakeFiles/cmTC_64d02.dir/CheckIncludeFile.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_64d02
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64d02.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_64d02.dir/CheckIncludeFile.c.o -o cmTC_64d02 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file netdb.h exists passed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3a33a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3a33a.dir/build.make CMakeFiles/cmTC_3a33a.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3a33a.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -std=gnu90 -o CMakeFiles/cmTC_3a33a.dir/CheckIncludeFile.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_3a33a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a33a.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_3a33a.dir/CheckIncludeFile.c.o -o cmTC_3a33a 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file netinet/in.h exists passed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_011b6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_011b6.dir/build.make CMakeFiles/cmTC_011b6.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_011b6.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -std=gnu90 -o CMakeFiles/cmTC_011b6.dir/CheckIncludeFile.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_011b6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_011b6.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_011b6.dir/CheckIncludeFile.c.o -o cmTC_011b6 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file poll.h exists passed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_43f6a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_43f6a.dir/build.make CMakeFiles/cmTC_43f6a.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_43f6a.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -std=gnu90 -o CMakeFiles/cmTC_43f6a.dir/CheckIncludeFile.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_43f6a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43f6a.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_43f6a.dir/CheckIncludeFile.c.o -o cmTC_43f6a 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file pwd.h exists passed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c57fd/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c57fd.dir/build.make CMakeFiles/cmTC_c57fd.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c57fd.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -std=gnu90 -o CMakeFiles/cmTC_c57fd.dir/CheckIncludeFile.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c57fd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c57fd.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_c57fd.dir/CheckIncludeFile.c.o -o cmTC_c57fd 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdbool.h exists passed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cbdf1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cbdf1.dir/build.make CMakeFiles/cmTC_cbdf1.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cbdf1.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -std=gnu90 -o CMakeFiles/cmTC_cbdf1.dir/CheckIncludeFile.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_cbdf1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cbdf1.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_cbdf1.dir/CheckIncludeFile.c.o -o cmTC_cbdf1 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_dc085/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_dc085.dir/build.make CMakeFiles/cmTC_dc085.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dc085.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -std=gnu90 -o CMakeFiles/cmTC_dc085.dir/CheckIncludeFile.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_dc085
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc085.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_dc085.dir/CheckIncludeFile.c.o -o cmTC_dc085 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_32b00/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_32b00.dir/build.make CMakeFiles/cmTC_32b00.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_32b00.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -std=gnu90 -o CMakeFiles/cmTC_32b00.dir/CheckIncludeFile.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_32b00
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32b00.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_32b00.dir/CheckIncludeFile.c.o -o cmTC_32b00 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_02eea/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_02eea.dir/build.make CMakeFiles/cmTC_02eea.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_02eea.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -std=gnu90 -o CMakeFiles/cmTC_02eea.dir/CheckIncludeFile.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_02eea
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02eea.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_02eea.dir/CheckIncludeFile.c.o -o cmTC_02eea 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/cdefs.h exists passed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6699f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6699f.dir/build.make CMakeFiles/cmTC_6699f.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6699f.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -std=gnu90 -o CMakeFiles/cmTC_6699f.dir/CheckIncludeFile.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_6699f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6699f.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_6699f.dir/CheckIncludeFile.c.o -o cmTC_6699f 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/mman.h exists passed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f891d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f891d.dir/build.make CMakeFiles/cmTC_f891d.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f891d.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -std=gnu90 -o CMakeFiles/cmTC_f891d.dir/CheckIncludeFile.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f891d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f891d.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_f891d.dir/CheckIncludeFile.c.o -o cmTC_f891d 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/param.h exists passed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a8576/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a8576.dir/build.make CMakeFiles/cmTC_a8576.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a8576.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -std=gnu90 -o CMakeFiles/cmTC_a8576.dir/CheckIncludeFile.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_a8576
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8576.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_a8576.dir/CheckIncludeFile.c.o -o cmTC_a8576 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/queue.h exists passed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c6f59/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c6f59.dir/build.make CMakeFiles/cmTC_c6f59.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c6f59.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -std=gnu90 -o CMakeFiles/cmTC_c6f59.dir/CheckIncludeFile.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c6f59
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6f59.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_c6f59.dir/CheckIncludeFile.c.o -o cmTC_c6f59 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/select.h exists passed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6d0a8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6d0a8.dir/build.make CMakeFiles/cmTC_6d0a8.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6d0a8.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -std=gnu90 -o CMakeFiles/cmTC_6d0a8.dir/CheckIncludeFile.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_6d0a8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d0a8.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_6d0a8.dir/CheckIncludeFile.c.o -o cmTC_6d0a8 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/socket.h exists passed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_60625/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_60625.dir/build.make CMakeFiles/cmTC_60625.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_60625.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -std=gnu90 -o CMakeFiles/cmTC_60625.dir/CheckIncludeFile.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_60625
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60625.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_60625.dir/CheckIncludeFile.c.o -o cmTC_60625 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8f20c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8f20c.dir/build.make CMakeFiles/cmTC_8f20c.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8f20c.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -std=gnu90 -o CMakeFiles/cmTC_8f20c.dir/CheckIncludeFile.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_8f20c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f20c.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_8f20c.dir/CheckIncludeFile.c.o -o cmTC_8f20c 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_fc67e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fc67e.dir/build.make CMakeFiles/cmTC_fc67e.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fc67e.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -std=gnu90 -o CMakeFiles/cmTC_fc67e.dir/CheckIncludeFile.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_fc67e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc67e.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_fc67e.dir/CheckIncludeFile.c.o -o cmTC_fc67e 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/times.h exists passed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_13d6c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_13d6c.dir/build.make CMakeFiles/cmTC_13d6c.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_13d6c.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -std=gnu90 -o CMakeFiles/cmTC_13d6c.dir/CheckIncludeFile.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_13d6c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13d6c.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_13d6c.dir/CheckIncludeFile.c.o -o cmTC_13d6c 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/uio.h exists passed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_50cf3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_50cf3.dir/build.make CMakeFiles/cmTC_50cf3.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_50cf3.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -std=gnu90 -o CMakeFiles/cmTC_50cf3.dir/CheckIncludeFile.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_50cf3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50cf3.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_50cf3.dir/CheckIncludeFile.c.o -o cmTC_50cf3 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file syslog.h exists passed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ffb65/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ffb65.dir/build.make CMakeFiles/cmTC_ffb65.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ffb65.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -std=gnu90 -o CMakeFiles/cmTC_ffb65.dir/CheckIncludeFile.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_ffb65
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ffb65.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_ffb65.dir/CheckIncludeFile.c.o -o cmTC_ffb65 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file termios.h exists passed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c2ec2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c2ec2.dir/build.make CMakeFiles/cmTC_c2ec2.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c2ec2.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -std=gnu90 -o CMakeFiles/cmTC_c2ec2.dir/CheckIncludeFile.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c2ec2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2ec2.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_c2ec2.dir/CheckIncludeFile.c.o -o cmTC_c2ec2 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file time.h exists passed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1a581/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1a581.dir/build.make CMakeFiles/cmTC_1a581.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1a581.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -std=gnu90 -o CMakeFiles/cmTC_1a581.dir/CheckIncludeFile.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_1a581
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a581.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_1a581.dir/CheckIncludeFile.c.o -o cmTC_1a581 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_50ca7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_50ca7.dir/build.make CMakeFiles/cmTC_50ca7.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_50ca7.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -std=gnu90 -o CMakeFiles/cmTC_50ca7.dir/CheckIncludeFile.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_50ca7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50ca7.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_50ca7.dir/CheckIncludeFile.c.o -o cmTC_50ca7 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/fanotify.h exists passed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2784e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2784e.dir/build.make CMakeFiles/cmTC_2784e.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2784e.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -std=gnu90 -o CMakeFiles/cmTC_2784e.dir/CheckIncludeFile.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_2784e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2784e.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_2784e.dir/CheckIncludeFile.c.o -o cmTC_2784e 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file resolv.h exists passed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ce6eb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ce6eb.dir/build.make CMakeFiles/cmTC_ce6eb.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ce6eb.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -std=gnu90 -o CMakeFiles/cmTC_ce6eb.dir/CheckIncludeFile.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_ce6eb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce6eb.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_ce6eb.dir/CheckIncludeFile.c.o -o cmTC_ce6eb 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file dirent.h exists passed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_794d5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_794d5.dir/build.make CMakeFiles/cmTC_794d5.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_794d5.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -std=gnu90 -o CMakeFiles/cmTC_794d5.dir/CheckIncludeFile.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_794d5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_794d5.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_794d5.dir/CheckIncludeFile.c.o -o cmTC_794d5 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_da6dc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_da6dc.dir/build.make CMakeFiles/cmTC_da6dc.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_da6dc.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -std=gnu90 -o CMakeFiles/cmTC_da6dc.dir/CheckIncludeFile.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_da6dc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da6dc.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_da6dc.dir/CheckIncludeFile.c.o -o cmTC_da6dc 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_938e9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_938e9.dir/build.make CMakeFiles/cmTC_938e9.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_938e9.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -std=gnu90 -o CMakeFiles/cmTC_938e9.dir/CheckIncludeFile.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_938e9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_938e9.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_938e9.dir/CheckIncludeFile.c.o -o cmTC_938e9 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_875d3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_875d3.dir/build.make CMakeFiles/cmTC_875d3.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_875d3.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -std=gnu90 -o CMakeFiles/cmTC_875d3.dir/CheckIncludeFile.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_875d3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_875d3.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_875d3.dir/CheckIncludeFile.c.o -o cmTC_875d3 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cea71/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cea71.dir/build.make CMakeFiles/cmTC_cea71.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cea71.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -std=gnu90 -o CMakeFiles/cmTC_cea71.dir/CheckIncludeFile.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_cea71
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cea71.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_cea71.dir/CheckIncludeFile.c.o -o cmTC_cea71 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c5c61/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c5c61.dir/build.make CMakeFiles/cmTC_c5c61.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c5c61.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -std=gnu90 -o CMakeFiles/cmTC_c5c61.dir/CheckIncludeFile.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c5c61
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5c61.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_c5c61.dir/CheckIncludeFile.c.o -o cmTC_c5c61 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of ssize_t passed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_39f18/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_39f18.dir/build.make CMakeFiles/cmTC_39f18.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_39f18.dir/SIZEOF_SSIZE_T.c.o
+/usr/bin/cc   -fPIE -std=gnu90 -o CMakeFiles/cmTC_39f18.dir/SIZEOF_SSIZE_T.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CheckTypeSize/SIZEOF_SSIZE_T.c
+Linking C executable cmTC_39f18
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39f18.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_39f18.dir/SIZEOF_SSIZE_T.c.o -o cmTC_39f18 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of off_t passed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_13099/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_13099.dir/build.make CMakeFiles/cmTC_13099.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_13099.dir/SIZEOF_OFF_T.c.o
+/usr/bin/cc   -fPIE -std=gnu90 -o CMakeFiles/cmTC_13099.dir/SIZEOF_OFF_T.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CheckTypeSize/SIZEOF_OFF_T.c
+Linking C executable cmTC_13099
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13099.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_13099.dir/SIZEOF_OFF_T.c.o -o cmTC_13099 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of int passed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6aa19/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6aa19.dir/build.make CMakeFiles/cmTC_6aa19.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6aa19.dir/SIZEOF_INT.c.o
+/usr/bin/cc   -fPIE -std=gnu90 -o CMakeFiles/cmTC_6aa19.dir/SIZEOF_INT.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CheckTypeSize/SIZEOF_INT.c
+Linking C executable cmTC_6aa19
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6aa19.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_6aa19.dir/SIZEOF_INT.c.o -o cmTC_6aa19 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of short passed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2e161/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2e161.dir/build.make CMakeFiles/cmTC_2e161.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2e161.dir/SIZEOF_SHORT.c.o
+/usr/bin/cc   -fPIE -std=gnu90 -o CMakeFiles/cmTC_2e161.dir/SIZEOF_SHORT.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CheckTypeSize/SIZEOF_SHORT.c
+Linking C executable cmTC_2e161
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e161.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_2e161.dir/SIZEOF_SHORT.c.o -o cmTC_2e161 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of long passed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1eb7c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1eb7c.dir/build.make CMakeFiles/cmTC_1eb7c.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1eb7c.dir/SIZEOF_LONG.c.o
+/usr/bin/cc   -fPIE -std=gnu90 -o CMakeFiles/cmTC_1eb7c.dir/SIZEOF_LONG.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CheckTypeSize/SIZEOF_LONG.c
+Linking C executable cmTC_1eb7c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1eb7c.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_1eb7c.dir/SIZEOF_LONG.c.o -o cmTC_1eb7c 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of long long passed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_fda8e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fda8e.dir/build.make CMakeFiles/cmTC_fda8e.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fda8e.dir/SIZEOF_LONG_LONG.c.o
+/usr/bin/cc   -fPIE -std=gnu90 -o CMakeFiles/cmTC_fda8e.dir/SIZEOF_LONG_LONG.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CheckTypeSize/SIZEOF_LONG_LONG.c
+Linking C executable cmTC_fda8e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fda8e.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_fda8e.dir/SIZEOF_LONG_LONG.c.o -o cmTC_fda8e 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test HAVE_RESTRICT succeeded with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_03e7b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_03e7b.dir/build.make CMakeFiles/cmTC_03e7b.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_03e7b.dir/src.c.o
+/usr/bin/cc -DHAVE_RESTRICT  -fPIE -std=gnu90 -o CMakeFiles/cmTC_03e7b.dir/src.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_03e7b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03e7b.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_03e7b.dir/src.c.o -o cmTC_03e7b 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+        typedef int * int_ptr;
+        int foo (int_ptr __restrict ip) {
+            return ip[0];
+        }
+        int main() {
+            int s[1];
+            int * __restrict t = s;
+            t[0] = 0;
+            return foo(t);
+        }
+        
+Performing C SOURCE FILE Test HAVE_ATTRIB_PACKED succeeded with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d108c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d108c.dir/build.make CMakeFiles/cmTC_d108c.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d108c.dir/src.c.o
+/usr/bin/cc -DHAVE_ATTRIB_PACKED  -fPIE -std=gnu90 -o CMakeFiles/cmTC_d108c.dir/src.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_d108c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d108c.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_d108c.dir/src.c.o -o cmTC_d108c 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+    #ifdef __GNUC__
+    struct { int i __attribute__((packed)); } s; int main(){return 0;}
+    #else
+    #error Only checking for packed attribute on gcc-like compilers
+    #endif
+    
+Performing C SOURCE FILE Test HAVE_ATTRIB_ALIGNED succeeded with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e6d6b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e6d6b.dir/build.make CMakeFiles/cmTC_e6d6b.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e6d6b.dir/src.c.o
+/usr/bin/cc -DHAVE_ATTRIB_ALIGNED  -fPIE -std=gnu90 -o CMakeFiles/cmTC_e6d6b.dir/src.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e6d6b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6d6b.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_e6d6b.dir/src.c.o -o cmTC_e6d6b 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+    typedef int cl_aligned_int __attribute__((aligned)); int main(){return 0;}
+    
+Performing C SOURCE FILE Test HAVE_SYSTEM_LFS_FTS succeeded with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e0256/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e0256.dir/build.make CMakeFiles/cmTC_e0256.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e0256.dir/src.c.o
+/usr/bin/cc -DHAVE_SYSTEM_LFS_FTS  -fPIE -std=gnu90 -o CMakeFiles/cmTC_e0256.dir/src.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e0256
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0256.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_e0256.dir/src.c.o -o cmTC_e0256 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+    #include <fts.h>
+
+    int main(void) {
+        fts_open((void *)0, FTS_PHYSICAL, (void *)0);
+
+        return 0;
+    }
+    
+Determining if the recvmsg exist passed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_35fb7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_35fb7.dir/build.make CMakeFiles/cmTC_35fb7.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_35fb7.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fPIE -std=gnu90 -o CMakeFiles/cmTC_35fb7.dir/CheckSymbolExists.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_35fb7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35fb7.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_35fb7.dir/CheckSymbolExists.c.o -o cmTC_35fb7 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+File /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/socket.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef recvmsg
+  return ((int*)(&recvmsg))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sendmsg exist passed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cffd8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cffd8.dir/build.make CMakeFiles/cmTC_cffd8.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cffd8.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fPIE -std=gnu90 -o CMakeFiles/cmTC_cffd8.dir/CheckSymbolExists.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_cffd8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cffd8.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_cffd8.dir/CheckSymbolExists.c.o -o cmTC_cffd8 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+File /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/socket.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sendmsg
+  return ((int*)(&sendmsg))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test HAVE_CONTROL_IN_MSGHDR succeeded with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e276c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e276c.dir/build.make CMakeFiles/cmTC_e276c.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e276c.dir/src.c.o
+/usr/bin/cc -DHAVE_CONTROL_IN_MSGHDR -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_UIO_H=1  -fPIE -std=gnu90 -o CMakeFiles/cmTC_e276c.dir/src.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e276c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e276c.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_e276c.dir/src.c.o -o cmTC_e276c 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+    #define _XOPEN_SOURCE 500
+    #ifdef HAVE_SYS_TYPES_H
+    # include <sys/types.h>
+    #endif
+    #include <sys/socket.h>
+    #ifdef HAVE_SYS_UIO_H
+    # include <sys/uio.h>
+    #endif
+
+    int main(void) {
+        #ifdef msg_control
+        # error msg_control defined
+        #endif
+
+        struct msghdr m;
+        m.msg_control = 0;
+        return 0;
+    }
+    
+Performing C SOURCE FILE Test HAVE_STRUCT_TM_TM_GMTOFF succeeded with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_28538/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_28538.dir/build.make CMakeFiles/cmTC_28538.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_28538.dir/src.c.o
+/usr/bin/cc -DHAVE_STRUCT_TM_TM_GMTOFF -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_UIO_H=1  -fPIE -std=gnu90 -o CMakeFiles/cmTC_28538.dir/src.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_28538
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28538.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_28538.dir/src.c.o -o cmTC_28538 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <time.h>
+
+int main()
+{
+  (void)sizeof(((struct tm *)0)->tm_gmtoff);
+  return 0;
+}
+
+Determining size of int * passed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_340eb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_340eb.dir/build.make CMakeFiles/cmTC_340eb.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_340eb.dir/SIZEOF_INT_P.c.o
+/usr/bin/cc -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_UIO_H=1  -fPIE -std=gnu90 -o CMakeFiles/cmTC_340eb.dir/SIZEOF_INT_P.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CheckTypeSize/SIZEOF_INT_P.c
+Linking C executable cmTC_340eb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_340eb.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_340eb.dir/SIZEOF_INT_P.c.o -o cmTC_340eb 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of time_t passed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a9185/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a9185.dir/build.make CMakeFiles/cmTC_a9185.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a9185.dir/SIZEOF_TIME_T.c.o
+/usr/bin/cc -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_UIO_H=1  -fPIE -std=gnu90 -o CMakeFiles/cmTC_a9185.dir/SIZEOF_TIME_T.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CheckTypeSize/SIZEOF_TIME_T.c
+Linking C executable cmTC_a9185
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9185.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_a9185.dir/SIZEOF_TIME_T.c.o -o cmTC_a9185 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the _Exit exist passed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_46fb4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_46fb4.dir/build.make CMakeFiles/cmTC_46fb4.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_46fb4.dir/CheckSymbolExists.c.o
+/usr/bin/cc -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_UIO_H=1  -fPIE -std=gnu90 -o CMakeFiles/cmTC_46fb4.dir/CheckSymbolExists.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_46fb4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46fb4.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_46fb4.dir/CheckSymbolExists.c.o -o cmTC_46fb4 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+File /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _Exit
+  return ((int*)(&_Exit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the snprintf exist passed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_69ce2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_69ce2.dir/build.make CMakeFiles/cmTC_69ce2.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_69ce2.dir/CheckSymbolExists.c.o
+/usr/bin/cc -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_UIO_H=1  -fPIE -std=gnu90 -o CMakeFiles/cmTC_69ce2.dir/CheckSymbolExists.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_69ce2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69ce2.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_69ce2.dir/CheckSymbolExists.c.o -o cmTC_69ce2 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+File /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef snprintf
+  return ((int*)(&snprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strerror_r exist passed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_11499/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_11499.dir/build.make CMakeFiles/cmTC_11499.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_11499.dir/CheckSymbolExists.c.o
+/usr/bin/cc -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_UIO_H=1  -fPIE -std=gnu90 -o CMakeFiles/cmTC_11499.dir/CheckSymbolExists.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_11499
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11499.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_11499.dir/CheckSymbolExists.c.o -o cmTC_11499 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+File /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror_r
+  return ((int*)(&strerror_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strndup exist passed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3a33e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3a33e.dir/build.make CMakeFiles/cmTC_3a33e.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3a33e.dir/CheckSymbolExists.c.o
+/usr/bin/cc -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_UIO_H=1  -fPIE -std=gnu90 -o CMakeFiles/cmTC_3a33e.dir/CheckSymbolExists.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_3a33e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a33e.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_3a33e.dir/CheckSymbolExists.c.o -o cmTC_3a33e 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+File /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strndup
+  return ((int*)(&strndup))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strnlen exist passed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8e6d7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8e6d7.dir/build.make CMakeFiles/cmTC_8e6d7.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8e6d7.dir/CheckSymbolExists.c.o
+/usr/bin/cc -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_UIO_H=1  -fPIE -std=gnu90 -o CMakeFiles/cmTC_8e6d7.dir/CheckSymbolExists.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_8e6d7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e6d7.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_8e6d7.dir/CheckSymbolExists.c.o -o cmTC_8e6d7 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+File /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strnlen
+  return ((int*)(&strnlen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the timegm exist passed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_acea0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_acea0.dir/build.make CMakeFiles/cmTC_acea0.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_acea0.dir/CheckSymbolExists.c.o
+/usr/bin/cc -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_UIO_H=1  -fPIE -std=gnu90 -o CMakeFiles/cmTC_acea0.dir/CheckSymbolExists.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_acea0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_acea0.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_acea0.dir/CheckSymbolExists.c.o -o cmTC_acea0 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+File /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef timegm
+  return ((int*)(&timegm))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the vsnprintf exist passed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_07854/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_07854.dir/build.make CMakeFiles/cmTC_07854.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_07854.dir/CheckSymbolExists.c.o
+/usr/bin/cc -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_UIO_H=1  -fPIE -std=gnu90 -o CMakeFiles/cmTC_07854.dir/CheckSymbolExists.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_07854
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07854.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_07854.dir/CheckSymbolExists.c.o -o cmTC_07854 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+File /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef vsnprintf
+  return ((int*)(&vsnprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the fseeko exist passed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8d048/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8d048.dir/build.make CMakeFiles/cmTC_8d048.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8d048.dir/CheckSymbolExists.c.o
+/usr/bin/cc -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_UIO_H=1  -fPIE -std=gnu90 -o CMakeFiles/cmTC_8d048.dir/CheckSymbolExists.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_8d048
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d048.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_8d048.dir/CheckSymbolExists.c.o -o cmTC_8d048 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+File /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fseeko
+  return ((int*)(&fseeko))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getaddrinfo exist passed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_27a98/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_27a98.dir/build.make CMakeFiles/cmTC_27a98.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_27a98.dir/CheckSymbolExists.c.o
+/usr/bin/cc -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_UIO_H=1  -fPIE -std=gnu90 -o CMakeFiles/cmTC_27a98.dir/CheckSymbolExists.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_27a98
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27a98.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_27a98.dir/CheckSymbolExists.c.o -o cmTC_27a98 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+File /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <netdb.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getaddrinfo
+  return ((int*)(&getaddrinfo))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getpagesize exist passed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_52566/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_52566.dir/build.make CMakeFiles/cmTC_52566.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_52566.dir/CheckSymbolExists.c.o
+/usr/bin/cc -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_UIO_H=1  -fPIE -std=gnu90 -o CMakeFiles/cmTC_52566.dir/CheckSymbolExists.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_52566
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52566.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_52566.dir/CheckSymbolExists.c.o -o cmTC_52566 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+File /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getpagesize
+  return ((int*)(&getpagesize))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the poll exist passed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_86bd1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_86bd1.dir/build.make CMakeFiles/cmTC_86bd1.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_86bd1.dir/CheckSymbolExists.c.o
+/usr/bin/cc -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_UIO_H=1  -fPIE -std=gnu90 -o CMakeFiles/cmTC_86bd1.dir/CheckSymbolExists.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_86bd1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86bd1.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_86bd1.dir/CheckSymbolExists.c.o -o cmTC_86bd1 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+File /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <poll.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef poll
+  return ((int*)(&poll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setsid exist passed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f0132/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f0132.dir/build.make CMakeFiles/cmTC_f0132.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f0132.dir/CheckSymbolExists.c.o
+/usr/bin/cc -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_UIO_H=1  -fPIE -std=gnu90 -o CMakeFiles/cmTC_f0132.dir/CheckSymbolExists.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f0132
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0132.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_f0132.dir/CheckSymbolExists.c.o -o cmTC_f0132 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+File /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setsid
+  return ((int*)(&setsid))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the initgroups exist passed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_11590/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_11590.dir/build.make CMakeFiles/cmTC_11590.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_11590.dir/CheckSymbolExists.c.o
+/usr/bin/cc -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_UIO_H=1  -fPIE -std=gnu90 -o CMakeFiles/cmTC_11590.dir/CheckSymbolExists.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_11590
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11590.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_11590.dir/CheckSymbolExists.c.o -o cmTC_11590 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+File /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <grp.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef initgroups
+  return ((int*)(&initgroups))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test C_FLAG__Wall succeeded with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_50f25/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_50f25.dir/build.make CMakeFiles/cmTC_50f25.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_50f25.dir/src.c.o
+/usr/bin/cc -DC_FLAG__Wall  -fPIE   -Wall -std=gnu90 -o CMakeFiles/cmTC_50f25.dir/src.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_50f25
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50f25.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_50f25.dir/src.c.o -o cmTC_50f25 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_FLAG__Wextra succeeded with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7a51f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7a51f.dir/build.make CMakeFiles/cmTC_7a51f.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7a51f.dir/src.c.o
+/usr/bin/cc -DC_FLAG__Wextra  -fPIE   -Wextra -std=gnu90 -o CMakeFiles/cmTC_7a51f.dir/src.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_7a51f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a51f.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_7a51f.dir/src.c.o -o cmTC_7a51f 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_FLAG__Wformat_security succeeded with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cabc4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cabc4.dir/build.make CMakeFiles/cmTC_cabc4.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cabc4.dir/src.c.o
+/usr/bin/cc -DC_FLAG__Wformat_security  -fPIE   -Wformat-security -std=gnu90 -o CMakeFiles/cmTC_cabc4.dir/src.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_cabc4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cabc4.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_cabc4.dir/src.c.o -o cmTC_cabc4 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG__Wall succeeded with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9b9ff/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9b9ff.dir/build.make CMakeFiles/cmTC_9b9ff.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9b9ff.dir/src.cxx.o
+/usr/bin/c++ -DCXX_FLAG__Wall  -fPIE   -Wall -o CMakeFiles/cmTC_9b9ff.dir/src.cxx.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9b9ff
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9b9ff.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_9b9ff.dir/src.cxx.o -o cmTC_9b9ff 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG__Wformat_security succeeded with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_029ca/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_029ca.dir/build.make CMakeFiles/cmTC_029ca.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_029ca.dir/src.cxx.o
+/usr/bin/c++ -DCXX_FLAG__Wformat_security  -fPIE   -Wformat-security -o CMakeFiles/cmTC_029ca.dir/src.cxx.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_029ca
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_029ca.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_029ca.dir/src.cxx.o -o cmTC_029ca 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG__Wno_comment succeeded with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_04026/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_04026.dir/build.make CMakeFiles/cmTC_04026.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_04026.dir/src.cxx.o
+/usr/bin/c++ -DCXX_FLAG__Wno_comment  -fPIE   -Wno-comment -o CMakeFiles/cmTC_04026.dir/src.cxx.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_04026
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04026.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_04026.dir/src.cxx.o -o cmTC_04026 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test HAVE_MMAP succeeded with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_22686/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_22686.dir/build.make CMakeFiles/cmTC_22686.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_22686.dir/src.c.o
+/usr/bin/cc -DHAVE_MMAP -DHAVE_SYS_STAT_H=1 -DHAVE_SYS_TYPES_H=1  -fPIE -std=gnu90 -o CMakeFiles/cmTC_22686.dir/src.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_22686
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22686.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_22686.dir/src.c.o -o cmTC_22686 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+            #include <unistd.h>
+            #include <stdlib.h>
+            #include <sys/mman.h>
+            #ifdef HAVE_SYS_TYPES_H
+            #include <sys/types.h>
+            #endif
+            #ifdef HAVE_SYS_STAT_H
+            #include <sys/stat.h>
+            #endif
+            #include <fcntl.h>
+            #define ERR(e) do { status = e; goto done; } while(0)
+            int main(void)
+            {
+                char *data = NULL, *data2 = MAP_FAILED, *data3 = NULL;
+                size_t i, datasize = 1024;
+                int fd = -1, status = 0;
+
+                /* First, make a file with some known garbage in it. */
+                data = (char*) malloc(datasize);
+                if(!data)
+                    ERR(1);
+                for(i=0;i<datasize;i++)
+                    *(data + i) = rand();
+                umask(0);
+                fd = creat("conftest.mmap", 0600);
+                if(fd < 0)
+                    ERR(1);
+                if(write (fd, data, datasize) != datasize)
+                    ERR(1);
+                close(fd);
+                fd = open("conftest.mmap", O_RDWR);
+                if (fd < 0)
+                    ERR(1);
+                /* Next, try to create a private map of the file. If we can, also make sure that
+                   we see the same garbage.  */
+                data2 = mmap(NULL, datasize, PROT_READ | PROT_WRITE,
+                    MAP_PRIVATE, fd, 0L);
+                if(data2 == MAP_FAILED)
+                    ERR(2);
+                for(i=0;i<datasize;i++)
+                    if(*(data + i) != *(data2+ i))
+                        ERR(3);
+                /* Finally, make sure that changes to the mapped area do not
+                   percolate back to the file as seen by read().
+                   (This is a bug on some variants of i386 svr4.0.)  */
+                for (i = 0; i < datasize; ++i)
+                    *(data2 + i) = *(data2 + i) + 1;
+                data3 = (char*) malloc(datasize);
+                if(!data3)
+                    ERR(1);
+                if(read (fd, data3, datasize) != datasize)
+                    ERR(1);
+                for(i=0;i<datasize;i++)
+                    if(*(data + i) != *(data3 + i))
+                        ERR(3);
+            done:
+                if(fd >= 0)
+                    close(fd);
+                if(data3)
+                    free(data3);
+                if(data2 != MAP_FAILED)
+                    munmap(data2, datasize);
+                if(data)
+                    free(data);
+                return status;
+            }
+        
+Performing C SOURCE FILE Test HAVE_MMAP_MAP_ANONYMOUS succeeded with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ae5e0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ae5e0.dir/build.make CMakeFiles/cmTC_ae5e0.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ae5e0.dir/src.c.o
+/usr/bin/cc -DHAVE_MMAP_MAP_ANONYMOUS -DHAVE_SYS_STAT_H=1 -DHAVE_SYS_TYPES_H=1  -fPIE -std=gnu90 -o CMakeFiles/cmTC_ae5e0.dir/src.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ae5e0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae5e0.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_ae5e0.dir/src.c.o -o cmTC_ae5e0 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+            #include <sys/mman.h>
+            int main(void)
+            {
+                mmap((void *)0, 0, PROT_READ | PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0);
+                return 0;
+            }
+        
+Performing C SOURCE FILE Test HAVE_SYSCONF_SC_PAGESIZE succeeded with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0234f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0234f.dir/build.make CMakeFiles/cmTC_0234f.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0234f.dir/src.c.o
+/usr/bin/cc -DHAVE_SYSCONF_SC_PAGESIZE -DHAVE_SYS_STAT_H=1 -DHAVE_SYS_TYPES_H=1  -fPIE -std=gnu90 -o CMakeFiles/cmTC_0234f.dir/src.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_0234f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0234f.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_0234f.dir/src.c.o -o cmTC_0234f 
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+        #include <sys/types.h>
+        #include <unistd.h>
+        int main(void)
+        {
+            int x = sysconf(_SC_PAGESIZE);
+            return 0;
+        }
+    

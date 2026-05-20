@@ -1,0 +1,352 @@
+Determining if the include file sys/dl.h exists failed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c7b67/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c7b67.dir/build.make CMakeFiles/cmTC_c7b67.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c7b67.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -std=gnu90 -o CMakeFiles/cmTC_c7b67.dir/CheckIncludeFile.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: sys/dl.h: No such file or directory
+    1 | #include <sys/dl.h>
+      |          ^~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_c7b67.dir/build.make:78: CMakeFiles/cmTC_c7b67.dir/CheckIncludeFile.c.o] Error 1
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_c7b67/fast] Error 2
+
+
+
+Determining if the include file sys/fileio.h exists failed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_53dc4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_53dc4.dir/build.make CMakeFiles/cmTC_53dc4.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_53dc4.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -std=gnu90 -o CMakeFiles/cmTC_53dc4.dir/CheckIncludeFile.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: sys/fileio.h: No such file or directory
+    1 | #include <sys/fileio.h>
+      |          ^~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_53dc4.dir/build.make:78: CMakeFiles/cmTC_53dc4.dir/CheckIncludeFile.c.o] Error 1
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_53dc4/fast] Error 2
+
+
+
+Determining if the include file sys/inttypes.h exists failed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b7100/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b7100.dir/build.make CMakeFiles/cmTC_b7100.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b7100.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -std=gnu90 -o CMakeFiles/cmTC_b7100.dir/CheckIncludeFile.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: sys/inttypes.h: No such file or directory
+    1 | #include <sys/inttypes.h>
+      |          ^~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_b7100.dir/build.make:78: CMakeFiles/cmTC_b7100.dir/CheckIncludeFile.c.o] Error 1
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_b7100/fast] Error 2
+
+
+
+Determining if the include file sys/int_types.h exists failed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f7824/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f7824.dir/build.make CMakeFiles/cmTC_f7824.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f7824.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -std=gnu90 -o CMakeFiles/cmTC_f7824.dir/CheckIncludeFile.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: sys/int_types.h: No such file or directory
+    1 | #include <sys/int_types.h>
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_f7824.dir/build.make:78: CMakeFiles/cmTC_f7824.dir/CheckIncludeFile.c.o] Error 1
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_f7824/fast] Error 2
+
+
+
+Determining if the accept4 exist failed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_030e2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_030e2.dir/build.make CMakeFiles/cmTC_030e2.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_030e2.dir/CheckSymbolExists.c.o
+/usr/bin/cc -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_UIO_H=1  -fPIE -std=gnu90 -o CMakeFiles/cmTC_030e2.dir/CheckSymbolExists.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘accept4’ undeclared (first use in this function)
+    8 |   return ((int*)(&accept4))[argc];
+      |                   ^~~~~~~
+/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_030e2.dir/build.make:78: CMakeFiles/cmTC_030e2.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_030e2/fast] Error 2
+
+
+File /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef accept4
+  return ((int*)(&accept4))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the stat64 exist failed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e3089/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e3089.dir/build.make CMakeFiles/cmTC_e3089.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e3089.dir/CheckSymbolExists.c.o
+/usr/bin/cc -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_UIO_H=1  -fPIE -std=gnu90 -o CMakeFiles/cmTC_e3089.dir/CheckSymbolExists.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘stat64’ undeclared (first use in this function); did you mean ‘stat’?
+    8 |   return ((int*)(&stat64))[argc];
+      |                   ^~~~~~
+      |                   stat
+/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_e3089.dir/build.make:78: CMakeFiles/cmTC_e3089.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_e3089/fast] Error 2
+
+
+File /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/stat.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef stat64
+  return ((int*)(&stat64))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strcasestr exist failed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_80130/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_80130.dir/build.make CMakeFiles/cmTC_80130.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_80130.dir/CheckSymbolExists.c.o
+/usr/bin/cc -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_UIO_H=1  -fPIE -std=gnu90 -o CMakeFiles/cmTC_80130.dir/CheckSymbolExists.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘strcasestr’ undeclared (first use in this function); did you mean ‘strcasecmp’?
+    8 |   return ((int*)(&strcasestr))[argc];
+      |                   ^~~~~~~~~~
+      |                   strcasecmp
+/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_80130.dir/build.make:78: CMakeFiles/cmTC_80130.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_80130/fast] Error 2
+
+
+File /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strcasestr
+  return ((int*)(&strcasestr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strlcat exist failed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_11ff2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_11ff2.dir/build.make CMakeFiles/cmTC_11ff2.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_11ff2.dir/CheckSymbolExists.c.o
+/usr/bin/cc -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_UIO_H=1  -fPIE -std=gnu90 -o CMakeFiles/cmTC_11ff2.dir/CheckSymbolExists.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘strlcat’ undeclared (first use in this function); did you mean ‘strncat’?
+    8 |   return ((int*)(&strlcat))[argc];
+      |                   ^~~~~~~
+      |                   strncat
+/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_11ff2.dir/build.make:78: CMakeFiles/cmTC_11ff2.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_11ff2/fast] Error 2
+
+
+File /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strlcat
+  return ((int*)(&strlcat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strlcpy exist failed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_61891/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_61891.dir/build.make CMakeFiles/cmTC_61891.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_61891.dir/CheckSymbolExists.c.o
+/usr/bin/cc -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_UIO_H=1  -fPIE -std=gnu90 -o CMakeFiles/cmTC_61891.dir/CheckSymbolExists.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘strlcpy’ undeclared (first use in this function); did you mean ‘strncpy’?
+    8 |   return ((int*)(&strlcpy))[argc];
+      |                   ^~~~~~~
+      |                   strncpy
+/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_61891.dir/build.make:78: CMakeFiles/cmTC_61891.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_61891/fast] Error 2
+
+
+File /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strlcpy
+  return ((int*)(&strlcpy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strnstr exist failed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5388b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5388b.dir/build.make CMakeFiles/cmTC_5388b.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5388b.dir/CheckSymbolExists.c.o
+/usr/bin/cc -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_UIO_H=1  -fPIE -std=gnu90 -o CMakeFiles/cmTC_5388b.dir/CheckSymbolExists.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘strnstr’ undeclared (first use in this function); did you mean ‘strstr’?
+    8 |   return ((int*)(&strnstr))[argc];
+      |                   ^~~~~~~
+      |                   strstr
+/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_5388b.dir/build.make:78: CMakeFiles/cmTC_5388b.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_5388b/fast] Error 2
+
+
+File /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strnstr
+  return ((int*)(&strnstr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sysctlbyname exist failed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d491f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d491f.dir/build.make CMakeFiles/cmTC_d491f.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d491f.dir/CheckSymbolExists.c.o
+/usr/bin/cc -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_UIO_H=1  -fPIE -std=gnu90 -o CMakeFiles/cmTC_d491f.dir/CheckSymbolExists.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: sysctl.h: No such file or directory
+    2 | #include <sysctl.h>
+      |          ^~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_d491f.dir/build.make:78: CMakeFiles/cmTC_d491f.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_d491f/fast] Error 2
+
+
+File /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sysctl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sysctlbyname
+  return ((int*)(&sysctlbyname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the mkstemp exist failed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_14946/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_14946.dir/build.make CMakeFiles/cmTC_14946.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_14946.dir/CheckSymbolExists.c.o
+/usr/bin/cc -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_UIO_H=1  -fPIE -std=gnu90 -o CMakeFiles/cmTC_14946.dir/CheckSymbolExists.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘mkstemp’ undeclared (first use in this function)
+    8 |   return ((int*)(&mkstemp))[argc];
+      |                   ^~~~~~~
+/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_14946.dir/build.make:78: CMakeFiles/cmTC_14946.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_14946/fast] Error 2
+
+
+File /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mkstemp
+  return ((int*)(&mkstemp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setgroups exist failed with the following output:
+Change Dir: /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_06787/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_06787.dir/build.make CMakeFiles/cmTC_06787.dir/build
+gmake[1]: Entering directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_06787.dir/CheckSymbolExists.c.o
+/usr/bin/cc -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_UIO_H=1  -fPIE -std=gnu90 -o CMakeFiles/cmTC_06787.dir/CheckSymbolExists.c.o -c /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘setgroups’ undeclared (first use in this function); did you mean ‘getgroups’?
+    8 |   return ((int*)(&setgroups))[argc];
+      |                   ^~~~~~~~~
+      |                   getgroups
+/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_06787.dir/build.make:78: CMakeFiles/cmTC_06787.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_06787/fast] Error 2
+
+
+File /home/mearvk/CLionProjects/ClamAV.US.Legal.Edition/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setgroups
+  return ((int*)(&setgroups))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
