@@ -1,0 +1,8 @@
+{
+  "level": 1,
+  "mode": "baseline",
+  "require_provenance": true,
+  "fail_closed": false,
+  "sporadic_recheck": false,
+  "max_children": 256
+}
