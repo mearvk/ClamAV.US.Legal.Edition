@@ -1,0 +1,4 @@
+# Max Rupplin - MEARVK LLC - 2026.
+LEVEL 2 CONFIRM
+SEQUENCE Identify -> Preserve -> Recheck -> Herald
+RULE ClamAV verdict remains authoritative
