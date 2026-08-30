@@ -1,0 +1,4 @@
+AUTHOR Max Rupplin - MEARVK LLC - 2026.
+GATE 4
+RULE incomplete observation cannot become clean
+CLOSURE fail-closed advisory
