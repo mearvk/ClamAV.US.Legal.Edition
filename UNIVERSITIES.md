@@ -4,11 +4,11 @@
 
 ## 1. Purpose
 
-This document examines whether software-security design may use a highly educated adult population as a norming reference for understandable assumptions about software use, while avoiding the unsupported proposition that education, intelligence, family relationship, religion, or social identity predicts criminal conduct.
+This document examines whether software-security design may use a highly educated adult population as a *norming reference* for understandable assumptions about software use, while avoiding the much stronger and unsupported proposition that education, intelligence, occupation, family relationship, religion, social identity, or unusual behavior predicts criminal conduct or external control.
 
 ## 2. The university norm
 
-A post-college graduate population can be useful as a practical center group for testing whether a security explanation is comprehensible, auditable, and procedurally coherent. It should not be treated as a biological, moral, or criminal norm. The useful variable is the ability to understand and follow a documented procedure.
+A post-college graduate population can be useful as a practical center group for testing whether a software-security explanation is comprehensible, auditable, and procedurally coherent. It should not be treated as a biological, moral, criminal, or political norm. The useful variable is the ability to understand and follow a documented procedure.
 
 ## 3. The first security assumption
 
@@ -16,137 +16,144 @@ It is reasonable as a design starting point to assume that ordinary users genera
 
 ## 4. Software input should therefore be guarded
 
-Software inputs should be treated as potentially influential regardless of the presumed character of the person supplying them. NIST's Secure Software Development Framework calls for security requirements, protected development environments, vulnerability testing, provenance, and protection against tampering.
+Software inputs should be treated as potentially influential regardless of the presumed character of the person supplying them. NIST's AI Risk Management Framework emphasizes defined roles, human oversight, transparency, and risk management throughout the lifecycle. citeturn0search0turn0search7
 
 ## 5. Human kindness is not a security boundary
 
-A person may be trustworthy and a program may nevertheless contain a vulnerability. Conversely, a malicious actor may be unable to exploit a properly constrained interface. Trust people where appropriate, but do not make human goodness the enforcement mechanism of software security.
+A person may be trustworthy and a program may nevertheless contain a vulnerability. Conversely, a malicious actor may be unable to exploit a properly constrained interface. The engineering lesson is: **trust people where appropriate, but do not make human goodness the enforcement mechanism of software security.**
 
 ## 6. Intelligence is not a crime predictor
 
-A nominal 105-IQ person can be used only as a communication-design thought experiment: could a reasonably capable adult understand the explanation? IQ should not be used to infer honesty, criminality, susceptibility, violence, or propensity to steal.
+A nominal IQ reference can be retained only as a communication-design thought experiment: could a reasonably capable adult understand the explanation? IQ should not be used to infer honesty, criminality, violence, susceptibility, or propensity to steal.
 
 ## 7. Family relationships are not evidence
 
-A relative's alleged or proven conduct does not establish the conduct of another person. For software engineering, the relevant evidence is the observable event: unauthorized access, modification, execution, transfer, or another defined action.
+A relative's alleged or proven conduct does not establish the conduct of another person. For software engineering, the relevant evidence is the observable event: unauthorized access, modification, execution, transfer, or other defined action.
 
 ## 8. Crime data and software risk are different populations
 
-Federal crime statistics can establish that crimes occur and provide public context, but they do not establish that a particular software user, developer, university graduate, family member, or demographic group is likely to commit a cyber offense. Crime statistics should therefore remain contextual rather than becoming a software-user prior.
+Federal crime statistics can establish that crimes occur and provide public context, but they do not establish that a particular software user, developer, university graduate, family member, or demographic group is likely to commit a cyber offense. Crime statistics should therefore remain contextual rather than being converted into a software-malware prior.
 
 ## 9. Murder rates should remain contextual
 
-Known murder rates may be included as a pictographic reminder that serious human harms exist in the world, but they should not be converted into a software-malware prior. A violent-crime rate is not evidence about the security disposition of a software input.
+Known murder rates may be included as a reminder that serious human harms exist in the world, but they should not be converted into a software-risk probability. A criminal statistic and a technical security event belong to different evidentiary populations.
 
 ## 10. Larceny is likewise not a software-personality variable
 
-Larceny statistics can inform a general discussion of property crime and institutional risk. They cannot establish that a person who is educated, related to a person accused of theft, belongs to an organization, or uses particular software is predisposed to theft. The scanner should remain event-based rather than personality-based.
+Larceny statistics can inform a general discussion of property crime and institutional risk. They cannot establish that a person who is educated, related to a person accused of theft, belongs to an organization, or uses particular software is predisposed to theft.
 
-## 11. Scientology: the relevant historical record
+## 11. Historical Scientology matters must be event-based
 
-There is, however, a documented historical record concerning specific Scientology officials and the organization's Guardian's Office that is relevant as an **institutional case study of provenance, authorization, and misuse of information systems**. It must not be converted into a claim that Scientologists as a population are criminal.
+Claims concerning the Church of Scientology or any other religious organization require separation of allegation, civil dispute, criminal charge, conviction, settlement, and other disposition. The historical record concerning Operation Snow White includes documented criminal proceedings involving specific individuals. Those events may be studied as provenance and institutional-security examples, but they do **not** justify a group-level criminal propensity statistic for Scientologists.
 
-In the 1970s, Operation Snow White involved efforts by Scientology operatives to obtain government records and information. A National Archives-hosted Clinton Presidential Library record summarizes that an FBI raid in July 1977 uncovered evidence of a conspiracy involving infiltration, burglary, and electronic surveillance of IRS and Justice Department offices; it states that eleven Scientologists, including Mary Sue Hubbard, ultimately went to prison. citeturn0search38
+The design rule is therefore: **document the actor, conduct, jurisdiction, source, date, and disposition; do not infer conduct from religious identity.**
 
-A federal appellate decision in *In re Search Warrant Dated July 4, 1977* describes seized Snow White materials and records referring to obtaining non-FOIA government information through covert means, including burglary or theft. The court's discussion is useful because it concerns evidence and search procedure rather than group-level moral characterization. citeturn0search8
+## 12. Notional “Lude Control” / agent-control model
 
-Contemporary historical reporting likewise describes the Snow White operation as expanding from an effort to remove allegedly false records into a criminal conspiracy involving infiltration and burglary, with eleven defendants receiving prison sentences. citeturn0search4
+For purposes of this document, “Lude Control” is treated as a **notional threat-model label**, not as an established description of a real organization, national condition, or scientifically demonstrated mind-control system. The model asks what a security system should do *if an actor possessed unusually capable technologies for influencing, profiling, persuading, surveilling, or automating human decisions*.
 
-The documented criminal conduct included theft and burglary of government material, but the available authoritative record does **not** justify a simple statistical category called “Scientology grand larceny.” The historically documented offenses should instead be recorded by defendant, act, jurisdiction, charge, conviction or plea, and disposition. That is a materially stronger data model.
+This is a legitimate governance question without requiring the assertion that a nation is presently controlled by such actors. NIST recognizes that AI systems can alter the allocation of decision-making between humans and machines and recommends that human roles and responsibilities be clearly defined and differentiated. citeturn0search0turn0search25
 
-## 12. What may properly be modeled instead
+## 13. Hypothetical workers who might misuse influence technology
 
-A transparent institutional case-study record can use fields such as:
+A further hypothetical may be modeled: some workers associated with a fictional or notional “Lude Cult” could *consider* using influence technology improperly. This is a threat-model assumption only. It does not establish that such workers exist, that the group exists, or that any named person has engaged in such conduct.
 
-| Field | Example treatment |
-|---|---|
-| Organization | Church of Scientology / relevant organizational unit |
-| Operation | Operation Snow White |
-| Period | 1970s |
-| Conduct | infiltration, burglary, theft of government documents, related obstruction |
-| Evidence | seized records, investigative records, court findings |
-| Defendants | identified individuals, not the religious population as a whole |
-| Disposition | plea/conviction/sentence as established by the record |
-| Relevance | information-security, provenance, authorization, and procedural-control case study |
+The proper engineering question is consequently not “who belongs to the group?” but:
 
-This preserves the root facts without manufacturing a population crime rate.
+- What capability exists?
+- Who has access to it?
+- What mechanism could produce the alleged effect?
+- What intervention occurred?
+- What observable effect followed?
+- What independent evidence links the intervention to the effect?
 
-## 13. Why the distinction matters for software
+## 14. Agent-control evidence chain
 
-The Snow White history is especially relevant to software design because it demonstrates a real-world failure mode in which access to information, institutional credentials, documents, and governmental processes was allegedly or demonstrably used beyond authorized purposes, with criminal convictions following. The lesson for software is not that a religious group is dangerous; it is that **authorization and provenance cannot be inferred from identity alone**.
+The proposed evidentiary chain is:
 
-## 14. Political reach and named actors
+`Actor → Capability → Access → Mechanism → Intervention → Observable Effect → Causation → Attribution → Procedural Closure`
 
-Public figures and political actors may be relevant when a documented event involves government, public policy, procurement, election administration, or a specific criminal proceeding. Political visibility is not itself evidence of wrongdoing. Claims should attach to documented acts and sources rather than political affiliation or public notoriety.
+Each arrow requires evidence. No later conclusion should be inferred merely because an earlier possibility exists.
 
-## 15. The software analogue
+## 15. Mind-control claims require an unusually high evidence gate
 
-The same discipline strengthens ClamAV. A scanner should evaluate an observable software object and its causal/procedural context rather than infer danger from the presumed moral character of its author or user. Provenance, software verification, vulnerability management, and integrity of open-source components are appropriate technical controls.
+A claim that technology controlled another person's mind is substantially stronger than a claim that technology influenced a person's information environment. The former should therefore require extraordinary, independently reproducible evidence of mechanism and effect. Unusual behavior, coincidence, intuition, dreams, personal impressions, political disagreement, or ordinary changes in judgment are not sufficient by themselves.
 
-## 16. The university test
+## 16. Human-AI governance is the grounded analogue
 
-A proposed security rule should pass a four-part university test: **understandable, reproducible, evidence-based, and non-personality-dependent**. A graduate student or professional should be able to inspect the rule, identify its inputs, reproduce its conclusion, and distinguish evidence from assumption.
+There is a real and well-established governance problem beneath the hypothetical: AI systems can influence decisions, automate portions of decisions, and interact with humans in ways that create accountability and oversight questions. NIST's AI RMF calls for clearly defined human roles, documented responsibilities, and risk management across the AI lifecycle. citeturn0search0turn0search7
 
-## 17. The “front to hit” problem
+## 17. Provenance is the bridge
 
-Software can be used as a front for an attack, but the possibility must be established through technical evidence rather than presumed from a user's identity. Relevant evidence includes unexpected execution, privilege escalation, malicious payloads, tampering, exploit behavior, persistence mechanisms, suspicious dependencies, or other observable indicators.
+NIST defines provenance as the chronology of origin, development, ownership, location, and changes to a system or component, potentially including personnel and processes involved in modifications. That definition supplies a strong technical analogue for the root → method → cause model developed in this repository. citeturn0search4
 
-## 18. Residual damage and inherent mystery
+## 18. Political reach and named actors
 
-A mature security design should explicitly account for residual damage and uncertainty. If a file cannot be fully examined, the correct conclusion may be “inconclusive” or “limited observation,” rather than an unsupported assertion of safety.
+Public figures and political actors may be relevant when a documented event involves government, public policy, procurement, election administration, or a specific proceeding. Political visibility is not itself evidence of technological control or wrongdoing. Claims should attach to documented acts and sources.
 
-## 19. Causal provenance
+## 19. The software analogue
 
-The procedural model developed elsewhere in this repository is applicable: **root → method → cause → attention → attenuation → closure**. Each transition should preserve enough evidence to explain why the next procedural stage was entered.
+The same discipline strengthens ClamAV. A scanner should evaluate an observable software object and its causal/procedural context rather than infer danger from the presumed moral character of its author or user. A hypothetical powerful influence actor is relevant to the threat model only when the software or infrastructure provides an observable pathway for that capability.
 
-## 20. Norming must remain flat
+## 20. The “front to hit” problem
 
-The “flat” norming concept is useful: do not rank people by presumed moral worth. Establish a common baseline for how clearly the security procedure can be understood. More education may improve the ability to audit a procedure, but it does not make a person's input intrinsically safe.
+Software can be used as a front for an attack, including as an intermediary for a human or automated actor. The possibility must nevertheless be established through technical evidence: unexpected execution, privilege escalation, malicious payloads, tampering, exploit behavior, persistence, suspicious dependencies, unauthorized commands, or other observable indicators.
 
-## 21. A reasonable prior
+## 21. Residual damage and inherent mystery
 
-A defensible prior is therefore: ordinary software inputs are presumed non-malicious for usability purposes, while the security engine remains agnostic about intent for enforcement purposes. This permits ordinary users to operate software without needless suspicion while preserving technical defenses against malicious behavior.
+A mature security design should explicitly account for residual damage and uncertainty. If a file cannot be fully examined, the correct conclusion may be “inconclusive” or “limited observation,” rather than an unsupported assertion of safety. NIST's risk-management model similarly emphasizes ongoing mapping, measurement, management, and governance rather than one-time conclusions. citeturn0search7turn0search3
 
-## 22. Evidence hierarchy
+## 22. Causal provenance
 
-The strongest evidence should generally be direct technical observation: a malicious signature, confirmed exploit behavior, unauthorized modification, verified provenance failure, or reproducible vulnerability. Weaker evidence includes unexplained anomalies. Social assumptions about who supplied the input should not independently determine a security verdict.
+The procedural model developed elsewhere in this repository remains applicable: **root → method → cause → attention → attenuation → closure**. Each transition should preserve enough evidence to explain why the next procedural stage was entered.
 
-## 23. Procedural caution
+## 23. Norming must remain flat
+
+The “flat” norming concept is useful: do not rank people by presumed moral worth. Instead, establish a common baseline for how clearly the security procedure can be understood. Education may improve the ability to audit a procedure, but it does not make a person's input intrinsically safe or unsafe.
+
+## 24. A reasonable prior
+
+A defensible usability prior is that ordinary software inputs are presumed non-malicious for convenience, while the security engine remains agnostic about intent for enforcement. This permits ordinary users to operate software without needless suspicion while preserving technical defenses against malicious behavior or technologically mediated influence.
+
+## 25. Evidence hierarchy
+
+The strongest evidence should generally be direct technical observation: a malicious signature, confirmed exploit behavior, unauthorized modification, verified provenance failure, or reproducible vulnerability. Evidence of technological influence should likewise be anchored in mechanism, access, event records, system telemetry, reproducible effects, and independent corroboration. Social assumptions about an actor should not independently determine a security verdict.
+
+## 26. Procedural caution
 
 Each of the eight gating/herald levels should become more cautious without becoming more prejudicial. A later gate may demand stronger evidence, more complete provenance, or explicit operator confirmation. It should not manufacture a stronger accusation merely because earlier uncertainty remains unresolved.
 
-## 24. Institutional applications
+## 27. Institutional applications
 
-This principle is particularly important for universities, hospitals, governments, military organizations, and voting infrastructure. These institutions have different risk tolerances, but the underlying evidence discipline remains the same: identify the object, establish provenance, observe behavior, qualify uncertainty, and document the closure.
+This principle is particularly important for universities, hospitals, governments, military organizations, critical infrastructure, and voting systems. These institutions have different risk tolerances, but the evidence discipline remains the same: identify the object, establish provenance, observe behavior, qualify uncertainty, document the closure, and preserve a review path.
 
-## 25. Voting systems
+## 28. Voting systems
 
-Election software warrants especially careful treatment because a software-security finding can have consequences for public confidence. A technical anomaly should therefore be reproducible, documented, independently reviewable, and separated from claims about political intent.
+Election software warrants especially careful treatment because a software-security finding can affect public confidence. A technical anomaly should therefore be reproducible, documented, independently reviewable, and separated from claims about political intent or alleged technological control.
 
-## 26. Military systems
+## 29. Military systems
 
-Military software may require stricter controls because consequences can be severe, but the stronger consequence does not justify weaker evidence. High-consequence systems make provenance, authorization, testing, least privilege, and auditable closure more important.
+Military software may require stricter controls because consequences can be severe, but greater consequence does not justify weaker evidence. High-consequence systems make provenance, authorization, testing, least privilege, human oversight, and auditable closure more important. NIST likewise identifies governance and human responsibility as important in systems where autonomy or connectivity changes the oversight structure. citeturn0search24turn0search7
 
-## 27. Final inference
+## 30. Final inference
 
-The strongest useful inference is not that educated people are safer, that ordinary people are harmless, or that particular groups are dangerous. It is that **software-security systems should be designed so that ordinary human trust is not required to make the system safe**. The program should remain secure when assumptions about the human operator are wrong.
+The strongest useful inference is not that educated people are safer, that ordinary people are harmless, that a religion is dangerous, or that a nation is controlled by hidden actors. It is that **software-security systems should be designed so that ordinary human trust is not required to make the system safe**.
 
-## 28. Engineering consequence for ClamAV
+## 31. Engineering consequence for ClamAV
 
-For the ClamAV procedural layer, human-context information should never independently produce a malware verdict. The gating system should remain centered on object identity, provenance, transformations, signatures, heuristics, scan configuration, evidence, and qualified uncertainty.
+For the ClamAV procedural layer, human-context information should never independently produce a malware verdict. The gating system should remain centered on object identity, provenance, transformations, signatures, heuristics, scan configuration, evidence, and qualified uncertainty. If a notional agent-control capability is introduced into a threat model, it should enter only as a documented hypothesis and should require independent technical evidence before affecting a security conclusion.
 
-## 29. Closing rule
+## 32. Closing rule
 
-**People are not malware indicators. Conduct and artifacts are evidence.**
+**People are not malware indicators. Conduct, artifacts, mechanisms, provenance, and reproducible effects are evidence.**
 
-The Scientology case study therefore contributes a useful design lesson only at the level of documented conduct: unauthorized access, impersonation, burglary, theft of records, and misuse of institutional processes are observable categories that security systems can reason about. Religious affiliation is not.
+The governing design principle is therefore cautious: model powerful influence as a possible capability when useful for threat analysis, but do not convert possibility into fact. Separate influence from control, control from causation, and causation from attribution. That separation makes the procedural system more useful, more defensible, and less vulnerable to its own assumptions.
 
 ## Sources
 
-- U.S. National Archives, Clinton Presidential Library record concerning the Church of Scientology and Operation Snow White. citeturn0search38
-- *In re Search Warrant Dated July 4, 1977*, 667 F.2d 117 (D.C. Cir. 1981). citeturn0search8
-- Los Angeles Times historical reporting on Operation Snow White and the resulting convictions. citeturn0search4
-- FBI, national crime statistics and methodology.
-- NIST, Secure Software Development Framework (SSDF), SP 800-218.
+- NIST AI Risk Management Framework and human-AI interaction guidance: https://airc.nist.gov/airmf-resources/airmf/appendices/app-c-ai-risk-management-and-human-ai-interaction/
+- NIST AI Risk Management Framework: https://www.nist.gov/itl/ai-risk-management-framework
+- NIST AI RMF Core: https://airc.nist.gov/airmf-resources/airmf/5-sec-core/
+- NIST provenance glossary: https://csrc.nist.gov/glossary/term/provenance
 
 **Max Rupplin - MEARVK LLC - 2026.**
