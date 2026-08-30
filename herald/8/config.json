@@ -1,0 +1,1 @@
+{"level":8,"mode":"final-herald","require_provenance":true,"fail_closed":true,"sporadic_recheck":true,"max_children":32768,"uncertainty_gate":true,"operator_closure":true}
