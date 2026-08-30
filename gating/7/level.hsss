@@ -1,0 +1,4 @@
+AUTHOR Max Rupplin - MEARVK LLC - 2026.
+GATE 7
+RULE unresolved evidence prevents positive closure
+CLOSURE explicit
