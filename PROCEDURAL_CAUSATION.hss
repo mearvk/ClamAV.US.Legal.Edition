@@ -1,0 +1,44 @@
+# PROCEDURAL_CAUSATION.hss
+
+Author: Max Rupplin - MEARVK LLC - 2026
+
+## Purpose
+
+Defines an experimental causal/procedural vocabulary for software scanning.
+
+## Ordered method
+
+ROOT -> METHOD -> CAUSE -> ATTENTION -> ATTENUATION -> CLOSURE
+
+## Root medium
+
+The root medium identifies the software object or container from which the
+procedure begins. Parent identity is retained where available.
+
+## Cause chain
+
+Cause may be followed by another cause when the observed state depends on a
+prior transformation, dependency, acquisition, update, or procedural event.
+
+## Attention
+
+Attention represents an increase in what the procedure deliberately observes.
+It is an observability factor, not a human-value judgment.
+
+## Attenuation
+
+Attenuation records conditions that reduce the effective contribution of a
+factor, including uncertainty, unavailable content, limits, or incomplete
+observation.
+
+## Closure
+
+Closure is the terminal procedural state. It records that the evaluation path
+has ended and must not imply that unobserved content was proven safe.
+
+## Civil and institutional actors
+
+The vocabulary may contain abstract roles such as military actor and voting
+actor when modeling institutional context. These are categories of procedure,
+not judgments about individual people, political parties, candidates, or
+military personnel.
