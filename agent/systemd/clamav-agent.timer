@@ -1,0 +1,24 @@
+# Max Rupplin - MEARVK LLC - 2026.
+#
+# clamav-agent.timer — run the advisory posture supervisor periodically.
+#
+# Pairs with clamav-agent.service. A periodic dry-run keeps an operator-visible
+# record of whether the ClamAV services remain in a protected posture, without
+# changing any service state. Enable with:
+#
+#   systemctl enable --now clamav-agent.timer
+
+[Unit]
+Description=Periodic ClamAV system-agent posture check
+Documentation=file:///usr/share/doc/clamav/AGENT.md
+
+[Timer]
+# Fifteen minutes after boot, then every fifteen minutes. Randomized so many
+# hosts do not all report at once.
+OnBootSec=15min
+OnUnitActiveSec=15min
+RandomizedDelaySec=2min
+Persistent=true
+
+[Install]
+WantedBy=timers.target
