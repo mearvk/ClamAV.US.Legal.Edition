@@ -16,7 +16,7 @@ It is reasonable as a design starting point to assume that ordinary users genera
 
 ## 4. Software input should therefore be guarded
 
-Software inputs should be treated as potentially influential regardless of the presumed character of the person supplying them. NIST's AI Risk Management Framework emphasizes defined roles, human oversight, transparency, and risk management throughout the lifecycle. citeturn0search0turn0search7
+Software inputs should be treated as potentially influential regardless of the presumed character of the person supplying them. NIST's AI Risk Management Framework emphasizes defined roles, human oversight, transparency, and risk management throughout the lifecycle.
 
 ## 5. Human kindness is not a security boundary
 
@@ -52,7 +52,7 @@ The design rule is therefore: **document the actor, conduct, jurisdiction, sourc
 
 For purposes of this document, “Lude Control” is treated as a **notional threat-model label**, not as an established description of a real organization, national condition, or scientifically demonstrated mind-control system. The model asks what a security system should do *if an actor possessed unusually capable technologies for influencing, profiling, persuading, surveilling, or automating human decisions*.
 
-This is a legitimate governance question without requiring the assertion that a nation is presently controlled by such actors. NIST recognizes that AI systems can alter the allocation of decision-making between humans and machines and recommends that human roles and responsibilities be clearly defined and differentiated. citeturn0search0turn0search25
+This is a legitimate governance question without requiring the assertion that a nation is presently controlled by such actors. AI governance frameworks recognize that AI systems can alter the allocation of decision-making between humans and machines and recommend that human roles and responsibilities be clearly defined and differentiated.
 
 ## 13. Hypothetical workers who might misuse influence technology
 
@@ -81,11 +81,11 @@ A claim that technology controlled another person's mind is substantially strong
 
 ## 16. Human-AI governance is the grounded analogue
 
-There is a real and well-established governance problem beneath the hypothetical: AI systems can influence decisions, automate portions of decisions, and interact with humans in ways that create accountability and oversight questions. NIST's AI RMF calls for clearly defined human roles, documented responsibilities, and risk management across the AI lifecycle. citeturn0search0turn0search7
+There is a real and well-established governance problem beneath the hypothetical: AI systems can influence decisions, automate portions of decisions, and interact with humans in ways that create accountability and oversight questions. Human roles, documented responsibilities, and lifecycle risk management are appropriate controls.
 
 ## 17. Provenance is the bridge
 
-NIST defines provenance as the chronology of origin, development, ownership, location, and changes to a system or component, potentially including personnel and processes involved in modifications. That definition supplies a strong technical analogue for the root → method → cause model developed in this repository. citeturn0search4
+Software provenance provides a strong technical analogue for the root → method → cause model developed in this repository. Provenance can describe origin, development, ownership, location, changes, personnel, and processes involved in modifications.
 
 ## 18. Political reach and named actors
 
@@ -101,7 +101,7 @@ Software can be used as a front for an attack, including as an intermediary for 
 
 ## 21. Residual damage and inherent mystery
 
-A mature security design should explicitly account for residual damage and uncertainty. If a file cannot be fully examined, the correct conclusion may be “inconclusive” or “limited observation,” rather than an unsupported assertion of safety. NIST's risk-management model similarly emphasizes ongoing mapping, measurement, management, and governance rather than one-time conclusions. citeturn0search7turn0search3
+A mature security design should explicitly account for residual damage and uncertainty. If a file cannot be fully examined, the correct conclusion may be “inconclusive” or “limited observation,” rather than an unsupported assertion of safety.
 
 ## 22. Causal provenance
 
@@ -133,17 +133,64 @@ Election software warrants especially careful treatment because a software-secur
 
 ## 29. Military systems
 
-Military software may require stricter controls because consequences can be severe, but greater consequence does not justify weaker evidence. High-consequence systems make provenance, authorization, testing, least privilege, human oversight, and auditable closure more important. NIST likewise identifies governance and human responsibility as important in systems where autonomy or connectivity changes the oversight structure. citeturn0search24turn0search7
+Military software may require stricter controls because consequences can be severe, but greater consequence does not justify weaker evidence. High-consequence systems make provenance, authorization, testing, least privilege, human oversight, and auditable closure more important.
 
-## 30. Final inference
+## 30. Celebrity examples: factual status, not a control score
+
+The requested “height of age-risk” concept is **not** implemented as a control score. Age, height, celebrity status, wealth, religion, or former membership cannot validly establish that a named person is under technological control. A graph assigning such a score to living people would turn speculation into an apparently quantitative claim. Instead, the document uses a factual-status table showing publicly reported association with Scientology and whether the person is reported as a current or former member. This is useful to the software design because it demonstrates the difference between **observable affiliation** and **unobserved mental control**.
+
+| Person | Publicly reported status | Approx. association period | Control inference permitted? | Design treatment |
+|---|---|---:|---|---|
+| Tom Cruise | Current/prominent Scientology adherent in public reporting | Since 1986 | **No** | Treat public statements, organizational role, and documented actions as ordinary provenance evidence only. |
+| Leah Remini | Former member | Childhood through 2013 | **No** | Treat documented departure and public testimony as historical provenance; do not infer control. |
+| John Travolta | Publicly reported member | Since 1975 | **No** | Treat documented public affiliation/events as facts; no control inference. |
+| Kirstie Alley | Former member; died 2022 | Long-term association through 2022 | **No** | Historical case only; no inference about mental control. |
+| Lisa Marie Presley | Former member | Childhood/1980s involvement; reported departure by 2014 | **No** | Historical affiliation only. |
+| Madonna | **Not established as a Scientology member**; public sources instead document Catholic upbringing and later interest in Kabbalah/other traditions | — | **No** | Do not place her in a Scientology-member control model merely because she associated publicly with Scientology figures. |
+
+Public reporting supports Cruise's Scientology involvement from 1986 and his prominent advocacy, while ABC documents Remini's childhood involvement and 2013 departure. citeturn1search25turn0search4 John Travolta has been publicly associated with Scientology since 1975; recent 2026 reporting describes continued public association. citeturn1search1turn1search0 Biography.com identifies Leah Remini and Lisa Marie Presley as former members and Kirstie Alley as a former member who practiced for decades until her death. citeturn1search1 For Madonna, available interviews describe her Catholic upbringing and later religious/cultural interests; the evidence located here does not establish Scientology membership beginning in 1988. citeturn1search4turn1search5
+
+## 31. Why age and “risk height” cannot be converted into control
+
+Age can be a legitimate engineering variable when modeling vulnerability, capacity, consent, or accessibility in a defined population. It is not a valid proxy for whether an individual is controlled by technology. Height is even less relevant to that proposition. The correct graph for this repository therefore treats age or height, when used at all, as descriptive demographic data—not as an inferred control probability.
+
+A defensible conceptual graph is:
+
+`Public fact → Source quality → Event/affiliation → Mechanism evidence → Causal evidence → Review status`
+
+not:
+
+`Age/height → celebrity status → presumed control`.
+
+## 32. 1988-and-after norming
+
+For a longitudinal U.S. economic norm beginning in 1988, the repository may retain a timeline of public affiliation and documented events. That timeline can show when a person was reported as affiliated, when a person left, and when a public event occurred. It must not convert celebrity visibility, income, age, or affiliation duration into a control index. A person can be highly prominent without having any demonstrated control relationship to a technology or institution.
+
+## 33. Observable-agent test
+
+If the design needs to determine whether an individual *may be under technological influence*, the gate must require an observable agent and mechanism. The minimum test is:
+
+1. Identify the alleged technology or agent.
+2. Establish that the technology exists and was accessible.
+3. Establish a plausible mechanism of influence.
+4. Establish an intervention or exposure event.
+5. Establish an observable effect that is specific to the mechanism.
+6. Seek independent corroboration and alternative explanations.
+7. Record uncertainty rather than assigning a percentage merely because evidence is incomplete.
+
+## 34. The software-security consequence
+
+This distinction is directly applicable to ClamAV. A user's celebrity status, age, religion, public reputation, or alleged association with an organization must never become a malware indicator. The scanner should continue to reason from artifacts, code, signatures, behavior, provenance, transformations, permissions, and reproducible technical effects.
+
+## 35. Final inference
 
 The strongest useful inference is not that educated people are safer, that ordinary people are harmless, that a religion is dangerous, or that a nation is controlled by hidden actors. It is that **software-security systems should be designed so that ordinary human trust is not required to make the system safe**.
 
-## 31. Engineering consequence for ClamAV
+## 36. Engineering consequence for ClamAV
 
 For the ClamAV procedural layer, human-context information should never independently produce a malware verdict. The gating system should remain centered on object identity, provenance, transformations, signatures, heuristics, scan configuration, evidence, and qualified uncertainty. If a notional agent-control capability is introduced into a threat model, it should enter only as a documented hypothesis and should require independent technical evidence before affecting a security conclusion.
 
-## 32. Closing rule
+## 37. Closing rule
 
 **People are not malware indicators. Conduct, artifacts, mechanisms, provenance, and reproducible effects are evidence.**
 
@@ -151,9 +198,11 @@ The governing design principle is therefore cautious: model powerful influence a
 
 ## Sources
 
-- NIST AI Risk Management Framework and human-AI interaction guidance: https://airc.nist.gov/airmf-resources/airmf/appendices/app-c-ai-risk-management-and-human-ai-interaction/
 - NIST AI Risk Management Framework: https://www.nist.gov/itl/ai-risk-management-framework
-- NIST AI RMF Core: https://airc.nist.gov/airmf-resources/airmf/5-sec-core/
 - NIST provenance glossary: https://csrc.nist.gov/glossary/term/provenance
+- ABC News, Leah Remini's 2013 departure from Scientology: https://abcnews.com/blogs/entertainment/2013/07/leah-remini-breaks-silence-on-scientology-split
+- ABC News, Leah Remini's 2015 account: https://abcnews.com/Entertainment/leah-remini-break-church-scientology-wanted/story?id=34854744
+- Biography.com, celebrity Scientology profiles: https://www.biography.com/celebrities/g44727306/scientology-celebrities
+- Los Angeles Times, Tom Cruise and Scientology: https://www.latimes.com/news/la-fi-scientology18dec18-story.html
 
 **Max Rupplin - MEARVK LLC - 2026.**
