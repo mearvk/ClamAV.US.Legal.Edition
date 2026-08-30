@@ -1,0 +1,29 @@
+# PROCEDURAL_CAUSATION.hsss
+
+AUTHOR = "Max Rupplin - MEARVK LLC - 2026"
+VERSION = "0.1"
+
+[model]
+name = "procedural-causation"
+status = "experimental"
+purpose = "causal provenance and qualified closure for software analysis"
+
+[stages]
+sequence = ["root", "method", "cause", "attention", "attenuation", "closure"]
+
+[actors]
+military = "institutional-role-only"
+voting = "civic-procedure-role-only"
+
+[rule]
+statement = "A consequential result retains its observable causal and procedural conditions."
+
+[constraints]
+malware_score = false
+moral_score = false
+political_preference = false
+legal_conclusion = false
+
+[closure]
+require_qualification = true
+allow_unobserved_as_clean = false
