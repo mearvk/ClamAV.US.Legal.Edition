@@ -1,0 +1,6 @@
+# Gate 1 HSS
+# Max Rupplin - MEARVK LLC - 2026.
+LEVEL 1 BASELINE
+INPUT object config
+OUTPUT provenance-ready
+RULE never override ClamAV verdict
