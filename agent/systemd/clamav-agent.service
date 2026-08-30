@@ -1,0 +1,39 @@
+# Max Rupplin - MEARVK LLC - 2026.
+#
+# clamav-agent.service — supervises the ClamAV services in a single dry-run pass.
+#
+# This unit is ADVISORY. By default it runs the agent in dry-run mode: it
+# observes clamd/freshclam/clamonacc and reports the operational posture and the
+# corrective commands it WOULD run, without changing any service state. It never
+# clears a ClamAV detection and never weakens clamd.
+#
+# To let the agent actually restore services (start/restart/reload/enable), add
+# --execute to ExecStart via a drop-in (see clamav-agent-execute.conf). Stopping
+# and disabling remain additionally guarded behind --allow-stop/--allow-disable.
+#
+# The unit is ordered AFTER the ClamAV services so it observes their settled
+# state, and it Wants (not Requires) them so the agent still runs to REPORT that
+# a service is down — which is exactly the case an operator most needs to see.
+
+[Unit]
+Description=ClamAV system agent (advisory posture supervisor)
+Documentation=file:///usr/share/doc/clamav/AGENT.md
+After=clamav-daemon.service clamav-freshclam.service clamav-clamonacc.service
+Wants=clamav-daemon.service
+
+[Service]
+Type=oneshot
+# Dry-run by default. Override with a drop-in to add --execute.
+ExecStart=/usr/bin/clamav-agent supervise
+# The agent must never be able to weaken protection from the unit itself; any
+# --execute must be an explicit operator choice via a drop-in.
+Nice=10
+# Hardening: the agent only needs to read service state and, when executing,
+# call systemctl. It does not need write access to the filesystem.
+ProtectSystem=strict
+ProtectHome=yes
+PrivateTmp=yes
+NoNewPrivileges=yes
+
+[Install]
+WantedBy=multi-user.target
