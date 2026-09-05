@@ -15,6 +15,12 @@
   <a href="https://twitter.com/clamav"><img src="https://abs.twimg.com/favicons/twitter.ico" width="18" height="18"></a>
 </p>
 
+## Bitcoin Conjegeum
+
+bc1qs6v4q9zsw70t0umk3m0quhvf9dr6cdeskl28dh
+
+US Democratic and US Policy.
+
 ## Documentation & FAQ
 
 ClamAV documentation is hosted at [docs.clamav.net](https://docs.clamav.net/).
