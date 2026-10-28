@@ -8,12 +8,9 @@ This repository combines the ClamAV antivirus engine source with MEARVK LLC's pr
 
 ## Start here
 
-- [Project description](DESCRIPTION.md) — concise scope and intended use.
 - [Legal and procedural analysis](LEGAL.md) — project position and limitations.
 - [Continuance and control](CONTINUANCE.md) — which responsibilities are upstream versus fork-specific.
 - [Procedural descriptor](DESCRIPTOR.md) — conceptual state and retro-dependency model.
-- [Upstream provenance and derivative maintenance](docs/UPSTREAM-PROVENANCE.md) — source baseline, attribution, and release evidence.
-- [Evidence record schema](docs/evidence-schema.md) — proposed structured records and field semantics.
 - [Security policy](SECURITY.md) — reporting and upstream boundaries.
 - [License notices](COPYING.txt) and [third-party notices](COPYING/).
 
@@ -25,7 +22,7 @@ Do not assume that an upstream installation guide, binary, badge, or security st
 
 ## What this edition adds
 
-The project-specific material proposes a way to record the history and context surrounding an installed scanner: artifact identity, dependencies, configuration, signature-database state, execution observations, and intervening events. The model is intended to support human review and future automation.
+The project-specific material proposes a way to record the history and context surrounding an installed scanner: artifact identity, dependencies, configuration, signature-database state, execution observations, and intervening events. The proposed record fields and limitations are documented in [DESCRIPTOR.md](DESCRIPTOR.md); release provenance and attribution guidance are in [CONTINUANCE.md](CONTINUANCE.md). The model is intended to support human review and future automation.
 
 **Current limitation:** documentation of a model does not mean the model is automatically collected or enforced by the ClamAV engine. Only capabilities demonstrated by code and tests should be described as implemented.
 
