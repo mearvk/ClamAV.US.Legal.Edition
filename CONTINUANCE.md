@@ -101,3 +101,12 @@ This statement is offered in good faith and in the open-source tradition of shar
 ---
 
 *由 MEARVK LLC 于 2026 年依 GNU GPL-2.0 条款正式发布。"ClamAV" 为其各自所有者之注册商标；本版本系独立的衍生版本。*
+
+
+## 6. Release provenance checklist
+
+For each maintained release, record the upstream source URL, exact upstream tag or commit SHA, date obtained, local import commit, and the method used to import or merge the source. If the exact baseline cannot be established, mark it **unknown** rather than inferring it from the repository name.
+
+Also record the locally modified paths, a summary of fork-specific changes, reviewed license notices, relevant CI results, and (when generated) the SBOM format and artifact hashes. Preserve upstream copyright and trademark notices and the component-specific terms in `COPYING/`.
+
+A Git commit hash identifies a Git object; by itself it does not prove authorship, approval, build reproducibility, or software safety. Distinguish observed evidence, inference, and unknowns. This checklist is a maintenance procedure, not a claim that every item has already been completed.
