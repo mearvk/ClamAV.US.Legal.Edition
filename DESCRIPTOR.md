@@ -155,3 +155,45 @@ The distinction is deliberate:
 ---
 
 **Max Rupplin - MEARVK LLC 2026.**
+
+
+## 12. Proposed evidence record
+
+The following is a **proposed documentation format**, not a claim that ClamAV automatically collects these fields. Records should distinguish direct observation from inference and unknown values.
+
+Required fields:
+
+- `schema_version`: schema identifier.
+- `record_id`: stable record identifier.
+- `event_type`: install, update, execute, scan, config_change, dependency_change, or remove.
+- `observed_at`: RFC 3339 timestamp with timezone; use an explicit unknown value if unavailable.
+- `subject`: artifact identity, version, path, source revision, and SHA-256 where known.
+- `evidence_status`: `observed`, `inferred`, or `unknown`.
+- `evidence_sources`: references to logs, package metadata, source commits, signatures, or other supporting material.
+- `changes`: before/after facts; unknown values must remain unknown rather than guessed.
+
+Example (synthetic; not a real system event):
+
+```json
+{
+  "schema_version": "1.0",
+  "record_id": "example-event-0001",
+  "event_type": "update",
+  "observed_at": "2026-01-15T12:00:00Z",
+  "subject": {
+    "name": "example-scanner",
+    "version": "1.2.3",
+    "sha256": null
+  },
+  "evidence_status": "inferred",
+  "evidence_sources": [
+    "synthetic example only; no real system data"
+  ],
+  "changes": {
+    "before_version": "1.2.2",
+    "after_version": "1.2.3"
+  }
+}
+```
+
+A digest establishes byte identity relative to the digest value; it does not establish origin, author identity, safety, or legal status. The record should avoid secrets and unnecessary personal information.
