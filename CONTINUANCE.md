@@ -110,3 +110,16 @@ For each maintained release, record the upstream source URL, exact upstream tag 
 Also record the locally modified paths, a summary of fork-specific changes, reviewed license notices, relevant CI results, and (when generated) the SBOM format and artifact hashes. Preserve upstream copyright and trademark notices and the component-specific terms in `COPYING/`.
 
 A Git commit hash identifies a Git object; by itself it does not prove authorship, approval, build reproducibility, or software safety. Distinguish observed evidence, inference, and unknowns. This checklist is a maintenance procedure, not a claim that every item has already been completed.
+
+
+## 7. License and attribution review
+
+The top-level license notice is not a substitute for reviewing the terms that apply to each bundled or copied component. Before a release or material dependency change:
+
+- Preserve upstream copyright, license, and trademark notices.
+- Check `COPYING.txt` and component notices under `COPYING/`.
+- Record new dependencies, versions, source locations, and license identifiers.
+- Keep fork-specific modifications distinguishable from upstream code.
+- Do not imply that MEARVK owns upstream code or that project-authored statements supersede third-party license terms.
+
+This is a review checklist, not a legal determination that the repository is fully compliant. Obtain qualified legal review when license compatibility or redistribution obligations are uncertain.
