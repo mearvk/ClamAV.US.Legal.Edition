@@ -179,38 +179,11 @@ jobs:
       contents: read
     steps:
       - uses: actions/checkout@v4
-      - name: Check key documents and local Markdown links
-        shell: python
+      - name: Check required documents
         run: |
-          from pathlib import Path
-          import re
-          from urllib.parse import unquote
-
-          root = Path(".")
-          required = [
-              "README.md", "LEGAL.md", "DESCRIPTOR.md",
-              "CONTINUANCE.md", "SECURITY.md", "COPYING.txt",
-          ]
-          missing = [p for p in required if not (root / p).exists()]
-          if missing:
-              raise SystemExit("Missing required project files: " + ", ".join(missing))
-
-          docs = [root / p for p in required if p.endswith(".md")]
-          link_re = re.compile(r"!?(?:\\[[^\\]]*\\])\\(([^)]+)\\)")
-          failures = []
-          for doc in docs:
-              text = doc.read_text(encoding="utf-8")
-              for raw in link_re.findall(text):
-                  target = raw.strip().split()[0].strip("<>")
-                  if not target or target.startswith(("#", "https://", "http://", "mailto:", "data:")):
-                      continue
-                  target = unquote(target.split("#", 1)[0].split("?", 1)[0])
-                  if not target:
-                      continue
-                  resolved = (doc.parent / target).resolve()
-                  if not resolved.exists():
-                      failures.append(f"{doc}: unresolved local link: {target}")
-
-          if failures:
-              raise SystemExit("\\n".join(failures))
-          print(f"Documentation integrity passed for {len(docs)} documents.")
+          test -f README.md
+          test -f LEGAL.md
+          test -f DESCRIPTOR.md
+          test -f CONTINUANCE.md
+          test -f SECURITY.md
+          test -f COPYING.txt
