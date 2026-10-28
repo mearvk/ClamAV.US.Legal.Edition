@@ -1,3 +1,19 @@
+# Legal and Procedural Analysis — Scope and Limitations
+
+**Project position, not a software license or legal opinion.**
+
+This document records the project's civic and procedural analysis. It does not replace `COPYING.txt`, grant additional permissions to use or redistribute the software, establish legal compliance, or create enforceable rights by declaration. It is not legal advice. Legal conclusions require applicable jurisdiction, authoritative sources, and review by qualified counsel.
+
+For clarity, distinguish:
+- **Binding software terms:** the applicable upstream and third-party license texts and notices.
+- **Technical facts:** behavior established by source code, configuration, reproducible tests, or cited authoritative documentation.
+- **Project positions:** proposals and interpretations expressed in this document.
+- **Legal authorities:** statutes, regulations, cases, or official policies that must be cited precisely before a legal conclusion is drawn.
+
+The civic principles below are retained as the author's project position. They should not be read as a representation that any cited legal doctrine automatically gives this project legal effect.
+
+---
+
 This document outlines a civic license designed to foster national unity and mutual respect, integrating principles of Therapeutic Jurisprudence to promote well-being, group cooperation,
 and collective responsibility.
 
