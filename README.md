@@ -1,154 +1,47 @@
-# ClamAV
+# ClamAV.US.Legal.Edition
 
-<p align="center">
-  <img width="250" height="250" src="https://raw.githubusercontent.com/Cisco-Talos/clamav/main/logo.png" alt='Maeve, the ClamAV mascot'>
-</p>
+**An independent ClamAV derivative with a documented legal/procedural analysis layer.**
 
-<p align="center">
-  ClamAV® is an open source antivirus engine for detecting trojans, viruses,
-  malware & other malicious threats.
-</p>
+This repository combines the ClamAV antivirus engine source with MEARVK LLC's project-specific documentation and analytical materials concerning software provenance, state changes, and continuity. The analysis layer is documentary and procedural; it is not a replacement scanning engine, a certification, or a claim of official upstream endorsement.
 
-<p align="center">
-  <a href="https://github.com/Cisco-Talos/clamav/actions"><img src="https://github.com/Cisco-Talos/clamav/workflows/CMake%20Build/badge.svg" height="18"></a>
-  <a href="https://discord.gg/6vNAqWnVgw"><img src="https://img.shields.io/discord/636023333074370595.svg?logo=discord" height="18"/></a>
-  <a href="https://twitter.com/clamav"><img src="https://abs.twimg.com/favicons/twitter.ico" width="18" height="18"></a>
-</p>
+> **Upstream identity and security boundary:** ClamAV is an upstream project associated with Cisco Talos. This repository is independently maintained and is not the official ClamAV project. The fork does not control upstream signing trust, signature-database infrastructure, or upstream vulnerability disclosure. See [CONTINUANCE.md](CONTINUANCE.md) and [SECURITY.md](SECURITY.md).
 
-## Bitcoin Conjegeum
+## Start here
 
-![](https://github.com/mearvk/Ubuntu.Determinant.Beta.Restricted/blob/main/images/Bitcoin_and_wallet_in_slots_2K_202609042306%20(1).jpeg)
+- [Project description](DESCRIPTION.md) — concise scope and intended use.
+- [Legal and procedural analysis](LEGAL.md) — project position and limitations.
+- [Continuance and control](CONTINUANCE.md) — which responsibilities are upstream versus fork-specific.
+- [Procedural descriptor](DESCRIPTOR.md) — conceptual state and retro-dependency model.
+- [Upstream provenance and derivative maintenance](docs/UPSTREAM-PROVENANCE.md) — source baseline, attribution, and release evidence.
+- [Evidence record schema](docs/evidence-schema.md) — proposed structured records and field semantics.
+- [Security policy](SECURITY.md) — reporting and upstream boundaries.
+- [License notices](COPYING.txt) and [third-party notices](COPYING/).
 
-bc1qs6v4q9zsw70t0umk3m0quhvf9dr6cdeskl28dh
+## Antivirus engine and build instructions
 
-US Democratic and US Policy.
+The antivirus engine and its build system originate from upstream ClamAV. For authoritative usage guidance, consult the [upstream ClamAV repository](https://github.com/Cisco-Talos/clamav) and [official documentation](https://docs.clamav.net/). This fork may differ from upstream; review the local [INSTALL.md](INSTALL.md), [CMakeLists.txt](CMakeLists.txt), and [CMake presets](CMakePresets.json) for the exact source revision in this repository.
 
-## Documentation & FAQ
+Do not assume that an upstream installation guide, binary, badge, or security statement proves that this fork has been built, tested, signed, or audited.
 
-ClamAV documentation is hosted at [docs.clamav.net](https://docs.clamav.net/).
-The source archive for each release also includes a copy of the documentation
-for [offline](docs/html/index.html) reading.
+## What this edition adds
 
-You can contribute to the documentation by submitting improvements to
-[Cisco-Talos/clamav-documentation](https://github.com/Cisco-Talos/clamav-documentation)
+The project-specific material proposes a way to record the history and context surrounding an installed scanner: artifact identity, dependencies, configuration, signature-database state, execution observations, and intervening events. The model is intended to support human review and future automation.
 
-## ClamAV News
+**Current limitation:** documentation of a model does not mean the model is automatically collected or enforced by the ClamAV engine. Only capabilities demonstrated by code and tests should be described as implemented.
 
-For information about the features in this and prior releases, read
-[the news](NEWS.md).
+## Verification and CI
 
-Catch up on the latest about ClamAV by reading our
-[blog](http://blog.clamav.net) and follow us on Twitter `@clamav`.
+The repository includes existing CMake build, formatting, and CodeQL workflows under [`.github/workflows/`](.github/workflows/). Their results should be checked on the current commit before making release or security claims. A successful build or static-analysis run is useful evidence, but is not proof of absence of vulnerabilities.
 
-## ClamAV Signatures
+## Legal and attribution notes
 
-Anyone can learn to read and write ClamAV signatures. To get started, see our
-[signature writing manual](https://docs.clamav.net/manual/Signatures.html).
+- This is an independent derivative; upstream names, copyrights, trademarks, and notices remain with their respective holders.
+- Follow the repository's [license text](COPYING.txt) and applicable third-party notices in [`COPYING/`](COPYING/). Check component-specific terms before redistributing.
+- [LEGAL.md](LEGAL.md) describes project analysis and positions; it is **not** a substitute for the software license and does not independently create legal rights or establish compliance.
+- The documentation is informational and is not legal advice.
 
-## Installation Instructions
+## Contributing
 
-### Using Docker
+Please include the reason for a change, the files or behaviors affected, how it was tested, and whether the change modifies upstream-derived code or the project-specific analysis layer. Preserve existing upstream notices and avoid claiming that a change has been verified unless the relevant checks were run.
 
-ClamAV can be run using Docker. For details, visit to the online manual under
-["Docker"](https://docs.clamav.net/manual/Installing/Docker.html) and check out
-our images on [Docker Hub](https://hub.docker.com/r/clamav/clamav).
-
-### Using a Package Manager
-
-For help installing from a package manager, refer to the online manual under
-["Packages"](https://docs.clamav.net/manual/Installing/Packages.html).
-
-### Using an Installer
-
-The following install packages are available for download from
-[clamav.net/downloads](https://www.clamav.net/downloads):
-
-- Linux - Debian and RPM packages for x86_64 and i686. *New in v0.104.*
-- macOS - PKG installer for x86_64 and arm64 (universal). *New in v0.104.*
-- Windows - MSI installers and portable ZIP packages for win32 and x64.
-
-To learn how to use these packages, refer to the online manual under
-["Installing"](https://docs.clamav.net/manual/Installing.html#installing-with-an-installer).
-
-### Build from Source
-
-For step-by-step instructions, refer to the online manual:
-- [Unix/Linux/Mac](https://docs.clamav.net/manual/Installing/Installing-from-source-Unix.html)
-- [Windows](https://docs.clamav.net/manual/Installing/Installing-from-source-Windows.html)
-
-The source archive for each release includes a copy of the documentation for
-[offline](docs/html/UserManual.html) reading.
-
-A reference with all of the available build options can be found in the
-[INSTALL.md](INSTALL.md) file.
-
-You can find additional advice for developers in the online manual under
-["For Developers"](https://docs.clamav.net/manual/Development.html).
-
-### Upgrading from a previous version
-
-Visit [the FAQ](https://docs.clamav.net/faq/faq-upgrade.html) for tips on how
-to upgrade from a previous version.
-
-## Join the ClamAV Community
-
-The best way to get in touch with the ClamAV community is to join our
-[mailing lists](https://docs.clamav.net/faq/faq-ml.html).
-
-You can also join the community on our
-[ClamAV Discord chat server](https://discord.gg/6vNAqWnVgw).
-
-## Want to make a contribution?
-
-The ClamAV development team welcomes
-[code contributions](https://github.com/Cisco-Talos/clamav),
-improvements to
-[our documentation](https://github.com/Cisco-Talos/clamav-documentation),
-and also [bug reports](https://github.com/Cisco-Talos/clamav/issues).
-
-Thanks for joining us!
-
-## Licensing
-
-ClamAV is licensed for public/open source use under the GNU General Public
-License, Version 2 (GPLv2).
-
-See `COPYING.txt` for a copy of the license.
-
-### 3rd Party Code
-
-ClamAV contains a number of components that include code copied in part or in
-whole from 3rd party projects and whose code is not owned by Cisco and which
-are licensed differently than ClamAV. These include:
-
-- Yara: Apache 2.0 license
-  - Yara has since switched to the BSD 3-Clause License;
-    Our source is out-of-date and needs to be updated.
-- 7z / lzma: public domain
-- libclamav's NSIS/NulSoft parser includes:
-  - zlib: permissive free software license
-  - bzip2 / libbzip2: BSD-like license
-- OpenBSD's libc/regex: BSD license
-- file: BSD license
-- str.c: Contains BSD licensed modified-implementations of strtol(), stroul()
-  functions, Copyright (c) 1990 The Regents of the University of California.
-- pngcheck (png.c): MIT/X11-style license
-- getopt.c: MIT license
-- Curl: license inspired by MIT/X, but not identical
-- libmspack: LGPL license
-- UnRAR (libclamunrar): a non-free/restricted open source license
-  - Note: The UnRAR license is incompatible with GPLv2 because it contains a
-    clause that prohibits reverse engineering a RAR compression algorithm from
-    the UnRAR decompression code.
-    For this reason, libclamunrar/libclamunrar_iface is not linked at all with
-    libclamav. It is instead loaded at run-time. If it fails to load, ClamAV
-    will continue running without RAR support.
-
-See the `COPYING` directory for a copy of the 3rd party project licenses.
-
-## Acknowledgements
-
-Credit for contributions to each release can be found in the [News](NEWS.md).
-
-ClamAV is brought to you by
-[the ClamAV Team](https://www.clamav.net/about.html#credits)
+For engine defects and upstream security issues, consult the official [ClamAV project](https://github.com/Cisco-Talos/clamav) and the reporting instructions in [SECURITY.md](SECURITY.md).
