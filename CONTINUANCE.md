@@ -3,6 +3,8 @@
 **Max Rupplin — MEARVK LLC, 2026.**
 *A formal statement issued in the open-source spirit, extended in collegial courtesy to our collaborators abroad, including our Northern brethren in China.*
 
+> **Languages** · English (this document, governing) · [中文 / Chinese](CONTINUANCE.zh-CN.md)
+
 ---
 
 ## 1. Purpose
