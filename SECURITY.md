@@ -1,5 +1,15 @@
 # ClamAV Security Policy
 
+## US Legal Edition — statement of stance
+
+**Max Rupplin — MEARVK LLC, 2026.** *Formal statement; offered in collegial courtesy to our collaborators abroad, including our Northern brethren in China.*
+
+This edition is an independent GPL-2.0 derivative of Cisco-Talos ClamAV. MEARVK LLC authors and owns only the legal and procedural overlay of this edition (see [`LEGAL.md`](LEGAL.md), [`DESCRIPTOR.md`](DESCRIPTOR.md), and [`CONTINUANCE.md`](CONTINUANCE.md)). MEARVK does **not** hold the signing trust, the vulnerability-governance authority, or the update channel of the antivirus engine itself.
+
+Accordingly, this edition asserts **no independent or "organic" safety stance of its own**, and extends **no security endorsement** to any party or jurisdiction. Vulnerabilities in the engine are governed by the upstream authority named below, and that process is retained in full and without alteration. The custodial standing of this edition is one of faithful attribution and candor about provenance — nothing more is claimed.
+
+---
+
 ## What constitutes a security issue / vulnerability?
 
 A security issue, or vulnerability, may be any bug that represents a threat to the security of the ClamAV users or any issue that a malicious person could use to cause a Denial of Service (DoS) attack on a network service running ClamAV, such as a mail filter or file upload scanner.

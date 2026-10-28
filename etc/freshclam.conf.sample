@@ -219,3 +219,15 @@ DatabaseMirror database.clamav.net
 # This option can be used multiple times.
 #ExcludeDatabase dbname1
 #ExcludeDatabase dbname2
+
+##
+## Provenance note (US Legal Edition — MEARVK LLC, 2026)
+##
+## The signature update channel configured here is the authoritative
+## continuance mechanism for the antivirus engine. It is INHERITED from, and
+## governed by, the upstream ClamAV project (Cisco-Talos) and the official
+## CVD/CLD signature distribution. This edition does NOT operate, sign, or
+## vouch for that channel; it documents it for the sake of transparent
+## provenance. See CONTINUANCE.md and SECURITY.md for the full statement of
+## which control levers are held by MEARVK versus inherited from upstream.
+##
